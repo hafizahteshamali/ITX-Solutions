@@ -103,7 +103,7 @@ const Header = () => {
 
         {/* CTA Button */}
         <div className="hidden lg:block rounded-full">
-          <FancyButton text="free consultation" />
+          <FancyButton text="kostenlose Beratung" />
         </div>
 
         {/* Mobile Menu Icon */}
@@ -181,7 +181,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <FancyButton text="free consultation" />
+          <FancyButton text="kostenlose Beratung" />
         </div>
       </div>
     </>
