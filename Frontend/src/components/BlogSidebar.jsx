@@ -35,8 +35,8 @@ const BlogSidebar = ({ SidebarBlogsData }) => {
 
               <span
                 className="text-[var(--text-hover-color)] text-[16px] font-[500] relative 
-                before:absolute before:h-[2px] before:w-[100%] before:-left-[100px] before:bg-[var(--text-hover-color)] before:top-[50%]
-                after:absolute after:h-[2px] after:w-[100%] after:-right-[100px] after:bg-[var(--text-hover-color)] after:top-[50%]"
+                before:absolute before:h-[2px] before:w-[70%] before:-left-[100px] before:bg-[var(--text-hover-color)] before:top-[50%]
+                after:absolute after:h-[2px] after:w-[70%] after:-right-[100px] after:bg-[var(--text-hover-color)] after:top-[50%]"
               >
                 {item.feature}
               </span>

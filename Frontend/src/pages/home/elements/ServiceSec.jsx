@@ -5,8 +5,8 @@ import { tabs } from "../../../assets/ConstantData";
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import Aos from "aos";
 
-/* ------------------------------------------------------------------
-   AnimatedText: Word-Level Animation (Wrapping Fix)
+/* ------------------------------------------------------------------  
+   AnimatedText: Word-Level Animation (Wrapping Fix) 
 ------------------------------------------------------------------- */
 const AnimatedText = ({
   text = "",
@@ -31,10 +31,7 @@ const AnimatedText = ({
     },
   };
 
-  const wordContainer = {
-    hidden: {},
-    show: {},
-  };
+  const wordContainer = { hidden: {}, show: {} };
 
   const charVar = {
     hidden: {
@@ -46,10 +43,7 @@ const AnimatedText = ({
       opacity: 1,
       y: 0,
       rotateX: 0,
-      transition: {
-        duration,
-        ease: "easeOut",
-      },
+      transition: { duration, ease: "easeOut" },
     },
   };
 
@@ -94,8 +88,8 @@ const AnimatedText = ({
   );
 };
 
-/* ------------------------------------------------------------------
-   ServiceSec
+/* ------------------------------------------------------------------  
+   ServiceSec 
 ------------------------------------------------------------------- */
 const ServiceSec = ({ SeviceContent }) => {
   const { lgHeading, smHeading, description, btnText, imgUrl } = SeviceContent;
@@ -107,18 +101,15 @@ const ServiceSec = ({ SeviceContent }) => {
     offset: ["start 95%", "start 10%"],
   });
 
-  const _heroRotate = useTransform(heroProgress, [0, 1], [120, 0]);
   const _heroScale = useTransform(heroProgress, [0, 1], [0.9, 1]);
   const _heroOpacity = useTransform(heroProgress, [0, 1], [0, 1]);
   const _heroY = useTransform(heroProgress, [0, 1], [120, 0]);
 
-  const heroRotate = useSpring(_heroRotate, { stiffness: 60, damping: 20 });
   const heroScale = useSpring(_heroScale, { stiffness: 80, damping: 15 });
   const heroOpacity = useSpring(_heroOpacity, { stiffness: 100, damping: 20 });
   const heroY = useSpring(_heroY, { stiffness: 70, damping: 18 });
 
   const heroElemsProgress = useTransform(heroProgress, [0, 0.35, 1], [0, 0, 1]);
-  const heroElemRotateY = useTransform(heroElemsProgress, [0, 1], [45, 0]);
   const heroElemOpacity = useTransform(heroElemsProgress, [0, 1], [0, 1]);
   const heroElemY = useTransform(heroElemsProgress, [0, 1], [40, 0]);
 
@@ -129,18 +120,15 @@ const ServiceSec = ({ SeviceContent }) => {
     offset: ["start 100%", "start 20%"],
   });
 
-  const _contentRotate = useTransform(contentProgress, [0, 1], [-120, 0]);
   const _contentScale = useTransform(contentProgress, [0, 1], [0.9, 1]);
   const _contentOpacity = useTransform(contentProgress, [0, 1], [0, 1]);
   const _contentY = useTransform(contentProgress, [0, 1], [140, 0]);
 
-  const contentRotate = useSpring(_contentRotate, { stiffness: 60, damping: 20 });
   const contentScale = useSpring(_contentScale, { stiffness: 80, damping: 15 });
   const contentOpacity = useSpring(_contentOpacity, { stiffness: 100, damping: 20 });
   const contentY = useSpring(_contentY, { stiffness: 70, damping: 18 });
 
   const contentElemsProgress = useTransform(contentProgress, [0, 0.4, 1], [0, 0, 1]);
-  const contentElemRotateY = useTransform(contentElemsProgress, [0, 1], [-45, 0]);
   const contentElemOpacity = useTransform(contentElemsProgress, [0, 1], [0, 1]);
   const contentElemY = useTransform(contentElemsProgress, [0, 1], [50, 0]);
 
@@ -154,7 +142,6 @@ const ServiceSec = ({ SeviceContent }) => {
       <motion.div
         ref={heroRef}
         style={{
-          rotate: heroRotate,
           scale: heroScale,
           opacity: heroOpacity,
           y: heroY,
@@ -167,7 +154,6 @@ const ServiceSec = ({ SeviceContent }) => {
           src="/assets/images/home/mobile.png"
           alt=""
           style={{
-            rotateY: heroElemRotateY,
             opacity: heroElemOpacity,
             y: heroElemY,
             transformStyle: "preserve-3d",
@@ -177,7 +163,6 @@ const ServiceSec = ({ SeviceContent }) => {
 
         <motion.div
           style={{
-            rotateY: heroElemRotateY,
             opacity: heroElemOpacity,
             y: heroElemY,
             transformStyle: "preserve-3d",
@@ -193,7 +178,6 @@ const ServiceSec = ({ SeviceContent }) => {
 
         <motion.div
           style={{
-            rotateY: heroElemRotateY,
             opacity: heroElemOpacity,
             y: heroElemY,
             transformStyle: "preserve-3d",
@@ -211,7 +195,6 @@ const ServiceSec = ({ SeviceContent }) => {
       <motion.div
         ref={contentRef}
         style={{
-          rotate: contentRotate,
           scale: contentScale,
           opacity: contentOpacity,
           y: contentY,
@@ -224,7 +207,6 @@ const ServiceSec = ({ SeviceContent }) => {
             {/* Left Content */}
             <motion.div
               style={{
-                rotateY: contentElemRotateY,
                 opacity: contentElemOpacity,
                 y: contentElemY,
                 transformStyle: "preserve-3d",
@@ -281,7 +263,6 @@ const ServiceSec = ({ SeviceContent }) => {
             {/* Right Image */}
             <motion.div
               style={{
-                rotateY: contentElemRotateY,
                 opacity: contentElemOpacity,
                 y: contentElemY,
                 transformStyle: "preserve-3d",
@@ -291,8 +272,8 @@ const ServiceSec = ({ SeviceContent }) => {
               <motion.img
                 src={imgUrl}
                 alt=""
-                initial={{ opacity: 0, rotateY: -30, y: 20 }}
-                whileInView={{ opacity: 1, rotateY: 0, y: 0 }}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: false, amount: 0.6 }}
                 transition={{ delay: 0.6, duration: 0.6, ease: "easeOut" }}
                 className="h-[100%] w-[100%] object-contain"
@@ -303,7 +284,6 @@ const ServiceSec = ({ SeviceContent }) => {
           {/* Tabs Section */}
           <motion.div
             style={{
-              rotateY: contentElemRotateY,
               opacity: contentElemOpacity,
               y: contentElemY,
               transformStyle: "preserve-3d",

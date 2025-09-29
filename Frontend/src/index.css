@@ -33,7 +33,7 @@ li {
 body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   cursor: none !important;
 }
 

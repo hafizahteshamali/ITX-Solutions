@@ -1,3 +1,4 @@
+
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export const NavigationData = [
@@ -46,7 +47,7 @@ export const NavigationData = [
 ];
 
 export const BannerData = {
-  heading: "Zukunftssichere ZMA-Lösungen von Pakistan nach Europa",
+  heading: "Zukunftssichere ITX-Lösungen von Pakistan nach Europa",
   para: "Wir entwickeln KI, Websites und verwalten Ihre gesamten digitalen Projekte mit kosteneffizientem Talent und zuverlässiger Lieferung.",
   btnText: "Kostenlose Beratung anfordern",
   imgUrl: "/assets/images/home/banner-img.png",
@@ -98,7 +99,7 @@ export const AboutHeadingData = {
 export const AboutContentData = {
   smHeading: "Über uns",
   lgHeading: "Angetrieben durch Innovation. Definiert durch Lieferung.",
-  para: "ZMA ist ein modernes IT-Unternehmen mit Sitz in Pakistan und einer europäischen Denkweise. Wir entwickeln skalierbare, sichere und innovative Tech-Lösungen mit starkem Fokus auf Künstliche Intelligenz und vollständige Projektabwicklung.",
+  para: "ITX ist ein modernes IT-Unternehmen mit Sitz in Pakistan und einer europäischen Denkweise. Wir entwickeln skalierbare, sichere und innovative Tech-Lösungen mit starkem Fokus auf Künstliche Intelligenz und vollständige Projektabwicklung.",
   btnText: "Mehr erfahren",
   imgUrl: "/assets/images/home/bubble.png",
 };
@@ -243,7 +244,7 @@ export const FooterData = {
         {
           text: "IT-Outsourcing",
           url: "/service/it-solutions",
-        },
+        }
       ],
     },
     {
@@ -267,11 +268,11 @@ export const FooterData = {
 
 
 export const clientsName = [
-  "/assets/images/home/logo.png",
-  "/assets/images/home/logo.png",
-  "/assets/images/home/logo.png",
-  "/assets/images/home/logo.png",
-  "/assets/images/home/logo.png"
+  "/assets/images/home/ITX-Solution-White-png.png",
+  "/assets/images/home/ITX-Solution-White-png.png",
+  "/assets/images/home/ITX-Solution-White-png.png",
+  "/assets/images/home/ITX-Solution-White-png.png",
+  "/assets/images/home/ITX-Solution-White-png.png"
 ]
 
 export const CustomGlobalData = {
@@ -291,7 +292,7 @@ export const CustomGlobalData = {
     {
       img: "/assets/images/service/service-2.png",
       smHead: "Custom & WordPress",
-      description: "ZMA baut moderne, hochperformante Websites, die auf Ihre Bedürfnisse zugeschnitten sind - von vollständig custom-codierten Plattformen bis zu flexiblen, SEO-optimierten WordPress-Lösungen. Mit nahtlosem Design, schnellen Ladezeiten und skalierbarer Architektur sorgen wir dafür, dass Ihre Online-Präsenz herausragt und mit Ihnen wächst.",
+      description: "ITX baut moderne, hochperformante Websites, die auf Ihre Bedürfnisse zugeschnitten sind - von vollständig custom-codierten Plattformen bis zu flexiblen, SEO-optimierten WordPress-Lösungen. Mit nahtlosem Design, schnellen Ladezeiten und skalierbarer Architektur sorgen wir dafür, dass Ihre Online-Präsenz herausragt und mit Ihnen wächst.",
       btnText: "Mehr erfahren",
       btnLink: "/",
       borderr: true
@@ -299,7 +300,7 @@ export const CustomGlobalData = {
     {
       img: "/assets/images/service/service-3.png",
       smHead: "Scrollen. Animieren. Beeindrucken.",
-      description: "Bei ZMA erstellen wir flüssige, wirkungsvolle Animationen, die Ihre Website zum Leben erwecken - von subtilen Mikrointeraktionen bis zu vollständig scrollbasiertem Storytelling. Ob für Branding, Produktpräsentationen oder immersives UX - unsere Animationen steigern Engagement, verbessern Retention und machen jedes Scrollen unvergesslich.",
+      description: "Bei ITX erstellen wir flüssige, wirkungsvolle Animationen, die Ihre Website zum Leben erwecken - von subtilen Mikrointeraktionen bis zu vollständig scrollbasiertem Storytelling. Ob für Branding, Produktpräsentationen oder immersives UX - unsere Animationen steigern Engagement, verbessern Retention und machen jedes Scrollen unvergesslich.",
       btnText: "Mehr erfahren",
       btnLink: "/",
       borderr: false
@@ -346,23 +347,23 @@ export const theriData = [
   {
     para1: "„Professionell, kreativ und unglaublich responsive",
     str: "sie haben unsere Vision in eine kraftvolle Website verwandelt.",
-    para2: "Das Endergebnis übertraf die Erwartungen.“",
+    para2: "Das Endergebnis übertraf die Erwartungen.",
     name: "Sarah M",
     designation: "Marketing Director",
     image: "/assets/images/service/sclera.png"
-  },
+  }
 ]
 
 // AI Development
 
 export const AiDevelopBannerData={
-  heading: "ZMA AI Studio.",
+  heading: "ITX AI Studio.",
   subTitle: "Wir entwickeln maßgeschneiderte KI-Lösungen für innovative Unternehmen.",
   link1Text: "unsere Dienstleistungen",
   link1: "#service",
   link2Text: "kontaktieren Sie uns",
   link2: "/contact",
-  heading2: "Wir sind ZMA-Solutions. Wir entwickeln maßgeschneiderte KI-Lösungen für innovative Unternehmen.",
+  heading2: "Wir sind ITX-Solutions. Wir entwickeln maßgeschneiderte KI-Lösungen für innovative Unternehmen.",
   btn: "Kontakt aufnehmen"
 }
 
@@ -499,7 +500,7 @@ export const AIReviews2 = [
 
 export const GraphicReviews1 = [
   {
-    description: "ZMA-Solutions hat das Branding meines Boutique-Geschäfts komplett transformiert. Jedes Design fühlt sich anmutig und intentional an. Eine perfekte Mischung aus Kreativität und Professionalität.",
+    description: "ITX-Solutions hat das Branding meines Boutique-Geschäfts komplett transformiert. Jedes Design fühlt sich anmutig und intentional an. Eine perfekte Mischung aus Kreativität und Professionalität.",
     profileImg: "/assets/images/graphic-designing/review-1-1.jpg",
     name: "Sarah Malik",
     designation: "Boutiquen-Besitzerin"
@@ -554,7 +555,7 @@ export const GraphicReviews2 = [
 
 export const ITSolutionReviews1 = [
   {
-    description: "ZMA-Solutions lieferte eine sichere und skalierbare IT-Infrastruktur für unsere wachsenden Bedürfnisse. Ihr Support war außergewöhnlich.",
+    description: "ITX-Solutions lieferte eine sichere und skalierbare IT-Infrastruktur für unsere wachsenden Bedürfnisse. Ihr Support war außergewöhnlich.",
     profileImg: "/assets/images/it-solutions/review-1-1.jpg",
     name: "Emily Chen",
     designation: "CEO, FinTech Solutions"
@@ -572,7 +573,7 @@ export const ITSolutionReviews1 = [
     designation: "Mitgründer, EduWave"
   },
   {
-    description: "Der technische Support von ZMA-Solutions ist schnell, klar und immer hilfreich. Wir fühlen uns nie im Dunkeln gelassen.",
+    description: "Der technische Support von ITX-Solutions ist schnell, klar und immer hilfreich. Wir fühlen uns nie im Dunkeln gelassen.",
     profileImg: "/assets/images/it-solutions/review-1-4.jpg",
     name: "Yuki Nakamura",
     designation: "IT-Leiter, RetailConnect"
@@ -611,7 +612,7 @@ export const ITSolutionReviews2 = [
 export const TailoredSectionData = {
   img: "/assets/images/about/tailored-img.jpg",
   heading: "Maßgeschneiderte Lösungen",
-  description: "Bei ZMA bringt unser remote-first Team weltklasse Webentwicklung, KI-Innovation, Grafikdesign und IT-Dienstleistungen zusammen - vereint durch Integrität, Respekt und eine Leidenschaft für Exzellenz. Wir treffen uns regelmäßig persönlich, um zusammenzuarbeiten, zu iterieren und sicherzustellen, dass jede Lösung die Erwartungen übertrifft. Scheitern ist keine Option - nur Wachstum durch mutige Ausführung.",
+  description: "Bei ITX bringt unser remote-first Team weltklasse Webentwicklung, KI-Innovation, Grafikdesign und IT-Dienstleistungen zusammen - vereint durch Integrität, Respekt und eine Leidenschaft für Exzellenz. Wir treffen uns regelmäßig persönlich, um zusammenzuarbeiten, zu iterieren und sicherzustellen, dass jede Lösung die Erwartungen übertrifft. Scheitern ist keine Option - nur Wachstum durch mutige Ausführung.",
   btnText: "Mehr erfahren"
 }
 
@@ -789,7 +790,7 @@ export const ServiceBannerData = {
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "AUFBAU"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um deren E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem maßgeschneiderten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandschwellen, 14-tägige Rückgaben, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Performance, SEO und mobile First-Optimierung im Fokus stehen.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um deren E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem maßgeschneiderten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandschwellen, 14-tägige Rückgaben, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Performance, SEO und mobile First-Optimierung im Fokus stehen.",
     services: [
       {
         heading: "DESIGN",
@@ -847,7 +848,7 @@ export const ServiceBannerData = {
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "AUFBAU"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um deren E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem maßgeschneiderten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandschwellen, 14-tägige Rückgaben, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Performance, SEO und mobile First-Optimierung im Fokus stehen.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um deren E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem maßgeschneiderten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandschwellen, 14-tägige Rückgaben, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Performance, SEO und mobile First-Optimierung im Fokus stehen.",
     services: [
       {
         heading: "DESIGN",
@@ -905,7 +906,7 @@ export const ServiceBannerData = {
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "AUFBAU"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um deren E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem maßgeschneiderten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandschwellen, 14-tägige Rückgaben, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Performance, SEO und mobile First-Optimierung im Fokus stehen.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um deren E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem maßgeschneiderten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandschwellen, 14-tägige Rückgaben, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Performance, SEO und mobile First-Optimierung im Fokus stehen.",
     services: [
       {
         heading: "DESIGN",
@@ -968,7 +969,7 @@ export const ProjectData = [
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "UMSETZUNG"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
     services: [
       {
         heading: "DESIGN",
@@ -1026,7 +1027,7 @@ export const ProjectData = [
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "UMSETZUNG"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
     services: [
       {
         heading: "DESIGN",
@@ -1084,7 +1085,7 @@ export const ProjectData = [
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "UMSETZUNG"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
     services: [
       {
         heading: "DESIGN",
@@ -1142,7 +1143,7 @@ export const ProjectData = [
     tech: "Replatforming, UI/UX & E-Commerce",
     phases: ["DESIGN", "BERATUNG", "UMSETZUNG"],
     category: "SCHMUCK & BEKLEIDUNG",
-    aboutPara: "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
+    aboutPara: "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um ihr E-Commerce-Erlebnis für handgefertigten Schmuck zu verbessern. Wir begannen mit der Erstellung eines robusten Design-Systems in Figma – komplett mit pixelgenauen Layouts, „As Seen In“-Galerien und dynamischen Produktdetail-Komponenten – und setzten es dann in WordPress mit einem custom Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-tägige Rückgaberechte, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, alles optimiert für Performance, SEO und mobile First-Strategie.",
     services: [
       {
         heading: "DESIGN",
@@ -1184,7 +1185,7 @@ export const ProjectData = [
 
 export const CaseStudyReview1 = [
   {
-    description: "ZMA-Solutions hat eine sichere und skalierbare IT-Infrastruktur für unsere wachsenden Anforderungen geliefert. Ihr Support war herausragend.",
+    description: "ITX-Solutions hat eine sichere und skalierbare IT-Infrastruktur für unsere wachsenden Anforderungen geliefert. Ihr Support war herausragend.",
     profileImg: "/assets/images/case-study/review-1-1.jpg",
     name: "Emily Chen",
     designation: "CEO, FinTech Solutions"
@@ -1202,7 +1203,7 @@ export const CaseStudyReview1 = [
     designation: "Mitgründer, EduWave"
   },
   {
-    description: "Der technische Support von ZMA-Solutions ist schnell, klar und immer hilfreich. Wir fühlen uns nie im Dunkeln gelassen.",
+    description: "Der technische Support von ITX-Solutions ist schnell, klar und immer hilfreich. Wir fühlen uns nie im Dunkeln gelassen.",
     profileImg: "/assets/images/case-study/review-1-3.jpg",
     name: "Yuki Nakamura",
     designation: "IT-Leiter, RetailConnect"
@@ -1246,13 +1247,13 @@ export const GetInTouchData = {
       heading: "Rufen Sie uns an",
       descrip: "Haben Sie eine kurze Frage oder benötigen Sie sofortige Hilfe? Rufen Sie uns an und sprechen Sie direkt mit unserem freundlichen Support-Team.",
       icon: "/assets/images/contact/phone.svg",
-      text: "(+92) 312 0288551",
+      text: "+43 677 62376793",
     },
     {
       heading: "Besuchen Sie uns",
       descrip: "Kommen Sie in unserem Büro vorbei für ein persönliches Gespräch – wir heißen Sie gerne willkommen.",
       icon: "/assets/images/contact/location.svg",
-      text: "Banglow 9c P.E.C.H.S Block 6 Karachi, 75400",
+      text: "Rokitanskygasse 11/2, 1170 Wien, Austria",
     },
     {
       heading: "Live-Chat",
@@ -1335,13 +1336,13 @@ export const privacySections = [
   {
     title: "Kontaktieren Sie uns",
     content:
-      "Wenn Sie Fragen, Anfragen oder Bedenken haben, kontaktieren Sie: ZMA E-Mail: office@zma-solutions.com",
+      "Wenn Sie Fragen, Anfragen oder Bedenken haben, kontaktieren Sie: ITX E-Mail: office@itx-solutions.com",
     borderr: false,
   },
 ];
 
 export const ImPrintsData = {
   topHeading: "Impressum – Rechtliche Informationen",
-  description: "Dieses Impressum enthält essentielle rechtliche Details über ZMA, einschließlich Eigentümer, Kontakt- und Geschäftsinformationen gemäß anwendbarer Gesetze. Durch den Besuch unserer Website oder die Nutzung unserer Dienstleistungen (Webentwicklung, KI-Entwicklung, Grafikdesign und IT-Services) bestätigen Sie die unten bereitgestellten Informationen.",
+  description: "Dieses Impressum enthält essentielle rechtliche Details über ITX, einschließlich Eigentümer, Kontakt- und Geschäftsinformationen gemäß anwendbarer Gesetze. Durch den Besuch unserer Website oder die Nutzung unserer Dienstleistungen (Webentwicklung, KI-Entwicklung, Grafikdesign und IT-Services) bestätigen Sie die unten bereitgestellten Informationen.",
 
 }

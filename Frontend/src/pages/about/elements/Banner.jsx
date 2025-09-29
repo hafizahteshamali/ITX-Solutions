@@ -119,13 +119,13 @@ const Banner = () => {
               {/* Right Column */}
               <motion.div className="w-full lg:w-[60%] flex flex-col gap-4 sm:gap-6" variants={containerVariants}>
                 <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
-                  ZMA consolidates all your digital needs into one unified technology platform streamlining web development, AI tools, graphic design, and IT services under a single interface. No more juggling multiple vendors or disparate workflows.
+                  ITX consolidates all your digital needs into one unified technology platform streamlining web development, AI tools, graphic design, and IT services under a single interface. No more juggling multiple vendors or disparate workflows.
                 </motion.p>
                 <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
-                  Our clients gain full visibility into every stage of their projects, reduce overhead, and empower their teams to move faster and with greater confidence. From drafting specifications and designing interfaces to deploying infrastructure and providing ongoing support, ZMA handles it all.
+                  Our clients gain full visibility into every stage of their projects, reduce overhead, and empower their teams to move faster and with greater confidence. From drafting specifications and designing interfaces to deploying infrastructure and providing ongoing support, ITX handles it all.
                 </motion.p>
                 <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
-                  Backed by modern frameworks and AI-driven automation, ZMA creates a single source of truth by connecting code repositories, data pipelines, design assets, and system monitoring. Regardless of technical skill level, every stakeholder can explore, collaborate, and turn insights into action—effortlessly.
+                  Backed by modern frameworks and AI-driven automation, ITX creates a single source of truth by connecting code repositories, data pipelines, design assets, and system monitoring. Regardless of technical skill level, every stakeholder can explore, collaborate, and turn insights into action—effortlessly.
                 </motion.p>
               </motion.div>
             </motion.div>

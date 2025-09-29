@@ -201,7 +201,7 @@ const Banner = ({ GraphicBannerData }) => {
       <div className="container mx-auto mt-[100px]">
         <div className="w-[90%] mx-auto flex flex-col justify-center items-center text-center">
           <AnimatedLetters
-            text="Wir sind ZMA-Solutions. Wir gestalten maßgeschneiderte Grafikdesigns, die visionäre Marken hervorheben."
+            text="Wir sind ITX-Solutions. Wir gestalten maßgeschneiderte Grafikdesigns, die visionäre Marken hervorheben."
             className="text-2xl lg:text-5xl font-[600] gradient-text lg:leading-tight leading-relaxed"
           />
         </div>

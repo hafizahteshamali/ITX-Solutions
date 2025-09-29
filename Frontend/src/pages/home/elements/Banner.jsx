@@ -107,8 +107,8 @@ const Section1 = ({ scrollYProgress, BannerData }) => {
             width: isLarge ? "300px" : "250px",
           },
           {
-            y: isLarge ? 350 : 400,
-            x: isLarge ? -180 : 50,
+            y: isLarge ? 400 : 400,
+            x: isLarge ? -200 : 50,
             width: isLarge ? "300px" : "250px",
             ease: "none",
             scrollTrigger: {

@@ -126,7 +126,7 @@ const HelpingSec = ({ HelpSecData }) => {
     <motion.section
       ref={sectionRef}
       style={{ scale, rotate, opacity, y }}
-      className="bg-cover w-full bg-[#F3F3FA] pt-10"
+      className="bg-cover w-full bg-[var(--bg-color)] pt-10"
     >
       <div className="container mx-auto">
         <div className="min-h-[100vh] flex justify-center items-center p-5 lg:my-0">

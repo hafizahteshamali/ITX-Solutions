@@ -59,7 +59,7 @@ const FutureWork = ({ FutureWorkData }) => {
           <div className="bg-[var(--text-hover-color)] w-[25%] py-1 flex justify-center items-center text-[var(--white-color)] rounded-full absolute top-6 left-6">
             IT-gesteuert
           </div>
-          <div className="lg:h-[50%] w-[90%] absolute left-[50%] transform -translate-x-[50%] bottom-5">
+          <div className="lg:h-[50%] w-[90%] absolute left-[50%] transform -translate-x-[50%] bottom-10">
             <h1 className="text-xl lg:text-3xl xl:text-4xl w-[90%] lg:leading-9 xl:leading-12 text-[var(--white-color)]">
               Wir helfen Ihnen beim Aufbau skalierbarer IT-gesteuerter Produkte
             </h1>

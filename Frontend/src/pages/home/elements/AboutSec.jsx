@@ -88,7 +88,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
   return (
     <div
       data-aos="zoom-in"
-      className="bg-cover w-full shadow-2xl bg-center bg-no-repeat about bg-[var(--bg-color)] lg:min-h-[1000px] h-[600px] mt-[1400px] md:mt-[1500px] lg:mt-0 flex flex-col justify-center"
+      className="bg-cover w-full my-1 bg-center bg-no-repeat about bg-[var(--bg-color)] mt-[1400px] md:mt-[1500px] lg:mt-0 flex flex-col justify-center items-center"
     >
       <div className="container mx-auto p-2">
         <div className="flex flex-col lg:flex-row justify-center items-center">
@@ -113,17 +113,17 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
               duration={0.4}
               yFrom={20}
               flip={false}
-              className="w-[88%] sm:w-[70%] md:w-[60%] lg:w-[35%] text-[var(--text-color)] text-base text-[16px] break-words whitespace-normal"
+              className="w-[88%] sm:w-[70%] md:w-[60%] lg:w-[50%] text-[var(--text-color)] text-base text-[16px] break-words whitespace-normal"
             />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row lg:flex-row justify-between items-start lg:items-center mt-10 lg:mt-0">
+        <div className="flex flex-col md:flex-row lg:flex-row justify-center items-center lg:items-center mt-10 lg:mt-0">
           {/* Content Section */}
-          <div className="w-full lg:w-[60%] flex justify-start lg:ml-[70px] order-2 md:order-1 lg:order-1 lg:min-h-[100vh]">
+          <div className="w-full lg:w-[60%] flex justify-start order-2 md:order-1 lg:order-1">
             <div
               data-aos="zoom-in"
               data-aos-delay="500"
-              className="w-full lg:w-[60%] flex flex-col justify-center items-start gap-6"
+              className="w-full lg:w-[100%] flex flex-col justify-center items-center gap-6 text-center"
             >
               {/* Small Heading */}
               <AnimatedText

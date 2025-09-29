@@ -68,10 +68,9 @@ const Footer = () => {
                     Contact Details
                   </h3>
                   <p className="text-[#DBDBDB]">
-                    Banglow 9c hotel faran street, Karachi, P.E.C.H.S Block 2
-                    Karachi, 75400
+                  Burggasse 103/Top2 1060 Wien
                   </p>
-                  <p className="text-[#DBDBDB]">+92 312 0288551</p>
+                  <p className="text-[#DBDBDB]">+436776237679351</p>
                 </div>
               </div>
             </div>

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const BlogList = ({ BlogListData }) => {
     const navigate = useNavigate();
   return (
-    <div className="flex flex-wrap justify-between items-center mb-[50px]">
+    <div className="flex flex-wrap justify-between items-center mb-[50px] p-2">
       {BlogListData.map((blog) => {
         return (
           <div
@@ -26,8 +26,8 @@ const BlogList = ({ BlogListData }) => {
             <div className="w-full flex flex-col justify-between items-center gap-3 p-5">
               <span
                 className="text-[var(--text-hover-color)] text-[13px] font-[500] relative 
-                before:absolute before:h-[2px] before:w-[120%] before:-left-[100px] before:bg-[var(--text-hover-color)] before:top-[50%]
-                after:absolute after:h-[2px] after:w-[120%] after:-right-[100px] after:bg-[var(--text-hover-color)] after:top-[50%]"
+                before:absolute before:h-[2px] before:w-[90%] before:-left-[100px] before:bg-[var(--text-hover-color)] before:top-[50%]
+                after:absolute after:h-[2px] after:w-[90%] after:-right-[100px] after:bg-[var(--text-hover-color)] after:top-[50%]"
               >
                 {blog.feature}
               </span>

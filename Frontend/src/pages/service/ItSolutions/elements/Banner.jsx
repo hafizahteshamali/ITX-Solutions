@@ -72,8 +72,8 @@ const Banner = ({ clientsName = [] }) => {
       <div className="container mx-auto">
         <Header />
 
-        <div className="h-[800px] lg:h-[820px] w-full flex flex-col justify-end items-center">
-          <div className="h-[650px] lg:h-[700px] w-full flex flex-col justify-between items-center">
+        <div className="h-[800px] lg:h-[920px] w-full flex flex-col justify-end items-center">
+          <div className="h-[650px] lg:h-[800px] w-full flex flex-col justify-between items-center">
             <motion.div
               custom={1}
               variants={fadeUp}
@@ -111,7 +111,7 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="w-full flex justify-center items-center gap-5"
+              className="w-full flex justify-center items-center gap-5 mb-[100px]"
             >
               <NormalButton
                 text="Mehr erfahren"
@@ -153,11 +153,11 @@ const Banner = ({ clientsName = [] }) => {
                     className="px-4 flex-shrink-0"
                     style={{ width: "250px" }}
                   >
-                    <div className="h-20 sm:h-24 md:h-28 flex justify-center items-center">
+                    <div className="h-[250px] flex justify-center items-center">
                       <img
                         src={src}
                         alt={`Kundenlogo ${index + 1}`}
-                        className="max-h-full max-w-full object-contain opacity-90 hover:opacity-100 transition-opacity"
+                        className="h-[100%] max-w-full object-contain opacity-90 hover:opacity-100 transition-opacity"
                         loading="lazy"
                       />
                     </div>
