@@ -1021,7 +1021,7 @@ export const ProjectData = [
     img2Url: "/assets/images/service/banner-img1.jpg",
     caseText: "Fallstudie",
     isCaseStudy: false,
-    websiteUrl: "https://velraa.com/",
+    websiteUrl: "https://www.sclera.at/",
     projectName: "Velraa",
     runningOn: "2024 – Heute",
     tech: "Replatforming, UI/UX & E-Commerce",

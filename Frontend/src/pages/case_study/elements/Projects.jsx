@@ -188,11 +188,11 @@ const Projects = () => {
                 </div>
 
                 {/* About */}
-                <div className=" lg:h-[250px] w-full flex flex-col lg:flex-row justify-around items-start gap-5 border-b-2 border-[#777c8385]">
+                <div className=" lg:min-h-[250px] w-full flex flex-col lg:flex-row justify-around items-start gap-5 border-b-2 border-[#777c8385]">
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
                     ABOUT
                   </h1>
-                  <p className="text-[13px] lg:w-[65%] w-full text-[#8CABC9]">
+                  <p className="text-[13px] lg:w-[65%] w-full text-[#8CABC9] py-3">
                     {selectedCase.aboutPara}
                   </p>
                 </div>
