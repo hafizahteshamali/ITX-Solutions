@@ -13,7 +13,7 @@ const CustomGlobal = ({ clientsName = [] }) => {
         <div className="flex animate-slide-left-smooth" style={{ width: `${duplicatedClients.length * 250}px` }}>
           {duplicatedClients.map((src, index) => (
             <div key={index} className="px-4 flex-shrink-0" style={{ width: "250px" }}>
-              <div className="h-20 sm:h-24 md:h-28 flex justify-center items-center">
+              <div className="h-20 sm:h-24 md:h-28 p-2 flex justify-center items-center">
                 <img
                   src={src}
                   alt={`Kundenlogo ${index + 1}`}

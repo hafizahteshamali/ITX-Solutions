@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./elements/Banner";
 import {
   clientsName,
+  clientsName1,
   CustomGlobalData,
   DesignGlobalData,
   ServiceBannerData,
@@ -19,7 +20,7 @@ const WebDevelopment = () => {
     <>
       <Banner ServiceBannerData={ServiceBannerData} />
       <CustomGlobal
-        clientsName={clientsName}
+        clientsName={clientsName1}
         CustomGlobalData={CustomGlobalData}
       />
       <DesignSection

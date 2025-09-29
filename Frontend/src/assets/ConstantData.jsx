@@ -275,6 +275,14 @@ export const clientsName = [
   "/assets/images/home/ITX-Solution-White-png.png"
 ]
 
+export const clientsName1 = [
+  "/assets/images/home/logo.png",
+  "/assets/images/home/logo.png",
+  "/assets/images/home/logo.png",
+  "/assets/images/home/logo.png",
+  "/assets/images/home/logo.png"
+]
+
 export const CustomGlobalData = {
   heading: "Maßgeschneidert und global, die Aufgabe ist einfach.",
   text: "Von Frontend-Finesse bis Backend-Power liefern wir Full-Service-Web-Lösungen.",
