@@ -16,13 +16,13 @@ const Projects = () => {
   const closeModal = () => {
     setIsModalOpen(false);
     setSelectedCase(null);
-    setActiveDevice("desktop"); // Reset to desktop when closing
+    setActiveDevice("desktop"); // Zurücksetzen auf Desktop beim Schließen
   };
 
   const handleCaseStudyModal = (id) => {
     const caseData = ProjectData.find((item) => item.id === id);
     setSelectedCase(caseData);
-    setActiveDevice("desktop"); // Start with desktop video
+    setActiveDevice("desktop"); // Start mit Desktop-Video
     openModal();
   };
 
@@ -41,18 +41,18 @@ const Projects = () => {
       <div className="w-full mt-[150px]">
         <div className="container mx-auto px-4">
           <div className="flex flex-col justify-start items-center gap-5 py-10">
-            {/* Title */}
+            {/* Titel */}
             <h1 className="text-3xl lg:text-5xl text-[var(--text-hover-color)] font-medium text-center">
-              Comprehensive Commerce & Technology Audit
+            Umfassendes Handels- und Technologie-Audit
             </h1>
 
             {/* Services Tag */}
             <div className="flex justify-center items-center gap-2.5">
               <div className="h-[10px] w-[10px] bg-[#519BFF] rounded-full blink-dot"></div>
-              <p className="uppercase text-[#519BFF] font-medium">services</p>
+              <p className="uppercase text-[#519BFF] font-medium">Dienstleistungen</p>
             </div>
 
-            {/* Content Area */}
+            {/* Inhaltsbereich */}
             <div className="w-full mt-10 flex items-start flex-col justify-start gap-5">
               <div className="w-full flex justify-start items-center gap-5">
                 <button className="h-[40px] flex justify-center items-center gap-2 text-[var(--text-color)] bg-[#00000015] rounded w-[50%] lg:w-[15%]">
@@ -61,7 +61,7 @@ const Projects = () => {
                     className="h-5 w-5 text-[var(--text-color)]"
                     alt=""
                   />
-                  All projects
+                  Alle Projekte
                 </button>
 
                 {isSelected && (
@@ -84,13 +84,13 @@ const Projects = () => {
                     alt=""
                   />
                   <input
-                    placeholder="Filter projects"
+                    placeholder="Projekte filtern"
                     type="text"
                     className="bg-transparent h-full w-[100%] px-5 border-none outline-none text-[var(--text-color)]"
                   />
                 </div>
                 <button className="h-[50px] w-[35%] lg:w-[18%] flex justify-center items-center gap-2 bg-[#00000015] text-[var(--text-color)] font-[500] rounded ">
-                  Companies
+                Unternehmen
                 </button>
               </div>
 
@@ -101,14 +101,14 @@ const Projects = () => {
                       key={index}
                       className="group h-[300px] w-[100%] sm:w-[50%] md:w-[50%] lg:w-[25%] flex justify-center items-center relative border border-[#00000015] overflow-hidden"
                     >
-                      {/* Project Image */}
+                      {/* Projektbild */}
                       <img
                         src={pro.img1Url || "/placeholder.svg"}
                         className="h-[170px] w-[80%] object-contain absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-300 group-hover:scale-105"
                         alt=""
                       />
 
-                      {/* Overlay Button */}
+                      {/* Overlay-Button */}
                       <NavLink
                         onClick={(e) => {
                           if (pro.isCaseStudy) {
@@ -128,7 +128,7 @@ const Projects = () => {
                           className="h-[10px] w-[10px] object-contain"
                           alt=""
                         />
-                        {pro.isCaseStudy ? "Case Study" : "Website URL"}
+                        {pro.isCaseStudy ? "Fallstudie" : "Webseiten-URL"}
                       </NavLink>
                     </div>
                   );
@@ -143,7 +143,7 @@ const Projects = () => {
       {selectedCase && (
         <CaseStudyModal isOpen={isModalOpen} onClose={closeModal}>
           <div className="h-[100%] w-[100%] flex flex-col-reverse lg:flex-row justify-end items-start gap-5">
-            {/* Left Content Section */}
+            {/* Linker Inhaltsbereich */}
             <div
               className="w-full lg:w-[45%] h-auto lg:h-[89vh] p-5 overflow-y-auto"
               style={{
@@ -158,7 +158,7 @@ const Projects = () => {
               `}</style>
 
               <div className="flex flex-col justify-center items-start gap-5">
-                {/* Project Info */}
+                {/* Projektinformationen */}
                 <div className="min-h-[300px] w-full flex flex-col justify-center items-start gap-5 border-b-2 border-[#777c8385]">
                   <h1 className="text-3xl text-[var(--text-hover-color)] font-[500]">
                     {selectedCase.projectName}
@@ -187,20 +187,20 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {/* About */}
+                {/* Über */}
                 <div className=" lg:min-h-[250px] w-full flex flex-col lg:flex-row justify-around items-start gap-5 border-b-2 border-[#777c8385]">
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
-                    ABOUT
+                    ÜBER
                   </h1>
                   <p className="text-[13px] lg:w-[65%] w-full text-[#8CABC9] py-3">
                     {selectedCase.aboutPara}
                   </p>
                 </div>
 
-                {/* Services */}
+                {/* Dienstleistungen */}
                 <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-5 pb-5 border-b-2 border-[#777c8385]">
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
-                    SERVICES
+                    DIENSTLEISTUNGEN
                   </h1>
                   <div className="flex flex-col w-full lg:w-[65%] gap-5">
                     {selectedCase.services.map((ser, index) => (
@@ -227,10 +227,10 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {/* Integrations */}
+                {/* Integrationen */}
                 <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-5 pb-5 border-b-2 border-[#777c8385]">
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
-                    INTEGRATIONS
+                    INTEGRATIONEN
                   </h1>
                   <div className="flex flex-wrap items-center w-full lg:w-[65%] gap-3">
                     {selectedCase.integration.map((int, index) => (
@@ -245,10 +245,10 @@ const Projects = () => {
                   </div>
                 </div>
 
-                {/* Key Features */}
+                {/* Hauptfunktionen */}
                 <div className="w-full flex flex-col lg:flex-row justify-between items-start gap-5 pb-5">
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
-                    KEY FEATURES
+                    HAUPTFUNKTIONEN
                   </h1>
                   <div className="flex flex-col items-start w-full lg:w-[65%] gap-2">
                     {selectedCase.keyFeatures.map((kf, index) => (
@@ -264,12 +264,12 @@ const Projects = () => {
               </div>
             </div>
 
-            {/* Video/Image Section */}
+            {/* Video/Bild Bereich */}
             <div
               className="min-h-[400px] lg:h-[800px] relative w-full lg:w-[50%] flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: `url(${selectedCase.img2Url})` }}
             >
-              {/* Video Container */}
+              {/* Video-Container */}
               <div className="lg:h-[60%] md:h-[70%] absolute top-[50%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] lg:-translate-y-[60%] vide p-3 w-[90%] flex flex-col items-center justify-center z-10">
                 <video
                   key={activeDevice}
@@ -288,10 +288,10 @@ const Projects = () => {
                     }
                     type="video/mp4"
                   />
-                  Your browser does not support the video tag.
+                  Ihr Browser unterstützt das Video-Tag nicht.
                 </video>
 
-                {/* Device Switching Controls */}
+                {/* Geräte-Umschaltung */}
                 <div className="bg-[#B1C5DF] rounded-xl mt-[50px] w-max p-2 flex justify-center items-center gap-3 z-20">
                   <div className="w-[50%] flex justify-center gap-2 items-center border-r border-[var(--text-hover-color)]">
                     <button
@@ -300,7 +300,7 @@ const Projects = () => {
                         activeDevice === "desktop" &&
                         "bg-[#CBE1FF] text-white shadow-lg"
                       }`}
-                      title="Desktop View"
+                      title="Desktop-Ansicht"
                     >
                       <img
                         src="/assets/images/case-study/mdi_monitor.svg"
@@ -315,7 +315,7 @@ const Projects = () => {
                         activeDevice === "mobile" &&
                         "bg-[#CBE1FF] text-white shadow-lg"
                       }`}
-                      title="Mobile View"
+                      title="Mobile-Ansicht"
                     >
                       <img
                         src="/assets/images/case-study/mdi_mobile.svg"
