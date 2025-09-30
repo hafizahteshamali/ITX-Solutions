@@ -171,7 +171,7 @@ const ServiceSec = ({ SeviceContent }) => {
         >
           <marquee direction="right" scrollamount="20" className="w-full">
             <h1 className="text-[20px] sm:text-[40px] md:text-[70px] lg:text-[100px] text-[var(--text-hover-color)] font-[600] w-full whitespace-nowrap">
-              LEVEL UP YOUR PROJECTS
+            BRINGEN SIE IHRE PROJEKTE AUF DIE NIVEAUSTEINE
             </h1>
           </marquee>
         </motion.div>
