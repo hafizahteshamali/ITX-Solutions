@@ -81,7 +81,7 @@ const Banner = () => {
         />
 
         {/* Main Heading */}
-        <div className="container mx-auto w-full xl:w-[70%] px-4 sm:px-6 lg:px-8 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-[350%] sm:-translate-y-[250%] md:-translate-y-[260%] lg:-translate-y-[250%] xl:-translate-y-[150%]">
+        <div className="container mx-auto w-full xl:w-[80%] px-4 sm:px-6 lg:px-8 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-[350%] sm:-translate-y-[250%] md:-translate-y-[260%] lg:-translate-y-[250%] xl:-translate-y-[150%]">
           <motion.div
             className="w-full mx-auto flex flex-col justify-center items-center text-center px-4"
             initial={{ opacity: 0, y: 50 }}
@@ -89,7 +89,7 @@ const Banner = () => {
             transition={{ duration: 0.8, delay: 0.5, ease: [0.16, 0.77, 0.47, 0.97] }}
           >
             <AnimatedLetters
-              text="Building the fastest path to scalable, secure, and innovative tech solutions"
+              text="Den schnellsten Weg zu skalierbaren, sicheren und innovativen technischen Lösungen schaffen"
               className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium md:font-[500] leading-snug sm:leading-relaxed md:leading-tight lg:leading-tight text-[var(--text-hover-color)]"
             />
           </motion.div>
@@ -112,20 +112,20 @@ const Banner = () => {
               {/* Left Column */}
               <motion.div className="w-full lg:w-[40%]" variants={itemVariants}>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug lg:leading-14 text-[var(--text-hover-color)] font-medium md:font-[500]">
-                  Your Data. One Platform. Infinite Possibilities.
+                Ihre Daten. Eine Plattform. Unendliche Möglichkeiten.
                 </h1>
               </motion.div>
 
               {/* Right Column */}
               <motion.div className="w-full lg:w-[60%] flex flex-col gap-4 sm:gap-6" variants={containerVariants}>
                 <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
-                  ITX consolidates all your digital needs into one unified technology platform streamlining web development, AI tools, graphic design, and IT services under a single interface. No more juggling multiple vendors or disparate workflows.
+                ITX bündelt all Ihre digitalen Anforderungen in einer einheitlichen Technologieplattform, die Webentwicklung, KI-Tools, Grafikdesign und IT-Dienstleistungen in einer einzigen Schnittstelle vereint. Schluss mit dem Jonglieren zwischen mehreren Anbietern oder verstreuten Arbeitsabläufen.
                 </motion.p>
                 <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
-                  Our clients gain full visibility into every stage of their projects, reduce overhead, and empower their teams to move faster and with greater confidence. From drafting specifications and designing interfaces to deploying infrastructure and providing ongoing support, ITX handles it all.
+                Unsere Kunden erhalten vollständige Transparenz in jeder Phase ihrer Projekte, reduzieren Gemeinkosten und befähigen ihre Teams, schneller und mit größerem Selbstvertrauen zu agieren. Von der Erstellung von Spezifikationen und dem Design von Schnittstellen bis zur Bereitstellung von Infrastruktur und kontinuierlichem Support – ITX erledigt alles.
                 </motion.p>
                 <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
-                  Backed by modern frameworks and AI-driven automation, ITX creates a single source of truth by connecting code repositories, data pipelines, design assets, and system monitoring. Regardless of technical skill level, every stakeholder can explore, collaborate, and turn insights into action—effortlessly.
+                Unterstützt von modernen Frameworks und KI-gesteuerter Automatisierung schafft ITX eine einzige Quelle der Wahrheit, indem Code-Repositories, Datenpipelines, Design-Assets und Systemmonitoring verbunden werden. Unabhängig vom technischen Kenntnisstand kann jeder Beteiligte mühelos erkunden, zusammenarbeiten und Erkenntnisse in Maßnahmen umsetzen.
                 </motion.p>
               </motion.div>
             </motion.div>

@@ -14,8 +14,8 @@ const About = () => {
      <TrustedWorldWide TrustedWorldWideData={TrustedWorldWideData} />
      <FAQs FAQsHeadingData={FAQsHeadingData} />
      <DiscoverBanner
-        text1="IT doesn’t have to be complex. "
-        text2="We make it effortless."
+        text1="IT muss nicht komplex sein. "
+        text2="Wir machen es mühelos."
       />
     </>
   )
