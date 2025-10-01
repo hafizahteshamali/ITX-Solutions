@@ -67,7 +67,7 @@ const Footer = () => {
                   <h3 className="text-xl text-[var(--white-color)] font-[700]">
                     Contact Details
                   </h3>
-                  <p className="text-[#DBDBDB]">Burggasse 103/Top2 1060 Wien</p>
+                  <p className="text-[#DBDBDB]">Rokitanskygasse 11/ Top2 1170 Wien</p>
                   <p className="text-[#DBDBDB]">+436776237679351</p>
                 </div>
               </div>

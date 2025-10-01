@@ -276,7 +276,7 @@ const WhatWeDo = () => {
           {/* ----- Row 2 Card 1: Dual Slider ----- */}
           <div
             data-aos="flip-up"
-            data-aos-delay="700"
+            data-aos-delay="900"
             className="min-h-[450px] w-full lg:w-[32%] relative rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
           >
             <div className="w-full absolute top-[10%]">
@@ -372,7 +372,7 @@ const WhatWeDo = () => {
           {/* ----- Last Card with Animation ----- */}
           <div
             data-aos="flip-up"
-            data-aos-delay="1100"
+            data-aos-delay="900"
             className="min-h-[450px] w-full lg:w-[32%] overflow-hidden rounded-2xl px-5 py-3 flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
             onMouseEnter={handleHoverStartLastCard}
             onMouseLeave={handleHoverEndLastCard}
