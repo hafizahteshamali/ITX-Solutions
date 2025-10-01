@@ -248,7 +248,7 @@ const Banner = ({ ServiceBannerData }) => {
 
         <div className="lg:min-h-[1000px] flex flex-col justify-start lg:justify-center mt-[100px] py-[50px]">
           {/* Heading */}
-          <h1 className="text-4xl sm:text-[40px] md:text-5xl lg:leading-16 text-[var(--text-hover-color)] leading-12 font-[600] text-center mt-10 lg:w-[60%] mx-auto">
+          <h1 className="text-2xl sm:text-[40px] md:text-5xl lg:leading-16 text-[var(--text-hover-color)] leading-9 font-[600] text-center mt-10 lg:w-[60%] mx-auto">
             {heading}
           </h1>
 
@@ -287,7 +287,7 @@ const Banner = ({ ServiceBannerData }) => {
                         >
                           <div className="flex justify-between items-center">
                             {/* Text */}
-                            <p className="text-[#3D4F60] text-[12px] lg:text-[16px] flex-1 text-center border-r border-[#3D4F60] px-2 overflow-hidden whitespace-nowrap">
+                            <p className="text-[#3D4F60] text-sm flex-1 text-center border-r border-[#3D4F60] px-2 overflow-hidden whitespace-nowrap">
                               <span className="block truncate">
                                 {currentButton.text}
                               </span>
@@ -296,7 +296,7 @@ const Banner = ({ ServiceBannerData }) => {
                             {/* Case Study Link - Fixed navigation */}
                             <button
                               onClick={() => handleCaseStudyModal(currentButton.id)}
-                              className="text-[#3D4F60] text-[12px] lg:text-[16px] flex-1 text-center border-r border-[#3D4F60] px-2 overflow-hidden whitespace-nowrap flex items-center justify-center hover:bg-white/20 transition-colors"
+                              className="text-[#3D4F60] text-sm flex-1 text-center border-r border-[#3D4F60] px-2 overflow-hidden whitespace-nowrap flex items-center justify-center hover:bg-white/20 transition-colors"
                               title={currentButton.caseStudyText}
                             >
                               <span className="block truncate">
@@ -307,7 +307,7 @@ const Banner = ({ ServiceBannerData }) => {
                             {/* Visit Link - Changed to <a> for external links */}
                             <a
                               href={currentButton.visitUrl}
-                              className="text-[#3D4F60] text-[12px] lg:text-[16px] flex-1 text-center px-2 overflow-hidden whitespace-nowrap hover:bg-white/20 transition-colors"
+                              className="text-[#3D4F60] text-sm flex-1 text-center px-2 overflow-hidden whitespace-nowrap hover:bg-white/20 transition-colors"
                               title={currentButton.visitText}
                               target="_blank"
                               rel="noopener noreferrer"
@@ -349,28 +349,28 @@ const Banner = ({ ServiceBannerData }) => {
               <div className="flex flex-col justify-center items-start gap-5">
                 {/* Project Info */}
                 <div className="min-h-[300px] w-full flex flex-col justify-center items-start gap-5 border-b-2 border-[#777c8385]">
-                  <h1 className="text-3xl text-[var(--text-hover-color)] font-[500]">
+                  <h1 className="text-xl text-[var(--text-hover-color)] font-[500]">
                     {selectedCase.projectName}
                   </h1>
                   <div className="flex justify-start items-center gap-2">
                     <div className="h-[10px] w-[10px] bg-[var(--text-hover-color)] rounded-full blink-dot"></div>
-                    <p className="text-xl text-[var(--text-hover-color)] font-[500]">
+                    <p className="text-sm text-[var(--text-hover-color)] font-[500]">
                       {selectedCase.runningOn}
                     </p>
                   </div>
-                  <p className="text-2xl text-[var(--text-hover-color)] font-[500]">
+                  <p className="text-xl text-[var(--text-hover-color)] font-[500]">
                     {selectedCase.tech}
                   </p>
                   <div className="flex justify-start items-center gap-2 w-[100%] flex-wrap">
                     {selectedCase.phases.map((ph, index) => (
                       <div
                         key={index}
-                        className="p-1.5 flex justify-center items-center bg-[#005AB1] rounded text-[var(--white-color)] text-[10px]"
+                        className="p-1.5 text-sm flex justify-center items-center bg-[#005AB1] rounded text-[var(--white-color)] text-[10px]"
                       >
                         {ph}
                       </div>
                     ))}
-                    <div className="p-1.5 flex justify-center items-center bg-[#B1C5DF4D] rounded text-[var(--text-color)] text-[10px]">
+                    <div className="p-1.5 text-sm flex justify-center items-center bg-[#B1C5DF4D] rounded text-[var(--text-color)] text-[10px]">
                       {selectedCase.category}
                     </div>
                   </div>
@@ -381,7 +381,7 @@ const Banner = ({ ServiceBannerData }) => {
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
                     ÜBER
                   </h1>
-                  <p className="text-[13px] lg:w-[65%] w-full text-[#8CABC9]">
+                  <p className="text-sm lg:w-[65%] w-full text-[#8CABC9]">
                     {selectedCase.aboutPara}
                   </p>
                 </div>
@@ -443,7 +443,7 @@ const Banner = ({ ServiceBannerData }) => {
                     {selectedCase.keyFeatures.map((kf, index) => (
                       <div
                         key={index}
-                        className="px-2 py-1.5 text-[16px] text-[var(--text-color)]"
+                        className="px-2 py-1.5 text-sm text-[var(--text-color)]"
                       >
                         {kf}
                       </div>

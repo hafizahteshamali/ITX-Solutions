@@ -60,7 +60,7 @@ const DiscoverBanner = ({image, className, spanClass, btnClass, iconClass, text1
                 </span>
               </h1>
               <motion.button
-                className="h-[45px] w-[50%] lg:w-[20%] bg-[#ffffff54] border-2 border-gray-300 flex justify-center items-center gap-3 rounded-lg"
+                className="h-[45px] w-[70%] lg:w-[20%] bg-[#ffffff54] border-2 border-gray-300 flex justify-center items-center gap-3 rounded-lg"
                 whileHover={{ scale: 1.08 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >

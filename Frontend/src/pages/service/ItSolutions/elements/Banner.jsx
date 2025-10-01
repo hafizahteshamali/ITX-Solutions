@@ -79,9 +79,9 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="py-2 px-3 bg-[var(--text-hover-color)] w-[90%] lg:w-[30%] mx-auto rounded-full flex justify-center items-center"
+              className="py-2 px-3 my-5 bg-[var(--text-hover-color)] w-[90%] lg:w-[30%] mx-auto rounded-full flex justify-center items-center"
             >
-              <p className="text-[var(--white-color)] text-[14px]">
+              <p className="text-[var(--white-color)] text-sm">
                 Zuverlässig. Skalierbar. Immer verfügbar.
               </p>
             </motion.div>
@@ -91,7 +91,7 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-4xl w-full lg:text-[80px] lg:leading-20 text-center lg:w-[70%] mx-auto font-[600] text-[var(--text-hover-color)]"
+              className="text-4xl w-full lg:text-7xl my-5 lg:leading-20 text-center lg:w-[70%] mx-auto font-[600] text-[var(--text-hover-color)]"
             >
               Die digitale Infrastruktur, die Ihre Vision braucht
             </motion.h1>
@@ -101,7 +101,7 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-[var(--text-color)] w-[90%] lg:w-[60%] mx-auto text-center"
+              className="text-[var(--text-color)] my-5 text-sm w-[90%] lg:w-[60%] mx-auto text-center"
             >
               Unser Expertenteam entwirft, implementiert und verwaltet zuverlässige IT-Systeme, die auf Ihre Geschäftsziele zugeschnitten sind, damit Sie sich auf Innovation konzentrieren können, während wir uns um die Technik kümmern.
             </motion.p>
@@ -115,11 +115,11 @@ const Banner = ({ clientsName = [] }) => {
             >
               <NormalButton
                 text="Mehr erfahren"
-                className="h-[40px] w-[45%] lg:w-[12%] text-[13px] bg-[var(--text-hover-color)] rounded-full text-[var(--white-color)]"
+                className="h-[40px] w-[45%] lg:w-[12%] text-sm bg-[var(--text-hover-color)] rounded-full text-[var(--white-color)]"
               />
               <NormalButton
                 text="Kontaktieren Sie uns"
-                className="h-[40px] w-[45%] lg:w-[12%] text-[13px] bg-[var(--white-color)] rounded-full text-[var(--text-hover-color)]"
+                className="h-[40px] w-[45%] lg:w-[12%] text-sm border border-[var(--text-hover-color)] bg-[var(--white-color)] rounded-full text-[var(--text-hover-color)]"
               />
             </motion.div>
 
@@ -198,10 +198,10 @@ const Banner = ({ clientsName = [] }) => {
       </div>
 
       <div className="container mx-auto mt-[100px]">
-        <div className="w-[90%] mx-auto flex flex-col justify-center items-center text-center">
+        <div className="w-[95%] mx-auto flex flex-col justify-center items-center text-center">
           <AnimatedLetters
             text="Wir sind ZMA-Solutions. Wir entwickeln maßgeschneiderte IT-Lösungen, die moderne Unternehmen stärken."
-            className="text-2xl lg:text-5xl font-[600] gradient-text lg:leading-tight leading-relaxed"
+            className="text-xl lg:text-5xl font-[600] gradient-text lg:leading-tight leading-relaxed"
           />
         </div>
       </div>

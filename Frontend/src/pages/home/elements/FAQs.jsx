@@ -20,12 +20,12 @@ const FAQs = ({ FAQsHeadingData }) => {
     >
       <div className="container mx-auto lg:min-h-[100vh] flex justify-center items-center">
         <div className="w-full flex justify-center items-center">
-          <div className="w-full p-5 flex flex-col gap-5 justify-center items-center">
+          <div className="w-full p-5 flex flex-col gap-5 justify-center items-start lg:items-center">
             {/* Heading */}
-            <h1 className="text-4xl font-[500] overflow-hidden">{lgHeading}</h1>
+            <h1 className="text-2xl font-[500] overflow-hidden">{lgHeading}</h1>
             <p
               data-aos="fade-up"
-              className="lg:w-[40%] lg:text-center text-[var(--text-color)]"
+              className="lg:w-[40%] lg:text-center text-sm text-[var(--text-color)]"
             >
               {description}
             </p>
@@ -76,7 +76,7 @@ const FAQs = ({ FAQsHeadingData }) => {
                         <h1 className="text-xl lg:text-2xl font-[600] text-[var(--text-hover-color)]">
                           {item.question}
                         </h1>
-                        <p className="text-[16px] font-[400] text-[var(--text-color)]">
+                        <p className="text-sm font-[400] text-[var(--text-color)]">
                           {item.answer}
                         </p>
                       </div>

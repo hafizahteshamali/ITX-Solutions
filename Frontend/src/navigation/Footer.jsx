@@ -13,22 +13,22 @@ const Footer = () => {
             <div className="lg:h-[400px] w-full flex flex-col lg:flex-row items-center mt-[50px] lg:my-0">
               <div className="w-[100%] lg:w-[25%] h-[100%] flex flex-col gap-10 p-3">
                 <NavLink to="/">
-                <img
-            src="/assets/images/home/white-logo.png"
-            className="object-contain h-[100px] w-[130px]"
-            alt="Logo"
-          />
+                  <img
+                    src="/assets/images/home/white-logo.png"
+                    className="object-contain h-[100px] w-[130px]"
+                    alt="Logo"
+                  />
                 </NavLink>
-                <p className="text-[var(--white-color)]">{para}</p>
+                <p className="text-[var(--white-color)] text-sm">{para}</p>
 
                 <NormalButton
                   text={btnText}
-                  className="btn h-[50px] w-[70%] border-2 border-[var(--white-color)] font-[600] text-[var(--white-color)]"
+                  className="btn py-2 w-[70%] text-sm border-2 border-[var(--white-color)] font-[600] text-[var(--white-color)]"
                 />
 
                 <div className="flex flex-col gap-5">
                   <h3 className="text-[var(--white-color)]">{socialHead}</h3>
-                  <ul className="flex items-center gap-5">
+                  <ul className="flex items-center gap-5 text-sm">
                     {socialIcons.map((social, index) => {
                       return (
                         <li key={index}>
@@ -51,7 +51,7 @@ const Footer = () => {
                       <h3 className="text-xl text-[var(--white-color)] font-[700]">
                         {item.subHead}
                       </h3>
-                      <ul className="flex flex-col gap-4">
+                      <ul className="flex flex-col gap-4 text-sm">
                         {links.map((item, index) => {
                           return (
                             <li className="text-[#DBDBDB]" key={index}>
@@ -67,9 +67,7 @@ const Footer = () => {
                   <h3 className="text-xl text-[var(--white-color)] font-[700]">
                     Contact Details
                   </h3>
-                  <p className="text-[#DBDBDB]">
-                  Burggasse 103/Top2 1060 Wien
-                  </p>
+                  <p className="text-[#DBDBDB]">Burggasse 103/Top2 1060 Wien</p>
                   <p className="text-[#DBDBDB]">+436776237679351</p>
                 </div>
               </div>

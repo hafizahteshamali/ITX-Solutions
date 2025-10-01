@@ -158,7 +158,7 @@ const ServiceSec = ({ SeviceContent }) => {
             y: heroElemY,
             transformStyle: "preserve-3d",
           }}
-          className="object-contain lg:h-[650px] h-[400px] z-20 absolute bottom-0 left-1/2 -translate-x-1/2"
+          className="object-contain lg:h-[650px] h-[400px] z-20 absolute bottom-0 left-1/2 -translate-x-[38%]"
         />
 
         <motion.div
@@ -170,7 +170,7 @@ const ServiceSec = ({ SeviceContent }) => {
           className="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
         >
           <marquee direction="right" scrollamount="20" className="w-full">
-            <h1 className="text-[20px] sm:text-[40px] md:text-[70px] lg:text-[100px] text-[var(--text-hover-color)] font-[600] w-full whitespace-nowrap">
+            <h1 className="text-5xl sm:text-[40px] md:text-[70px] lg:text-[100px] text-[var(--text-hover-color)] font-[600] w-full whitespace-nowrap">
             BRINGEN SIE IHRE PROJEKTE AUF DIE NIVEAUSTEINE
             </h1>
           </marquee>
@@ -221,7 +221,7 @@ const ServiceSec = ({ SeviceContent }) => {
                 duration={0.45}
                 yFrom={24}
                 flip
-                className="text-4xl sm:text-4xl lg:text-5xl w-[100%] lg:w-[75%] font-[600] leading-tight text-left"
+                className="text-3xl sm:text-4xl lg:text-5xl w-[100%] lg:w-[75%] font-[600] leading-tight text-left"
               />
 
               <AnimatedText
@@ -243,7 +243,7 @@ const ServiceSec = ({ SeviceContent }) => {
                 duration={0.35}
                 yFrom={16}
                 flip={false}
-                className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-base sm:text-lg text-left"
+                className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-sm text-left"
               />
 
               <motion.div

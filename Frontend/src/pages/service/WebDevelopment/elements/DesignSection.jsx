@@ -37,14 +37,14 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
   const { heading, text, bulletText, services } = DesignGlobalData;
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto px-5">
       <div className="w-full mt-[100px]">
         <div className="lg:w-[80%] mx-auto">
 
           {/* Überschriften-Bereich */}
           <div ref={headingRef} className="text-center">
             <motion.h1
-              className="text-5xl lg:text-6xl lg:w-[55%] leading-snug mx-auto font-[500] text-[var(--text-hover-color)]"
+              className="text-2xl lg:text-6xl lg:w-[55%] leading-snug mx-auto font-[500] text-[var(--text-hover-color)]"
               variants={textContainer}
               initial="hidden"
               animate={isHeadingInView ? "visible" : "hidden"}
@@ -57,7 +57,7 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
             </motion.h1>
 
             <motion.p
-              className="lg:w-[45%] mx-auto my-5 text-[var(--text-color)]"
+              className="lg:w-[45%] mx-auto my-5 text-[var(--text-color)] text-sm"
               variants={textContainer}
               initial="hidden"
               animate={isHeadingInView ? "visible" : "hidden"}
@@ -75,8 +75,8 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
               animate={isHeadingInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-              <div className="h-[20px] w-[20px] bg-[#519BFF] rounded-full blink-dot"></div>
-              <p className="text-[#519BFF]">{bulletText}</p>
+              <div className="h-[15px] w-[15px] bg-[#519BFF] rounded-full blink-dot"></div>
+              <p className="text-[#519BFF] text-sm">{bulletText}</p>
             </motion.div>
           </div>
 
@@ -97,9 +97,9 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
                 className={`min-h-[700px] w-[95%] md:w-[45%] lg:w-[50%] h-[100%] flex flex-col justify-start items-center ${item.rightBorder ? 'lg:border-r border-[#0d99ff]' : ''}`}
               >
                 <img src={item.img} className={item.pl ? 'w-full py-4 lg:pl-4' : 'w-full py-4 lg:pr-4'} alt="Dienstleistungsbild" />
-                <div className="h-[450px] w-full bg-[#B1C5DF8F] flex justify-start p-1 items-center px-6">
+                <div className="h-[450px] w-full bg-[#B1C5DF8F] flex justify-start p-1 items-center lg:px-6 px-2">
                   <motion.div
-                    className="w-[85%] flex flex-col justify-center gap-5"
+                    className="w-[95%] flex flex-col justify-center gap-5"
                     variants={textContainer}
                     initial="hidden"
                     animate={isServicesInView ? "visible" : "hidden"}
@@ -111,7 +111,7 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
                         </motion.span>
                       ))}
                     </motion.h1>
-                    <motion.p className="text-[14px] font-[400]" variants={textContainer}>
+                    <motion.p className="text-sm font-[400]" variants={textContainer}>
                       {item.description.split(" ").map((word, i) => (
                         <motion.span key={i} variants={letter} className="inline-block mr-1">
                           {word}
@@ -119,7 +119,7 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
                       ))}
                     </motion.p>
                     <NavLink
-                      className="w-[50%] h-[45px] service_tool_box_btn rounded-4xl flex justify-center items-center border-1 text-[var(--text-color)] border-white"
+                      className="w-[50%] service_tool_box_btn rounded-4xl text-sm py-2 flex justify-center items-center border-1 text-[var(--text-color)] border-white"
                       to={item.btnLink}
                     >
                       <motion.span variants={textContainer}>

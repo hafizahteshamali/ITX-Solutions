@@ -131,10 +131,10 @@ const Banner = ({ GraphicBannerData }) => {
                   alt=""
                 />
                 <div className="absolute bottom-5 w-[90%] left-[50%] transform -translate-x-[50%]">
-                  <h1 className="text-2xl my-3 text-[var(--text-hover-color)] font-[500]">
+                  <h1 className="text-xl my-3 text-[var(--text-hover-color)] font-[500]">
                     Vereinheitlichtes Typografie-Panel
                   </h1>
-                  <p className="text-[var(--text-color)]">
+                  <p className="text-[var(--text-color)] text-sm">
                     Verwalten Sie alle Ihre Textstile an einem Ort – definieren Sie Überschriften, Fließtext und Button-Beschriftungen mit Präzision und Leichtigkeit.
                   </p>
                 </div>
@@ -158,10 +158,10 @@ const Banner = ({ GraphicBannerData }) => {
                     alt=""
                   />
                   <div className="absolute bottom-5 w-[90%] left-[50%] transform -translate-x-[50%]">
-                    <h1 className="text-2xl my-3 text-[var(--text-hover-color)] font-[500]">
+                    <h1 className="text-xl my-3 text-[var(--text-hover-color)] font-[500]">
                       Vereinheitlichte Branding-Hub
                     </h1>
-                    <p className="text-[var(--text-color)]">
+                    <p className="text-[var(--text-color)] text-sm">
                       Bringen Sie Strategie, Visuals, Content und Erfahrung in einem zusammenhängenden Framework zusammen.
                     </p>
                   </div>
@@ -185,10 +185,10 @@ const Banner = ({ GraphicBannerData }) => {
                   alt=""
                 />
                 <div className="absolute bottom-5 w-[90%] left-[50%] transform -translate-x-[50%]">
-                  <h1 className="text-2xl my-3 text-[var(--text-hover-color)] font-[500]">
+                  <h1 className="text-xl my-3 text-[var(--text-hover-color)] font-[500]">
                     Vereinheitlichtes Typografie-Panel
                   </h1>
-                  <p className="text-[var(--text-color)]">
+                  <p className="text-[var(--text-color)] text-sm">
                     Verwalten Sie alle Ihre Textstile an einem Ort – definieren Sie Überschriften, Fließtext und Button-Beschriftungen mit Präzision und Leichtigkeit.
                   </p>
                 </div>

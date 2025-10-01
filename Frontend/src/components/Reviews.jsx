@@ -42,15 +42,15 @@ const Reviews = ({ Reviews1, Reviews2, bgColor }) => {
                   <div key={index} className="min-h-[250px] px-2 flex justify-center items-center flex-shrink-0 slide-item" style={{ width: "320px" }}>
                     <div className="h-full w-full border border-[#9dc0ef] rounded-lg p-5 flex flex-col justify-between bg-[#9dc0ef1e] transition-all duration-500 hover:shadow-lg">
                       <div className="bg-[#bcd1ee77] p-3 rounded-lg">
-                        <p className="text-[14px] text-[var(--text-color)]">{item.description}</p>
+                        <p className="text-sm text-[var(--text-color)]">{item.description}</p>
                       </div>
                       <div className="bg-[#bcd1ee77] p-3 flex justify-start items-center gap-3 mt-3 rounded-lg">
                         <div className="h-[40px] w-[40px] rounded-full overflow-hidden">
                           <img src={item.profileImg || "/placeholder.svg"} alt="Profilbild" className="object-cover w-full h-full" />
                         </div>
                         <div>
-                          <p className="text-[14px] font-[600] text-[var(--text-hover-color)]">{item.name}</p>
-                          <p className="text-[12px] text-[var(--text-color)]">{item.designation}</p>
+                          <p className="text-sm font-[600] text-[var(--text-hover-color)]">{item.name}</p>
+                          <p className="text-sm text-[var(--text-color)]">{item.designation}</p>
                         </div>
                       </div>
                     </div>
@@ -68,15 +68,15 @@ const Reviews = ({ Reviews1, Reviews2, bgColor }) => {
                   <div key={index} className="min-h-[250px] px-2 flex justify-center items-center flex-shrink-0 slide-item" style={{ width: "320px" }}>
                     <div className="h-full w-full border border-[#9dc0ef] rounded-lg p-5 flex flex-col justify-between bg-[#9dc0ef1e] transition-all duration-500 hover:shadow-lg">
                       <div className="bg-[#bcd1ee77] p-3 rounded-lg">
-                        <p className="text-[14px] text-[var(--text-color)]">{item.description}</p>
+                        <p className="text-sm text-[var(--text-color)]">{item.description}</p>
                       </div>
                       <div className="bg-[#bcd1ee77] p-3 flex justify-start items-center gap-3 mt-3 rounded-lg">
                         <div className="h-[40px] w-[40px] rounded-full overflow-hidden">
                           <img src={item.profileImg || "/placeholder.svg"} alt="Profilbild" className="object-cover w-full h-full" />
                         </div>
                         <div>
-                          <p className="text-[14px] font-[600] text-[var(--text-hover-color)]">{item.name}</p>
-                          <p className="text-[12px] text-[var(--text-color)]">{item.designation}</p>
+                          <p className="text-sm font-[600] text-[var(--text-hover-color)]">{item.name}</p>
+                          <p className="text-sm text-[var(--text-color)]">{item.designation}</p>
                         </div>
                       </div>
                     </div>

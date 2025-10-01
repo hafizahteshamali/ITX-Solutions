@@ -113,7 +113,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
               duration={0.4}
               yFrom={20}
               flip={false}
-              className="w-[88%] sm:w-[70%] md:w-[60%] lg:w-[50%] text-[var(--text-color)] text-base text-[16px] break-words whitespace-normal"
+              className="w-[88%] sm:w-[70%] md:w-[60%] lg:w-[50%] text-[var(--text-color)] text-sm break-words whitespace-normal"
             />
           </div>
         </div>
@@ -156,7 +156,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
                 duration={0.35}
                 yFrom={15}
                 flip={false}
-                className="text-[var(--text-color)] text-[16px] w-[97%] sm:text-base md:text-lg break-words whitespace-normal"
+                className="text-[var(--text-color)] text-sm w-[97%] sm:text-base md:text-lg break-words whitespace-normal"
               />
               {/* Button */}
               <motion.div

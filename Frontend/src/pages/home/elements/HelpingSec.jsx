@@ -129,13 +129,13 @@ const HelpingSec = ({ HelpSecData }) => {
       className="bg-cover w-full bg-[var(--bg-color)] pt-10"
     >
       <div className="container mx-auto">
-        <div className="min-h-[100vh] flex justify-center items-center p-5 lg:my-0">
+        <div className="min-h-[100vh] flex justify-center items-center p-3 lg:my-0">
           <div className="min-h-[600px] w-full flex flex-col lg:flex-row justify-between items-center">
             {/* Left Image Section */}
             <div
               data-aos="fade-up"
               data-aos-delay="500"
-              className="w-[90%] lg:w-[47%]"
+              className="w-[97%] lg:w-[47%]"
             >
               <img
                 src={imgUrl}
@@ -159,7 +159,7 @@ const HelpingSec = ({ HelpSecData }) => {
                 duration={0.5}
                 yFrom={30}
                 flip
-                className="text-4xl lg:text-5xl font-[600] break-words whitespace-normal"
+                className="text-3xl lg:text-5xl font-[600] break-words whitespace-normal"
               />
 
               {/* Animated Sub Title */}
@@ -171,7 +171,7 @@ const HelpingSec = ({ HelpSecData }) => {
                 duration={0.4}
                 yFrom={25}
                 flip
-                className="text-2xl lg:text-3xl font-[500] text-[var(--text-color)] break-words whitespace-normal"
+                className="text-xl lg:text-3xl font-[500] text-[var(--text-color)] break-words whitespace-normal"
               />
 
               {/* Animated Description Block */}
@@ -184,7 +184,7 @@ const HelpingSec = ({ HelpSecData }) => {
                   duration={0.35}
                   yFrom={20}
                   flip={false}
-                  className="w-[100%] lg:w-[70%] text-[var(--text-color)] break-words whitespace-normal"
+                  className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-sm break-words whitespace-normal"
                 />
                 <AnimatedText
                   as="p"
@@ -194,12 +194,12 @@ const HelpingSec = ({ HelpSecData }) => {
                   duration={0.35}
                   yFrom={20}
                   flip={false}
-                  className="w-[100%] lg:w-[70%] text-[var(--text-color)] mt-4 break-words whitespace-normal"
+                  className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-sm mt-4 break-words whitespace-normal"
                 />
               </div>
 
               {/* Animated Bullet List */}
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-3 text-sm">
                 {bullets.map((item, index) => (
                   <li
                     key={index}
@@ -230,7 +230,7 @@ const HelpingSec = ({ HelpSecData }) => {
               >
                 <NormalButton
                   text={btnText}
-                  className="h-[50px] w-[70%] lg:w-[30%] bg-[var(--white-color)] font-[600] text-[var(--text-hover-color)]"
+                  className="h-[50px] w-[70%] bg-[var(--white-color)] font-[600] text-[var(--text-hover-color)] border border-[#CBE1FF]"
                 />
               </motion.div>
             </div>

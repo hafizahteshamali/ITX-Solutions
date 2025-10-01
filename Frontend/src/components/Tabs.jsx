@@ -52,7 +52,7 @@ const ProcessTabs = ({ tabs }) => {
             >
               {/* Tab number */}
               <div
-                className={`text-xl font-bold mb-2 text-center lg:text-left ${
+                className={`text-xl font-bold mb-2 text-left lg:text-left ${
                   activeTab === index ? "text-slate-800" : "text-slate-600"
                 }`}
               >
@@ -61,7 +61,7 @@ const ProcessTabs = ({ tabs }) => {
 
               {/* Tab heading */}
               <h3
-                className={`text-[16px] font-semibold mb-4 text-center lg:text-left ${
+                className={`text-[16px] font-semibold mb-4 text-left lg:text-left ${
                   activeTab === index ? "text-slate-800" : "text-slate-600"
                 } hover:text-slate-800 transition-colors`}
               >
@@ -70,7 +70,7 @@ const ProcessTabs = ({ tabs }) => {
 
               {/* Description */}
               {openTabs.includes(index) && (
-                <div className="mt-4 p-4 rounded-lg shadow-sm text-center lg:text-left opacity-100 transition-opacity duration-700 ease-in-out">
+                <div className="mt-4 p-4 rounded-lg shadow-sm text-left lg:text-left opacity-100 transition-opacity duration-700 ease-in-out">
                   <p className="text-slate-600 text-sm leading-relaxed">
                     {tab.description}
                   </p>

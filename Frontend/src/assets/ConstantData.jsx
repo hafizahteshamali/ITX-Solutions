@@ -47,8 +47,8 @@ export const NavigationData = [
 ];
 
 export const BannerData = {
-  heading: "Zukunftssichere ITX-Lösungen von Pakistan nach Europa",
-  para: "Wir entwickeln KI, Websites und verwalten Ihre gesamten digitalen Projekte mit kosteneffizientem Talent und zuverlässiger Lieferung.",
+  heading: "Digitale Exzellenz neu gedacht",
+  para: "Wir gestalten Technologien, die Wachstum, Effizienz und nachhaltige Transformation ermöglichen. Unsere Lösungen verbinden Innovation mit Verlässlichkeit – für Unternehmen, die bereit sind, den nächsten Schritt zu gehen.",
   btnText: "Kostenlose Beratung anfordern",
   imgUrl: "/assets/images/home/banner-img.png",
 };

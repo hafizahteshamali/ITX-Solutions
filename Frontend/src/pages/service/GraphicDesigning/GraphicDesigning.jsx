@@ -20,9 +20,9 @@ const GraphicDesigning = () => {
       <DiscoverBanner
         image="/assets/images/graphic-designing/bottom-banner.jpg"
         className="bg-bottom"
-        spanClass="text-[var(--text-hover-color)]"
+        spanClass="text-[var(--white-color)]"
         btnClass="border-2 border-[#CBE1FF]"
-        iconClass="text-[var(--text-hover-color)]"
+        iconClass="text-[var(--white-color)]"
         text1="Design ist nicht nur visuell."
         text2="Es ist strategisches Storytelling."
       />

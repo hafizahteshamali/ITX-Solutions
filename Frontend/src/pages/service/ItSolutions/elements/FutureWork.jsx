@@ -29,14 +29,14 @@ const FutureWork = ({ FutureWorkData }) => {
       <div className="min-h-[300px] flex justify-center items-center">
         <div className="h-[100%] lg:w-[45%] mx-auto flex flex-col justify-center items-center gap-5">
           <h1
-            className="text-3xl text-[var(--text-hover-color)]"
+            className="text-2xl text-[var(--text-hover-color)]"
             data-aos="fade-up"
             data-aos-delay="0"
           >
             {heading}
           </h1>
           <p
-            className="text-center text-[var(--text-hover-color)]"
+            className="text-center text-[var(--text-hover-color)] text-sm"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -56,14 +56,14 @@ const FutureWork = ({ FutureWorkData }) => {
             backgroundImage: `url('/assets/images/it-solutions/card1.png')`,
           }}
         >
-          <div className="bg-[var(--text-hover-color)] w-[25%] py-1 flex justify-center items-center text-[var(--white-color)] rounded-full absolute top-6 left-6">
+          <div className="bg-[var(--text-hover-color)] w-[45%] lg:w-[25%] py-1 flex justify-center items-center text-[var(--white-color)] rounded-full absolute top-6 left-6">
             IT-gesteuert
           </div>
           <div className="lg:h-[50%] w-[90%] absolute left-[50%] transform -translate-x-[50%] bottom-10">
             <h1 className="text-xl lg:text-3xl xl:text-4xl w-[90%] lg:leading-9 xl:leading-12 text-[var(--white-color)]">
               Wir helfen Ihnen beim Aufbau skalierbarer IT-gesteuerter Produkte
             </h1>
-            <p className="my-5 text-[var(--white-color)] text-[14px] font-[200]">
+            <p className="my-5 text-[var(--white-color)] text-sm font-[200]">
               Von Backend-Systemen bis zur Cloud-Architektur liefern wir End-to-End-IT-Lösungen, die mit Ihrem Unternehmen wachsen und sich dem Wandel anpassen.
             </p>
           </div>
@@ -110,10 +110,10 @@ const FutureWork = ({ FutureWorkData }) => {
             />
 
             <div className="absolute bottom-5 left-[50%] transform -translate-x-[50%] w-full">
-              <h1 className="my-5 text-2xl text-[var(--white-color)]">
+              <h1 className="my-5 text-xl text-[var(--white-color)]">
                 Stabile & Sichere Systeme
               </h1>
-              <p className="text-[14px] font-[200] text-[var(--white-color)]">
+              <p className="text-sm font-[200] text-[var(--white-color)]">
                 Halten Sie Ihre Abläufe reibungslos mit zuverlässiger Infrastruktur, Echtzeit-Monitoring und Experten-Wartung.
               </p>
             </div>
@@ -142,10 +142,10 @@ const FutureWork = ({ FutureWorkData }) => {
               </span>
             </div>
             <div className="absolute bottom-0 left-[50%] transform -translate-x-[50%] w-full">
-              <h1 className="my-5 text-2xl text-[var(--white-color)]">
+              <h1 className="my-5 text-xl text-[var(--white-color)]">
                 Für Loyalität entwickelt
               </h1>
-              <p className="text-[14px] font-[200] text-[var(--white-color)]">
+              <p className="text-sm font-[200] text-[var(--white-color)]">
                 Unsere IT-Lösungen sind darauf ausgelegt, Nutzer engagiert, zufrieden und wiederkehrend zu halten - für langfristigen Wert und Vertrauen.
               </p>
             </div>
@@ -164,16 +164,16 @@ const FutureWork = ({ FutureWorkData }) => {
               className="h-[40px] object-contain"
               alt=""
             />
-            <p className="text-[var(--white-color)] text-[14px] font-[200]">
+            <p className="text-[var(--white-color)] text-sm font-[200]">
               Unsere Nutzer erstrecken sich über verschiedene Kontinente weltweit.
             </p>
           </div>
           <div className="min-h-[230px] w-[100%] bg-[var(--text-hover-color)] p-5 rounded-2xl flex flex-col justify-around items-start absolute bottom-0 left-[50%] transform -translate-x-[50%] card5">
             <div className="min-h-[200px] w-[100%] flex flex-col justify-center items-start">
-              <h1 className="my-5 text-2xl text-[var(--white-color)]">
+              <h1 className="my-5 text-xl text-[var(--white-color)]">
                 Starten Sie mit echten Einblicken
               </h1>
-              <p className="text-[14px] font-[200] text-[var(--white-color)]">
+              <p className="text-sm font-[200] text-[var(--white-color)]">
                 Gewinnen Sie vollständige Transparenz in Ihre IT-Infrastruktur mit Echtzeit-Analysen, die intelligentere Entscheidungen und kontinuierliche Verbesserung ermöglichen.
               </p>
             </div>

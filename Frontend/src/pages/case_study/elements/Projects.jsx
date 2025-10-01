@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { ProjectData } from "../../../assets/ConstantData";
 import CaseStudyModal from "../../../components/CaseStudyModal";
 import Header from "../../../navigation/Header";
+import { MdKeyboardArrowLeft } from "react-icons/md";
 
 const Projects = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -42,30 +43,26 @@ const Projects = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col justify-start items-center gap-5 py-10">
             {/* Titel */}
-            <h1 className="text-3xl lg:text-5xl text-[var(--text-hover-color)] font-medium text-center">
+            <h1 className="text-2xl lg:text-5xl text-[var(--text-hover-color)] font-medium text-center">
             Umfassendes Handels- und Technologie-Audit
             </h1>
 
             {/* Services Tag */}
             <div className="flex justify-center items-center gap-2.5">
-              <div className="h-[10px] w-[10px] bg-[#519BFF] rounded-full blink-dot"></div>
-              <p className="uppercase text-[#519BFF] font-medium">Dienstleistungen</p>
+              <div className="h-[15px] w-[15px] bg-[#519BFF] rounded-full blink-dot"></div>
+              <p className="uppercase text-[#519BFF] font-medium text-sm">Dienstleistungen</p>
             </div>
 
             {/* Inhaltsbereich */}
             <div className="w-full mt-10 flex items-start flex-col justify-start gap-5">
               <div className="w-full flex justify-start items-center gap-5">
-                <button className="h-[40px] flex justify-center items-center gap-2 text-[var(--text-color)] bg-[#00000015] rounded w-[50%] lg:w-[15%]">
-                  <img
-                    src="/assets/images/case-study/vector.svg"
-                    className="h-5 w-5 text-[var(--text-color)]"
-                    alt=""
-                  />
+                <button className="h-[40px] text-sm flex justify-center items-center gap-2 text-[var(--text-color)] bg-[#00000015] rounded w-[50%] lg:w-[15%]">
+                  <MdKeyboardArrowLeft className="text-2xl" />
                   Alle Projekte
                 </button>
 
                 {isSelected && (
-                  <button className="h-[40px] flex justify-center items-center gap-2 bg-[#00000015] text-[var(--text-hover-color)] font-[500] rounded px-2">
+                  <button className="h-[40px] flex justify-center text-sm items-center gap-2 bg-[#00000015] text-[var(--text-hover-color)] font-[500] rounded px-2">
                   <img
                     src="/assets/images/case-study/vector2.svg"
                     className="h-5 w-5 text-[var(--text-color)]"
@@ -86,10 +83,10 @@ const Projects = () => {
                   <input
                     placeholder="Projekte filtern"
                     type="text"
-                    className="bg-transparent h-full w-[100%] px-5 border-none outline-none text-[var(--text-color)]"
+                    className="bg-transparent h-full w-[100%] px-5 text-sm border-none outline-none text-[var(--text-color)]"
                   />
                 </div>
-                <button className="h-[50px] w-[35%] lg:w-[18%] flex justify-center items-center gap-2 bg-[#00000015] text-[var(--text-color)] font-[500] rounded ">
+                <button className="h-[50px] w-[35%] lg:w-[18%] text-sm flex justify-center items-center gap-2 bg-[#00000015] text-[var(--text-color)] font-[500] rounded ">
                 Unternehmen
                 </button>
               </div>
@@ -160,16 +157,16 @@ const Projects = () => {
               <div className="flex flex-col justify-center items-start gap-5">
                 {/* Projektinformationen */}
                 <div className="min-h-[300px] w-full flex flex-col justify-center items-start gap-5 border-b-2 border-[#777c8385]">
-                  <h1 className="text-3xl text-[var(--text-hover-color)] font-[500]">
+                  <h1 className="text-xl text-[var(--text-hover-color)] font-[500]">
                     {selectedCase.projectName}
                   </h1>
                   <div className="flex justify-start items-center gap-2">
                     <div className="h-[10px] w-[10px] bg-[var(--text-hover-color)] rounded-full blink-dot"></div>
-                    <p className="text-xl text-[var(--text-hover-color)] font-[500]">
+                    <p className="text-sm text-[var(--text-hover-color)] font-[500]">
                       {selectedCase.runningOn}
                     </p>
                   </div>
-                  <p className="text-2xl text-[var(--text-hover-color)] font-[500]">
+                  <p className="text-xl text-[var(--text-hover-color)] font-[500]">
                     {selectedCase.tech}
                   </p>
                   <div className="flex justify-start items-center gap-2 w-[100%] flex-wrap">
@@ -181,7 +178,7 @@ const Projects = () => {
                         {ph}
                       </div>
                     ))}
-                    <div className="p-1.5 flex justify-center items-center bg-[#B1C5DF4D] rounded text-[var(--text-color)] text-[10px]">
+                    <div className="p-1.5 flex text-sm justify-center items-center bg-[#B1C5DF4D] rounded text-[var(--text-color)] text-[10px]">
                       {selectedCase.category}
                     </div>
                   </div>
@@ -192,7 +189,7 @@ const Projects = () => {
                   <h1 className="text-xl text-[#4E667D] font-[500] lg:w-[30%] w-full">
                     ÜBER
                   </h1>
-                  <p className="text-[13px] lg:w-[65%] w-full text-[#8CABC9] py-3">
+                  <p className="text-sm lg:w-[65%] w-full text-[#8CABC9] py-3">
                     {selectedCase.aboutPara}
                   </p>
                 </div>
@@ -254,7 +251,7 @@ const Projects = () => {
                     {selectedCase.keyFeatures.map((kf, index) => (
                       <div
                         key={index}
-                        className="px-2 py-1.5 text-[16px] text-[var(--text-color)]"
+                        className="px-2 py-1.5 text-sm text-[var(--text-color)]"
                       >
                         {kf}
                       </div>

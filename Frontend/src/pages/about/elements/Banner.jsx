@@ -70,7 +70,7 @@ const Banner = () => {
       </div>
 
       {/* Background Image Section */}
-      <div className="min-h-[800px] sm:min-h-[750px] md:min-h-[800px] lg:min-h-[900px] xl:min-h-[1000px] w-full relative overflow-hidden">
+      <div className="min-h-[900px] sm:min-h-[750px] md:min-h-[800px] lg:min-h-[900px] xl:min-h-[1000px] w-full relative overflow-hidden">
         <motion.img
           src="/assets/images/about/top-banner-bg.png"
           alt=""
@@ -81,7 +81,7 @@ const Banner = () => {
         />
 
         {/* Main Heading */}
-        <div className="container mx-auto w-full xl:w-[80%] px-4 sm:px-6 lg:px-8 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-[350%] sm:-translate-y-[250%] md:-translate-y-[260%] lg:-translate-y-[250%] xl:-translate-y-[150%]">
+        <div className="container mx-auto w-full xl:w-[100%] px-4 sm:px-6 lg:px-8 absolute left-1/2 top-[60%] lg:top-1/2 transform -translate-x-1/2 -translate-y-[350%] sm:-translate-y-[250%] md:-translate-y-[260%] lg:-translate-y-[250%] xl:-translate-y-[150%]">
           <motion.div
             className="w-full mx-auto flex flex-col justify-center items-center text-center px-4"
             initial={{ opacity: 0, y: 50 }}
@@ -111,7 +111,7 @@ const Banner = () => {
             >
               {/* Left Column */}
               <motion.div className="w-full lg:w-[40%]" variants={itemVariants}>
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug lg:leading-14 text-[var(--text-hover-color)] font-medium md:font-[500]">
+                <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug lg:leading-14 text-[var(--text-hover-color)] font-medium md:font-[500]">
                 Ihre Daten. Eine Plattform. Unendliche Möglichkeiten.
                 </h1>
               </motion.div>

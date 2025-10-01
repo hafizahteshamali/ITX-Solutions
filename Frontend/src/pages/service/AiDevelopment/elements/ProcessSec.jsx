@@ -88,7 +88,7 @@ const ProcessSec = () => {
 
   return (
     <div className="">
-      <div className="container mx-auto p-3">
+      <div className="container mx-auto px-5">
         <div className="flex flex-col items-start">
           <AnimatedText
             text="Der Prozess"
@@ -123,12 +123,12 @@ const ProcessSec = () => {
                 <div className="break-words">
                   <AnimatedText
                     text="Analyse"
-                    className="text-2xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
+                    className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
                     delay={0.3}
                   />
                   <AnimatedText
                     text="Wir beginnen mit einer gründlichen Analyse Ihrer aktuellen Workflows, um zu sehen, wie KI Ihre Prozesse verbessern könnte."
-                    className="text-[16px] text-[var(--text-color)] mt-4 break-words"
+                    className="text-sm text-[var(--text-color)] mt-4 break-words"
                     delay={0.4}
                   />
                 </div>
@@ -163,12 +163,12 @@ const ProcessSec = () => {
                 <div className="break-words">
                   <AnimatedText
                     text="Entwicklung & Implementierung"
-                    className="text-2xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
+                    className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
                     delay={0.5}
                   />
                   <AnimatedText
                     text="Dann beginnen unsere Entwickler mit der Erstellung maßgeschneiderter KI-Lösungen für Ihr Unternehmen, wobei kontinuierlich Qualität und Sicherheit priorisiert werden."
-                    className="text-[16px] text-[var(--text-color)] mt-4 break-words"
+                    className="text-sm text-[var(--text-color)] mt-4 break-words"
                     delay={0.6}
                   />
                 </div>
@@ -203,12 +203,12 @@ const ProcessSec = () => {
                 <div className="break-words">
                   <AnimatedText
                     text="Wartung & Verbesserung"
-                    className="text-2xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
+                    className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
                     delay={0.7}
                   />
                   <AnimatedText
                     text="Nach dem Deployment arbeitet unser Team weiterhin hart, indem es Support bietet und die implementierten Lösungen kontinuierlich verbessert."
-                    className="text-[16px] text-[var(--text-color)] mt-4 break-words"
+                    className="text-sm text-[var(--text-color)] mt-4 break-words"
                     delay={0.8}
                   />
                 </div>

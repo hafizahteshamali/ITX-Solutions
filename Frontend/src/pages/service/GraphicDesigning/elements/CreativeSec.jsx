@@ -64,7 +64,7 @@ const CreativeSec = () => {
   }, []);
 
   return (
-    <div className="container mx-auto my-[100px] lg:mt-0">
+    <div className="container mx-auto my-[100px] lg:mt-0 px-5">
       <div data-aos="fade-up" data-aos-delay="500" className="lg:h-[600px] flex flex-col lg:flex-row justify-between items-start">
         <div className="w-[100%] lg:w-[33%] h-min lg:h-[550px] relative p-2">
           <AnimatedLetters
@@ -82,11 +82,11 @@ const CreativeSec = () => {
           />
           <div
             onClick={() => setIsGalleryModal(true)}
-            className="w-[40%] cursor-pointer bg-[var(--white-color)] absolute top-[50%] left-[50%] transform p-2 rounded-lg -translate-x-[50%] -translate-y-[50%] flex gap-2 justify-center items-center
+            className="min-w-[50%] cursor-pointer bg-[var(--white-color)] absolute top-[50%] left-[50%] transform p-2 rounded-lg -translate-x-[50%] -translate-y-[50%] flex gap-2 justify-center items-center
     opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in-out"
           >
             <LiaImagesSolid className="text-3xl" />
-            <p>Jetzt erkunden</p>
+            <p className="text-sm">Jetzt erkunden</p>
           </div>
         </div>
 
@@ -94,11 +94,11 @@ const CreativeSec = () => {
           <div className="absolute bottom-0">
             <AnimatedLetters
               text="Wir leiten das Erscheinungsbild Ihrer Marke"
-              className="text-[var(--text-color)] w-full"
+              className="text-[var(--text-color)] w-full text-sm"
             />
             <AnimatedLetters
               text="und gestienen präzise Logos sowie Marketing-Grafiken, die Ihre Botschaft authentisch und Ihre Visuals zielgerichtet halten."
-              className="text-[var(--text-color)]"
+              className="text-[var(--text-color)] text-sm"
             />
             <div className="my-7 flex justify-start items-center gap-3">
               <img
@@ -109,7 +109,7 @@ const CreativeSec = () => {
               <div className="pb-0.5 border-b-2 border-[var(--text-hover-color)]">
                 <AnimatedLetters
                   text="Über unsere Projekte"
-                  className="text-[var(--text-hover-color)] font-[600]"
+                  className="text-[var(--text-hover-color)] font-[600] text-sm"
                 />
               </div>
             </div>

@@ -116,7 +116,7 @@ const WhatWeDo = () => {
 
   return (
     <div id="service" className="w-full">
-      <div className="container min-h-screen mx-auto p-3">
+      <div className="container min-h-screen mx-auto px-5">
         <h1 className="text-5xl lg:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#006CFF] to-[#00224F]">
           Was wir tun?
         </h1>
@@ -285,7 +285,7 @@ const WhatWeDo = () => {
               <Slider {...settings1} className="w-full p-1">
                 {slides.map((item, i) => (
                   <div key={i} className="px-2">
-                    <div className="h-[70px] w-[70px] bg-[#c2d7f4] flex items-center justify-center rounded-lg">
+                    <div className="h-[65px] w-[65px] bg-[#c2d7f4] flex items-center justify-center rounded-lg">
                       <h3 className="text-sm font-semibold"></h3>
                     </div>
                   </div>
@@ -296,7 +296,7 @@ const WhatWeDo = () => {
               <Slider {...settings2} className="w-full mt-3 p-1">
                 {slides.map((item, i) => (
                   <div key={i} className="px-2">
-                    <div className="h-[70px] w-[70px] bg-[#c2d7f4] flex items-center justify-center rounded-lg">
+                    <div className="h-[65px] w-[65px] bg-[#c2d7f4] flex items-center justify-center rounded-lg">
                       <h3 className="text-sm font-semibold"></h3>
                     </div>
                   </div>
@@ -310,10 +310,10 @@ const WhatWeDo = () => {
             </div>
 
             <div className="absolute bottom-[5%] w-[90%]">
-              <h1 className="text-2xl lg:text-3xl text-[var(--text-hover-color)] font-[600]">
+              <h1 className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]">
                 Workflow-Automatisierung
               </h1>
-              <p className="text-[16px] text-[var(--text-color)] mt-4">
+              <p className="text-sm text-[var(--text-color)] mt-4">
                 Wir automatisieren Ihre Workflows, um repetitive Aufgaben zu optimieren,
                 die Effizienz zu steigern, Zeit zu sparen und Fehler zu eliminieren.
               </p>
@@ -344,10 +344,10 @@ const WhatWeDo = () => {
                     animate={contentLLMCardTextControls}
                     initial={{ y: "0px" }}
                   >
-                    <p className="text-[14px] text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-sm text-[var(--text-hover-color)] h-[50px] flex items-center">
                       Generiere ein Bild von...
                     </p>
-                    <p className="text-[14px] text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-sm text-[var(--text-hover-color)] h-[50px] flex items-center">
                       KI generiert Kunstwerk basierend auf Eingabe
                     </p>
                   </motion.div>
@@ -359,10 +359,10 @@ const WhatWeDo = () => {
                 />
               </div>
 
-              <h1 className="text-2xl lg:text-3xl text-[var(--text-hover-color)] font-[600] my-6">
+              <h1 className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600] my-6">
                 LLM-Entwicklung
               </h1>
-              <p className="text-[16px] text-[var(--text-color)] mt-4">
+              <p className="text-sm text-[var(--text-color)] mt-4">
                 Wir entwickeln Large Language Models, die transformieren, wie Ihr Unternehmen
                 mit Daten und Kunden interagiert.
               </p>
@@ -403,10 +403,10 @@ const WhatWeDo = () => {
                 </button>
               </motion.div>
 
-              <h1 className="text-2xl lg:text-3xl text-[var(--text-hover-color)] font-[600] my-6">
+              <h1 className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600] my-6">
                 KI-Beratung
               </h1>
-              <p className="text-[16px] text-[var(--text-color)] mt-4">
+              <p className="text-sm text-[var(--text-color)] mt-4">
                 Unsere Experten bieten strategische Guidance und ermöglichen Ihrem Unternehmen
                 die Implementierung von KI-Lösungen, die transformatives Wachstum antreiben.
               </p>
