@@ -3,7 +3,7 @@
 import { useInView, motion } from "framer-motion"
 import { useRef, useState, useEffect } from "react"
 import { privacySections } from "../../../assets/ConstantData"
-import Header from "../../../navigation/Header" // <- apne project ke header ka path yahan sahi lagao
+import Header from "../../../navigation/Header"
 
 // Animated heading letters
 const AnimatedLetters = ({ text, className }) => {
@@ -140,11 +140,11 @@ const Banner = () => {
 
         <div className="container mx-auto w-full mt-[200px] xl:w-[70%] px-4 sm:px-6 lg:px-8 absolute left-[50%] transform -translate-x-[50%]">
           <AnimatedLetters
-            text="Privacy Policy"
+            text="Datenschutzerklärung"
             className="text-4xl lg:text-5xl xl:text-6xl font-[500] text-[var(--text-hover-color)]"
           />
           <AnimatedLetters
-            text="Thank you for choosing ZMA. This Privacy Policy explains how we collect, use, and protect information when you visit our website or use our services (web development, AI development, graphic design, and IT services). By using our site or services, you agree to the practices described below."
+            text="Vielen Dank, dass Sie sich für ITX Solutions entschieden haben. Diese Datenschutzerklärung erläutert, wie wir Informationen erfassen, verwenden und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen nutzen (Webentwicklung, KI-Entwicklung, Grafikdesign und IT-Dienstleistungen). Durch die Nutzung unserer Website oder Dienstleistungen stimmen Sie den nachfolgend beschriebenen Praktiken zu."
             className="text-[var(--text-color)] mt-5 lg:w-[80%] mx-auto"
           />
         </div>

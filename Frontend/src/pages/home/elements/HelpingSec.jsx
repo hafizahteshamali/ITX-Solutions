@@ -230,7 +230,7 @@ const HelpingSec = ({ HelpSecData }) => {
               >
                 <NormalButton
                   text={btnText}
-                  className="h-[50px] w-[70%] bg-[var(--white-color)] font-[600] text-[var(--text-hover-color)] border border-[#CBE1FF]"
+                  className="h-[50px] w-[70%] lg:w-[40%] bg-[var(--white-color)] font-[600] text-[var(--text-hover-color)] border border-[#CBE1FF]"
                 />
               </motion.div>
             </div>

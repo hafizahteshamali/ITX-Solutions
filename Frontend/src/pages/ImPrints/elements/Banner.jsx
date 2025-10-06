@@ -89,100 +89,100 @@ const ImprintPage = () => {
   const imprintSections = [
     {
       content: `
-        <p>ZMA (ZMA Solutions)</p>
-        <p>Legal form: ZMA Solutions (SMC-Private Limited)</p>
-        <p>Registered office / Address:</p>
-        <p>House no #152 area 36/C Korangh ro #5 Karachi, Pakistan</p>
-        <p>FY180 Karachi</p>
-        <p>Pakistan</p>
+        <p>ITX Solutions</p>
+        <p>Rechtsform: ITX Solutions GmbH</p>
+        <p>Registered office / Adresse:</p>
+        <p>Musterstraße 123, 10115 Berlin, Deutschland</p>
+        <p>10115 Berlin</p>
+        <p>Deutschland</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Contact:</p>
-        <p>Phone: +92 312 0288551</p>
-        <p>Email: office@zma-solutions.com</p>
-        <p>Website: zma.com</p>
+        <p>Kontakt:</p>
+        <p>Telefon: +49 30 12345678</p>
+        <p>E-Mail: itx.solution22@gmail.com</p>
+        <p>Website: https://www.itx-solution.com/</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Represented by / Managing Director:</p>
-        <p>Shams Ilyas</p>
+        <p>Vertreten durch / Geschäftsführer:</p>
+        <p>Max Mustermann</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Company registration:</p>
-        <p>Registered with: Securities and Exchange Commission of Pakistan</p>
-        <p>Corporate Unique Identification Number (CUIN) : 0297649</p>
+        <p>Firmenregistrierung:</p>
+        <p>Registriert bei: Amtsgericht Berlin-Charlottenburg</p>
+        <p>Handelsregisternummer: HRB 123456</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Tax</p>
-        <p>National Tax Number (NTN) : GA59754-2</p>
+        <p>Steuern</p>
+        <p>Umsatzsteuer-Identifikationsnummer: DE123456789</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Responsible for content:</p>
-        <p>Shams Ilyas, House no #152 area 36/C Korangi no #5 Karachi, Pakistan</p>
+        <p>Verantwortlich für den Inhalt:</p>
+        <p>Max Mustermann, Musterstraße 123, 10115 Berlin, Deutschland</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Professional liability / regulatory authority (if applicable):</p>
-        <p>Professional title and issuing country: IT-Services, Pakistan</p>
+        <p>Berufshaftung / Aufsichtsbehörde (falls zutreffend):</p>
+        <p>Berufsbezeichnung und Ausstellungsland: IT-Dienstleistungen, Deutschland</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Dispute resolution / online dispute platform (EU sellers):</p>
-        <p>The European Commission provides an Online Dispute Resolution platform: http://ec.europa.eu/consumers/odr/. We are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.</p>
+        <p>Streitbeilegung / Online-Streitbeilegungsplattform (EU-Verkäufer):</p>
+        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: http://ec.europa.eu/consumers/odr/. Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Copyright & trademark notice:</p>
-        <p>All content on this website (texts, images, design, logos) is protected by copyright. Content may not be reproduced, distributed or modified without prior written consent from ZMA.</p>
+        <p>Urheberrecht & Markenhinweis:</p>
+        <p>Alle Inhalte auf dieser Website (Texte, Bilder, Design, Logos) sind urheberrechtlich geschützt. Inhalte dürfen nicht ohne vorherige schriftliche Zustimmung von ITX Solutions reproduziert, verbreitet oder modifiziert werden.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Limitation of liability:</p>
-        <p>The information on this website is provided “as is”. ZMA makes reasonable efforts to keep content current and correct, but provides no warranty for completeness, accuracy, or fitness for a particular purpose. ZMA is not liable for indirect or consequential damages to the fullest extent permitted by law.</p>
+        <p>Haftungsbeschränkung:</p>
+        <p>Die Informationen auf dieser Website werden "wie besehen" bereitgestellt. ITX Solutions unternimmt angemessene Anstrengungen, um Inhalte aktuell und korrekt zu halten, übernimmt jedoch keine Gewähr für Vollständigkeit, Richtigkeit oder Eignung für einen bestimmten Zweck. ITX Solutions haftet nicht für indirekte oder Folgeschäden, soweit gesetzlich zulässig.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>External links:</p>
-        <p>This website may contain links to third-party websites. ZMA is not responsible for the content or privacy practices of those sites.</p>
+        <p>Externe Links:</p>
+        <p>Diese Website kann Links zu Websites Dritter enthalten. ITX Solutions ist nicht verantwortlich für den Inhalt oder die Datenschutzpraktiken dieser Websites.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Privacy & data protection:</p>
-        <p>For information on the processing of personal data, please see our Privacy Policy: [link to privacy policy].</p>
+        <p>Datenschutz & Datensicherheit:</p>
+        <p>Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung: [Link zur Datenschutzerklärung].</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Contact for legal notices:</p>
-        <p>For legal notices or takedown requests, please contact: zma@office.com</p>
-        <p><strong>Effective date:</strong> 12/8/2025</p>
+        <p>Kontakt für rechtliche Hinweise:</p>
+        <p>Für rechtliche Hinweise oder Löschersuchen wenden Sie sich bitte an: itx.solution22@gmail.com</p>
+        <p><strong>Inkrafttretensdatum:</strong> 12.08.2025</p>
       `,
       borderr: false
     },
@@ -215,14 +215,14 @@ const ImprintPage = () => {
           }}
         />
 
-        <div className="container mx-auto w-full mt-[200px] xl:w-[70%] px-4 sm:px-6 lg:px-8 absolute left-[50%] transform -translate-x-[50%]">
+        <div className="container mx-auto w-full mt-[200px] xl:w-[80%] px-4 sm:px-6 lg:px-8 absolute left-[50%] transform -translate-x-[50%]">
           <AnimatedLetters
-            text="Imprint – Legal Information"
+            text="Impressum – Rechtliche Informationen"
             className="text-4xl lg:text-5xl xl:text-6xl font-[500] text-[var(--text-hover-color)] lg:leading-[1.2]"
           />
           <AnimatedLetters
-            text="This Imprint provides essential legal details about ZMA, including ownership, contact, and business information in compliance with applicable laws."
-            className="text-[var(--text-color)] mt-5 w-full lg:w-[70%] mx-auto text-lg"
+            text="Dieses Impressum enthält wesentliche rechtliche Angaben zu ITX Solutions, einschließlich Eigentumsverhältnissen, Kontaktdaten und Geschäftsinformationen gemäß den anwendbaren Gesetzen."
+            className="text-[var(--text-color)] mt-5 w-full lg:w-[100%] mx-auto text-lg"
           />
         </div>
       </div>
@@ -232,7 +232,7 @@ const ImprintPage = () => {
         <div className="block lg:w-1/4 lg:pr-8 mb-8 lg:mb-0 sticky top-20 self-start lg:h-[calc(100vh-80px)]">
           <div className="pl-6">
             <h2 className="text-[18px] px-2 border-l-3 border-[var(--text-hover-color)] font-[500] text-[var(--text-hover-color)] sticky top-20">
-              Imprint / Legal Notice
+              Impressum / Rechtlicher Hinweis
             </h2>
           </div>
         </div>
