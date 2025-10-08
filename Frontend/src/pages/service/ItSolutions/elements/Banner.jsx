@@ -79,7 +79,7 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="py-2 px-3 my-5 bg-[var(--text-hover-color)] w-[90%] lg:w-[30%] mx-auto rounded-full flex justify-center items-center"
+              className="py-2 px-3 my-5 bg-[#03278D] w-[90%] lg:w-[30%] mx-auto rounded-full flex justify-center items-center"
             >
               <p className="text-[var(--white-color)] text-sm">
                 Zuverlässig. Skalierbar. Immer verfügbar.
@@ -91,7 +91,7 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-4xl w-full lg:text-7xl my-5 lg:leading-20 text-center lg:w-[70%] mx-auto font-[600] text-[var(--text-hover-color)]"
+              className="text-4xl w-full lg:text-7xl my-5 lg:leading-20 text-center lg:w-[70%] mx-auto font-[600] text-[#03278D]"
             >
               Die digitale Infrastruktur, die Ihre Vision braucht
             </motion.h1>
@@ -101,9 +101,12 @@ const Banner = ({ clientsName = [] }) => {
               variants={fadeUp}
               initial="hidden"
               animate="visible"
-              className="text-[var(--text-color)] my-5 text-sm w-[90%] lg:w-[60%] mx-auto text-center"
+              className="text-[#03278D99] my-5 text-sm w-[90%] lg:w-[60%] mx-auto text-center"
             >
-              Unser Expertenteam entwirft, implementiert und verwaltet zuverlässige IT-Systeme, die auf Ihre Geschäftsziele zugeschnitten sind, damit Sie sich auf Innovation konzentrieren können, während wir uns um die Technik kümmern.
+              Unser Expertenteam entwirft, implementiert und verwaltet
+              zuverlässige IT-Systeme, die auf Ihre Geschäftsziele zugeschnitten
+              sind, damit Sie sich auf Innovation konzentrieren können, während
+              wir uns um die Technik kümmern.
             </motion.p>
 
             <motion.div
@@ -115,11 +118,11 @@ const Banner = ({ clientsName = [] }) => {
             >
               <NormalButton
                 text="Mehr erfahren"
-                className="h-[40px] w-[45%] lg:w-[12%] text-sm bg-[var(--text-hover-color)] rounded-full text-[var(--white-color)]"
+                className="h-[40px] w-[45%] lg:w-[12%] text-sm bg-[#03278D] rounded-full text-[var(--white-color)]"
               />
               <NormalButton
                 text="Kontaktieren Sie uns"
-                className="h-[40px] w-[45%] lg:w-[12%] text-sm border border-[var(--text-hover-color)] bg-[var(--white-color)] rounded-full text-[var(--text-hover-color)]"
+                className="h-[40px] w-[45%] lg:w-[15%] text-sm bg-[#CBE1FF] rounded-full text-[var(--text-hover-color)]"
               />
             </motion.div>
 
@@ -137,10 +140,10 @@ const Banner = ({ clientsName = [] }) => {
       </div>
 
       {/* Logo slider section with container */}
-      <div className="w-full bg-[#00264b] py-8">
+      <div className="w-full py-8">
         {" "}
         {/* Container with padding */}
-        <div className="h-[150px] max-w-6xl mx-auto relative overflow-hidden">
+        <div className="h-[150px] bg-[#03278D] w-full mx-auto relative overflow-hidden">
           {" "}
           {/* Centered container with max-width */}
           <div className="w-full h-full absolute inset-0 flex items-center">
@@ -167,8 +170,8 @@ const Banner = ({ clientsName = [] }) => {
             </div>
           </div>
           {/* Gradient fade overlays */}
-          <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-[#00264b] to-transparent z-10"></div>
-          <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-[#00264b] to-transparent z-10"></div>
+          <div className="absolute left-0 top-0 h-full w-50 bg-gradient-to-r from-white/60 via-white/40 to-transparent z-10 backdrop-blur-[3px]"></div>
+          <div className="absolute right-0 top-0 h-full w-50 bg-gradient-to-l from-white/60 via-white/40 to-transparent z-10 backdrop-blur-[3px]"></div>
           <style jsx>{`
             @keyframes slide-left-smooth {
               0% {

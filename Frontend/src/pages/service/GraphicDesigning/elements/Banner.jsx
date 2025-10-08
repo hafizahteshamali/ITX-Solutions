@@ -88,9 +88,9 @@ const Banner = ({ GraphicBannerData }) => {
         <Header />
 
         <div className="lg:h-[1100px] w-full flex flex-col justify-center items-center">
-          <div data-aos="fade-up" className="w-[90%] lg:w-[50%] h-[50px] mx-auto mt-[150px] lg:mt-[50px] border-2 rounded-full border-gray-500 flex justify-start items-center">
-            <p className="flex justify-start items-center w-[90%] gap-5 text-[var(--text-color)] text-[12px] lg:text-[16px]">
-              <div className="flex justify-center items-center bg-[var(--text-hover-color)] w-[60%] lg:w-[30%] h-[47px] lg:h-[50px] rounded-full">
+          <div data-aos="fade-up" className="w-[90%] lg:w-[50%] h-[50px] mx-auto overflow-hidden mt-[150px] lg:mt-[50px] border-2 rounded-full border-gray-500 flex justify-start items-center">
+            <p className="flex justify-start items-center w-[100%] gap-5 text-[var(--text-color)] text-[12px] lg:text-sm">
+              <div className="flex justify-center items-center bg-[#03278D] w-[60%] lg:w-[30%] h-[47px] lg:h-[50px] rounded-full">
                 <AnimatedLetters className="text-[var(--white-color)] text-[12px] lg:text-[16px]" text={smText} />
                 <img
                   src={icon}
@@ -98,13 +98,13 @@ const Banner = ({ GraphicBannerData }) => {
                   alt=""
                 />
               </div>
-              <AnimatedLetters text={text} />
+              <AnimatedLetters className="text-[#03278D99] text-center lg:text-left" text={text} />
             </p>
           </div>
 
-          <h1 data-aos="fade-up" data-aos-delay="500"  className="text-3xl lg:text-6xl text-[var(--text-hover-color)] leading-snug lg:w-[60%] text-center font-[500] mt-10 lg:my-5">
+          <h1 data-aos="fade-up" data-aos-delay="500"  className="text-3xl lg:text-6xl text-[#03278D] leading-snug lg:w-[60%] text-center font-[500] mt-10 lg:my-5">
             {heading}{" "}
-            <span className="bg-[var(--text-hover-color)] text-[var(--white-color)] py-1 px-4 rounded-full">
+            <span className="bg-[#CBE1FF] text-[#0043FF] py-1 px-4 rounded-full">
               {highlight}
             </span>
           </h1>
@@ -131,10 +131,10 @@ const Banner = ({ GraphicBannerData }) => {
                   alt=""
                 />
                 <div className="absolute bottom-5 w-[90%] left-[50%] transform -translate-x-[50%]">
-                  <h1 className="text-xl my-3 text-[var(--text-hover-color)] font-[500]">
+                  <h1 className="text-xl my-3 text-[#03278D] font-[500]">
                     Vereinheitlichtes Typografie-Panel
                   </h1>
-                  <p className="text-[var(--text-color)] text-sm">
+                  <p className="text-[#03278D99] text-sm">
                     Verwalten Sie alle Ihre Textstile an einem Ort – definieren Sie Überschriften, Fließtext und Button-Beschriftungen mit Präzision und Leichtigkeit.
                   </p>
                 </div>
@@ -158,10 +158,10 @@ const Banner = ({ GraphicBannerData }) => {
                     alt=""
                   />
                   <div className="absolute bottom-5 w-[90%] left-[50%] transform -translate-x-[50%]">
-                    <h1 className="text-xl my-3 text-[var(--text-hover-color)] font-[500]">
+                    <h1 className="text-xl my-3 text-[#03278D] font-[500]">
                       Vereinheitlichte Branding-Hub
                     </h1>
-                    <p className="text-[var(--text-color)] text-sm">
+                    <p className="text-[#03278D99] text-sm">
                       Bringen Sie Strategie, Visuals, Content und Erfahrung in einem zusammenhängenden Framework zusammen.
                     </p>
                   </div>
@@ -185,10 +185,10 @@ const Banner = ({ GraphicBannerData }) => {
                   alt=""
                 />
                 <div className="absolute bottom-5 w-[90%] left-[50%] transform -translate-x-[50%]">
-                  <h1 className="text-xl my-3 text-[var(--text-hover-color)] font-[500]">
+                  <h1 className="text-xl my-3 text-[#03278D] font-[500]">
                     Vereinheitlichtes Typografie-Panel
                   </h1>
-                  <p className="text-[var(--text-color)] text-sm">
+                  <p className="text-[#03278D99] text-sm">
                     Verwalten Sie alle Ihre Textstile an einem Ort – definieren Sie Überschriften, Fließtext und Button-Beschriftungen mit Präzision und Leichtigkeit.
                   </p>
                 </div>

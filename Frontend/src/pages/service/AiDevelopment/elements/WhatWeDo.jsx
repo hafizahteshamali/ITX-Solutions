@@ -126,12 +126,12 @@ const WhatWeDo = () => {
           <div
             data-aos="flip-up"
             data-aos-delay="300"
-            className="h-[500px] w-full lg:w-[48%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow group"
+            className="h-[500px] w-full lg:w-[48%] rounded-2xl bg-[#CCCCCC33] flex justify-center items-center border-t border-[#03278D] shadow group"
             onMouseEnter={handleHoverStartCard1}
             onMouseLeave={handleHoverEndCard1}
           >
             <div className="h-[400px] w-[90%] flex flex-col justify-center items-start gap-4">
-              <div className="h-[160px] lg:h-[150px] w-full overflow-hidden rounded-lg p-3 bg-[#bcd1ee] border border-gray-500">
+              <div className="h-[160px] lg:h-[150px] w-full overflow-hidden rounded-lg p-3 bg-[#CCCCCC4D] border border-gray-500">
                 <motion.div
                   className="flex flex-col gap-4"
                   animate={cardMessageControls}
@@ -146,10 +146,10 @@ const WhatWeDo = () => {
                       />
                     </div>
                     <div className="w-[80%]">
-                      <p className="text-[14px] text-[var(--text-hover-color)]">
+                      <p className="text-[14px] text-[#03278D]">
                         Du 20:50
                       </p>
-                      <p className="text-[12px] text-[var(--text-hover-color)]">
+                      <p className="text-sm text-[#03278D]">
                         Plane ein Google Meeting mit Shmas für morgen 14:35!
                       </p>
                     </div>
@@ -165,29 +165,29 @@ const WhatWeDo = () => {
                     </div>
                     <div className="w-[80%]">
                       <div className="flex items-center gap-3">
-                        <p className="text-[14px] text-transparent bg-clip-text bg-gradient-to-r from-[#006CFF] to-[#00224F66]">
+                        <p className="text-[14px] text-transparent bg-clip-text bg-gradient-to-r from-[#006CFF] to-[#03278D]">
                           KI-Assistent
                         </p>
-                        <p className="text-[14px] text-[var(--text-hover-color)]">
+                        <p className="text-[14px] text-[#03278D]">
                           20:30
                         </p>
                       </div>
-                      <p className="text-[12px] text-[var(--text-hover-color)]">
+                      <p className="text-sm text-[#03278D]">
                         Meeting erfolgreich geplant!
                       </p>
                     </div>
                   </div>
 
                   <div className="w-full flex justify-end items-center">
-                    <div className="flex items-center gap-3 border border-[var(--text-hover-color)] rounded-lg min-h-[50px] w-[80%] px-3 py-2">
-                      <FaGoogleDrive className="text-2xl" />
-                      <p className="text-[12px]">Google Meet mit Shmas</p>
+                    <div className="flex items-center gap-3 border border-[#03278D] rounded-lg min-h-[50px] w-[80%] px-3 py-2">
+                      <FaGoogleDrive className="text-2xl text-[#03278D]" />
+                      <p className="text-sm text-[#03278D]">Google Meet mit Shmas</p>
                     </div>
                   </div>
                 </motion.div>
               </div>
 
-              <div className="my-4 w-full border border-gray-500 rounded-lg py-2 px-3 flex justify-between items-center overflow-hidden h-[50px] relative">
+              <div className="my-4 w-full border border-gray-500 rounded-lg bg-[#CCCCCC4D] py-2 px-3 flex justify-between items-center overflow-hidden h-[50px] relative">
                 <img
                   src="/assets/images/ai-development/plus.svg"
                   className="h-[30px] w-[30px] z-10 mr-3"
@@ -199,10 +199,10 @@ const WhatWeDo = () => {
                     animate={barMessageControls}
                     initial={{ y: "0px" }}
                   >
-                    <p className="text-[14px] text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-[14px] text-[#03278D] h-[50px] flex items-center">
                       Nachricht an KI-Assistent...
                     </p>
-                    <p className="text-[14px] text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-[14px] text-[#03278D] h-[50px] flex items-center">
                       Wie kann ich dir heute helfen?
                     </p>
                   </motion.div>
@@ -214,10 +214,10 @@ const WhatWeDo = () => {
                 />
               </div>
 
-              <h1 className="text-2xl text-[var(--text-hover-color)] font-[600]">
+              <h1 className="text-2xl text-[#03278D] font-[600]">
                 Chatbot-Entwicklung
               </h1>
-              <p className="text-[12px] text-[var(--text-color)]">
+              <p className="text-sm text-[#03278D]">
                 Wir entwickeln intelligente Chatbots, die fortschrittliche NLP nutzen,
                 um Kundeninteraktionen zu verbessern und Ihre Geschäftsprozesse zu optimieren.
               </p>
@@ -228,12 +228,12 @@ const WhatWeDo = () => {
           <div
             data-aos="flip-up"
             data-aos-delay="500"
-            className="h-[500px] w-full lg:w-[48%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow group"
+            className="h-[500px] w-full lg:w-[48%] rounded-2xl bg-[#CCCCCC33] flex justify-center items-center border-t border-[#03278D] shadow group"
             onMouseEnter={handleHoverStartCard2}
             onMouseLeave={handleHoverEndCard2}
           >
             <div className="h-[400px] w-[90%] flex flex-col justify-center items-start gap-4">
-              <div className="h-[220px] lg:h-[180px] w-full overflow-hidden flex justify-center items-center rounded-lg p-3 bg-[#bcd1ee] border border-gray-500">
+              <div className="h-[220px] lg:h-[180px] w-full overflow-hidden bg-[#CCCCCC4D] flex justify-center items-center rounded-lg p-3 border border-gray-500">
                 <motion.div className="w-[70%] lg:w-[50%] h-auto group-hover:scale-105 transition-all duration-300 rounded-lg bg-gradient-to-r from-[#006CFF] to-[#00224F66] p-[2px] mt-5">
                   <button className="w-full h-[40px] rounded-lg bg-[#bcd1ee] text-[#006CFF] font-semibold">
                     Bild wird generiert...
@@ -241,17 +241,17 @@ const WhatWeDo = () => {
                 </motion.div>
               </div>
 
-              <div className="my-4 w-full border border-gray-500 rounded-lg py-2 px-3 flex justify-between items-center overflow-hidden h-[50px] relative">
+              <div className="my-4 w-full border border-gray-500 bg-[#CCCCCC8F] rounded-lg py-2 px-3 flex justify-between items-center overflow-hidden h-[50px] relative">
                 <div className="w-[100%] px-1 overflow-hidden h-[50px] relative">
                   <motion.div
                     className="absolute top-0 left-0 flex flex-col"
                     animate={contentCardTextControls}
                     initial={{ y: "0px" }}
                   >
-                    <p className="text-[14px] text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-[14px] text-[#03278D] h-[50px] flex items-center">
                       Generiere ein Bild von...
                     </p>
-                    <p className="text-[14px] text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-[14px] text-[#03278D] h-[50px] flex items-center">
                       KI generiert Kunstwerk basierend auf Eingabe
                     </p>
                   </motion.div>
@@ -263,10 +263,10 @@ const WhatWeDo = () => {
                 />
               </div>
 
-              <h1 className="text-2xl text-[var(--text-hover-color)] font-[600]">
+              <h1 className="text-2xl text-[#03278D] font-[600]">
                 Content-Erstellung
               </h1>
-              <p className="text-[12px] text-[var(--text-color)]">
+              <p className="text-sm text-[#03278D]">
                 Unsere Content-Erstellungslösungen generieren mühelos hochwertige,
                 ansprechende Inhalte nach den Richtlinien Ihrer Marke, um Ihr Publikum zu begeistern.
               </p>
@@ -277,7 +277,7 @@ const WhatWeDo = () => {
           <div
             data-aos="flip-up"
             data-aos-delay="900"
-            className="min-h-[450px] w-full lg:w-[32%] relative rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
+            className="min-h-[450px] w-full lg:w-[32%] relative bg-[#CCCCCC33] rounded-2xl flex justify-center items-center border-t border-[#03278D] shadow my-8"
           >
             <div className="w-full absolute top-[10%]">
               {/* First Slider - Left to Right */}
@@ -285,7 +285,7 @@ const WhatWeDo = () => {
               <Slider {...settings1} className="w-full p-1">
                 {slides.map((item, i) => (
                   <div key={i} className="px-2">
-                    <div className="h-[65px] w-[65px] bg-[#c2d7f4] flex items-center justify-center rounded-lg">
+                    <div className="h-[65px] w-[65px] bg-[#CCCCCC8F] flex items-center justify-center rounded-lg">
                       <h3 className="text-sm font-semibold"></h3>
                     </div>
                   </div>
@@ -296,7 +296,7 @@ const WhatWeDo = () => {
               <Slider {...settings2} className="w-full mt-3 p-1">
                 {slides.map((item, i) => (
                   <div key={i} className="px-2">
-                    <div className="h-[65px] w-[65px] bg-[#c2d7f4] flex items-center justify-center rounded-lg">
+                    <div className="h-[65px] w-[65px] bg-[#CCCCCC8F] flex items-center justify-center rounded-lg">
                       <h3 className="text-sm font-semibold"></h3>
                     </div>
                   </div>
@@ -310,10 +310,10 @@ const WhatWeDo = () => {
             </div>
 
             <div className="absolute bottom-[5%] w-[90%]">
-              <h1 className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]">
+              <h1 className="text-xl lg:text-3xl text-[#03278D] font-[600]">
                 Workflow-Automatisierung
               </h1>
-              <p className="text-sm text-[var(--text-color)] mt-4">
+              <p className="text-sm text-[#03278D99] mt-4">
                 Wir automatisieren Ihre Workflows, um repetitive Aufgaben zu optimieren,
                 die Effizienz zu steigern, Zeit zu sparen und Fehler zu eliminieren.
               </p>
@@ -324,7 +324,7 @@ const WhatWeDo = () => {
           <div
             data-aos="flip-up"
             data-aos-delay="900"
-            className="min-h-[450px] w-full lg:w-[32%] relative rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
+            className="min-h-[450px] w-full lg:w-[32%] relative bg-[#CCCCCC33] rounded-2xl flex justify-center items-center border-t border-[#03278D] shadow my-8"
             onMouseEnter={handleHoverStartCard3}
             onMouseLeave={handleHoverEndCard3}
           >
@@ -337,17 +337,17 @@ const WhatWeDo = () => {
                 />
               </div>
 
-              <div className="my-4 w-full border border-gray-500 rounded-lg py-2 px-3 flex justify-between items-center overflow-hidden h-[50px] relative">
+              <div className="my-4 w-full border bg-[#CCCCCC4D] border-gray-500 rounded-lg py-2 px-3 flex justify-between items-center overflow-hidden h-[50px] relative">
                 <div className="w-[100%] px-1 overflow-hidden h-[50px] relative">
                   <motion.div
                     className="absolute top-0 left-0 flex flex-col"
                     animate={contentLLMCardTextControls}
                     initial={{ y: "0px" }}
                   >
-                    <p className="text-sm text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-sm text-[#03278D] h-[50px] flex items-center">
                       Generiere ein Bild von...
                     </p>
-                    <p className="text-sm text-[var(--text-hover-color)] h-[50px] flex items-center">
+                    <p className="text-sm text-[#03278D] h-[50px] flex items-center">
                       KI generiert Kunstwerk basierend auf Eingabe
                     </p>
                   </motion.div>
@@ -359,10 +359,10 @@ const WhatWeDo = () => {
                 />
               </div>
 
-              <h1 className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600] my-6">
+              <h1 className="text-xl lg:text-3xl text-[#03278D] font-[600] my-6">
                 LLM-Entwicklung
               </h1>
-              <p className="text-sm text-[var(--text-color)] mt-4">
+              <p className="text-sm text-[#03278D99] mt-4">
                 Wir entwickeln Large Language Models, die transformieren, wie Ihr Unternehmen
                 mit Daten und Kunden interagiert.
               </p>
@@ -373,7 +373,7 @@ const WhatWeDo = () => {
           <div
             data-aos="flip-up"
             data-aos-delay="900"
-            className="min-h-[450px] w-full lg:w-[32%] overflow-hidden rounded-2xl px-5 py-3 flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
+            className="min-h-[450px] w-full lg:w-[32%] bg-[#CCCCCC33] overflow-hidden rounded-2xl px-5 py-3 flex justify-center items-center border-t border-[#03278D] shadow my-8"
             onMouseEnter={handleHoverStartLastCard}
             onMouseLeave={handleHoverEndLastCard}
           >
@@ -388,7 +388,7 @@ const WhatWeDo = () => {
                 animate={efficiencyControls}
                 initial={{ x: 0 }}
               >
-                <button className="w-full rounded h-[25px] px-2 text-[12px] bg-[#bcd1ee] text-[#006CFF] font-semibold">
+                <button className="w-full rounded h-[25px] px-2 text-sm bg-[#bcd1ee] text-[#006CFF] font-semibold">
                   Effizienz +103%
                 </button>
               </motion.div>
@@ -398,15 +398,15 @@ const WhatWeDo = () => {
                 animate={costControls}
                 initial={{ rotate: 0, y: 0 }}
               >
-                <button className="w-full rounded h-[25px] px-2 text-[12px] bg-[#bcd1ee] text-[#006CFF] font-semibold">
+                <button className="w-full rounded h-[25px] px-2 text-sm bg-[#bcd1ee] text-[#006CFF] font-semibold">
                   Kosten -67%
                 </button>
               </motion.div>
 
-              <h1 className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600] my-6">
+              <h1 className="text-xl lg:text-3xl text-[#03278D] font-[600] my-6">
                 KI-Beratung
               </h1>
-              <p className="text-sm text-[var(--text-color)] mt-4">
+              <p className="text-sm text-[#03278D99] mt-4">
                 Unsere Experten bieten strategische Guidance und ermöglichen Ihrem Unternehmen
                 die Implementierung von KI-Lösungen, die transformatives Wachstum antreiben.
               </p>

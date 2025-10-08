@@ -204,9 +204,8 @@ const SwivelCard = ({ exp, index }) => {
         transformStyle: "preserve-3d",
         transformOrigin,
         willChange: "transform, opacity",
-        backgroundImage: `url('/assets/images/home/card-bg.png')`,
       }}
-      className="min-h-[260px] w-[100%] lg:w-[30%] md:w-[70%] p-3 md:mx-auto m-2 rounded-2xl py-10 px-7 bg-cover shadow-2xl"
+      className="min-h-[260px] w-[100%] lg:w-[30%] md:w-[70%] bg-[#F3F3FA] p-3 md:mx-auto m-2 rounded-2xl py-10 px-7 bg-cover shadow-2xl"
     >
       <div className="h-full flex gap-2.5 justify-between">
         {/* Icon */}
@@ -249,7 +248,7 @@ const Section2 = ({ scrollYProgress, experienceData }) => {
         scale,
         rotate
       }}
-      className="relative lg:h-screen z-0 overflow-hidden bg-[var(--bg-color)] bg-cover bg-no-repeat perspective-[1000px] py-5  lg:py-0"
+      className="relative lg:h-screen z-0 overflow-hidden bg-white bg-cover bg-no-repeat perspective-[1000px] py-5  lg:py-0"
     >
       {/* Decorative floating img2 (GSAP handles movement from Section1 useGSAP) */}
       <img

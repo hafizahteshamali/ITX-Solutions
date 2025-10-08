@@ -29,14 +29,14 @@ const FutureWork = ({ FutureWorkData }) => {
       <div className="min-h-[300px] flex justify-center items-center">
         <div className="h-[100%] lg:w-[45%] mx-auto flex flex-col justify-center items-center gap-5">
           <h1
-            className="text-2xl text-[var(--text-hover-color)]"
+            className="text-2xl text-[#03278D]"
             data-aos="fade-up"
             data-aos-delay="0"
           >
             {heading}
           </h1>
           <p
-            className="text-center text-[var(--text-hover-color)] text-sm"
+            className="text-center text-[#03278D99] text-sm"
             data-aos="fade-up"
             data-aos-delay="100"
           >
@@ -56,7 +56,7 @@ const FutureWork = ({ FutureWorkData }) => {
             backgroundImage: `url('/assets/images/it-solutions/card1.png')`,
           }}
         >
-          <div className="bg-[var(--text-hover-color)] w-[45%] lg:w-[25%] py-1 flex justify-center items-center text-[var(--white-color)] rounded-full absolute top-6 left-6">
+          <div className="bg-[#03278D] w-[45%] lg:w-[25%] py-1 flex justify-center items-center text-[var(--white-color)] rounded-full absolute top-6 left-6">
             IT-gesteuert
           </div>
           <div className="lg:h-[50%] w-[90%] absolute left-[50%] transform -translate-x-[50%] bottom-10">
@@ -86,7 +86,7 @@ const FutureWork = ({ FutureWorkData }) => {
         <div
           data-aos="fade-up"
           data-aos-delay="300"
-          className="h-[400px] w-full md:w-[45%] lg:w-[31%] bg-cover bg-no-repeat flex justify-center items-center overflow-hidden rounded-2xl bg-[var(--text-hover-color)]"
+          className="h-[400px] w-full md:w-[45%] lg:w-[31%] bg-cover bg-no-repeat flex justify-center items-center overflow-hidden rounded-2xl bg-[#03278D]"
           onMouseOver={Card3imgChange}
           onMouseOut={Card3imgDefault}
         >
@@ -124,7 +124,7 @@ const FutureWork = ({ FutureWorkData }) => {
         <div
           data-aos="fade-up"
           data-aos-delay="400"
-          className="group min-h-[400px] w-full md:w-[45%] lg:w-[31%] bg-cover bg-no-repeat flex justify-center items-center overflow-hidden rounded-2xl bg-[var(--text-hover-color)]"
+          className="group min-h-[400px] w-full md:w-[45%] lg:w-[31%] bg-cover bg-no-repeat flex justify-center items-center overflow-hidden rounded-2xl bg-[#03278D]"
         >
           <div className="h-[300px] w-[90%] relative">
             <div className="h-[150px] w-full flex flex-col justify-center items-center absolute">
@@ -158,7 +158,7 @@ const FutureWork = ({ FutureWorkData }) => {
           data-aos-delay="500"
           className="h-[400px] w-full lg:w-[31%] bg-cover bg-no-repeat flex flex-col justify-between items-center overflow-hidden rounded-2xl relative"
         >
-          <div className="min-h-[150px] w-[100%] bg-[var(--text-hover-color)] p-5 rounded-2xl flex flex-col justify-around items-start absolute top-0 left-[50%] transform -translate-x-[50%]">
+          <div className="min-h-[150px] w-[100%] bg-[#03278D] p-5 rounded-2xl flex flex-col justify-around items-start absolute top-0 left-[50%] transform -translate-x-[50%]">
             <img
               src="/assets/images/it-solutions/card5.svg"
               className="h-[40px] object-contain"
@@ -168,7 +168,7 @@ const FutureWork = ({ FutureWorkData }) => {
               Unsere Nutzer erstrecken sich über verschiedene Kontinente weltweit.
             </p>
           </div>
-          <div className="min-h-[230px] w-[100%] bg-[var(--text-hover-color)] p-5 rounded-2xl flex flex-col justify-around items-start absolute bottom-0 left-[50%] transform -translate-x-[50%] card5">
+          <div className="min-h-[230px] w-[100%] bg-[#0043FF] p-5 rounded-2xl flex flex-col justify-around items-start absolute bottom-0 left-[50%] transform -translate-x-[50%]">
             <div className="min-h-[200px] w-[100%] flex flex-col justify-center items-start">
               <h1 className="my-5 text-xl text-[var(--white-color)]">
                 Starten Sie mit echten Einblicken

@@ -90,7 +90,7 @@ const Banner = () => {
           >
             <AnimatedLetters
               text="Den schnellsten Weg zu skalierbaren, sicheren und innovativen technischen Lösungen schaffen"
-              className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium md:font-[500] leading-snug sm:leading-relaxed md:leading-tight lg:leading-tight text-[var(--text-hover-color)]"
+              className="text-xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-medium md:font-[500] leading-snug sm:leading-relaxed md:leading-tight lg:leading-tight text-[#03278D]"
             />
           </motion.div>
         </div>
@@ -111,20 +111,20 @@ const Banner = () => {
             >
               {/* Left Column */}
               <motion.div className="w-full lg:w-[40%]" variants={itemVariants}>
-                <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug lg:leading-14 text-[var(--text-hover-color)] font-medium md:font-[500]">
+                <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl leading-tight md:leading-snug lg:leading-14 text-[#03278D] font-medium md:font-[500]">
                 Ihre Daten. Eine Plattform. Unendliche Möglichkeiten.
                 </h1>
               </motion.div>
 
               {/* Right Column */}
               <motion.div className="w-full lg:w-[60%] flex flex-col gap-4 sm:gap-6" variants={containerVariants}>
-                <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
+                <motion.p className="text-sm sm:text-base md:text-lg text-[#03278D99] font-normal" variants={itemVariants}>
                 ITX bündelt all Ihre digitalen Anforderungen in einer einheitlichen Technologieplattform, die Webentwicklung, KI-Tools, Grafikdesign und IT-Dienstleistungen in einer einzigen Schnittstelle vereint. Schluss mit dem Jonglieren zwischen mehreren Anbietern oder verstreuten Arbeitsabläufen.
                 </motion.p>
-                <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
+                <motion.p className="text-sm sm:text-base md:text-lg text-[#03278D99] font-normal" variants={itemVariants}>
                 Unsere Kunden erhalten vollständige Transparenz in jeder Phase ihrer Projekte, reduzieren Gemeinkosten und befähigen ihre Teams, schneller und mit größerem Selbstvertrauen zu agieren. Von der Erstellung von Spezifikationen und dem Design von Schnittstellen bis zur Bereitstellung von Infrastruktur und kontinuierlichem Support – ITX erledigt alles.
                 </motion.p>
-                <motion.p className="text-sm sm:text-base md:text-lg text-[var(--text-hover-color)] font-normal" variants={itemVariants}>
+                <motion.p className="text-sm sm:text-base md:text-lg text-[#03278D99] font-normal" variants={itemVariants}>
                 Unterstützt von modernen Frameworks und KI-gesteuerter Automatisierung schafft ITX eine einzige Quelle der Wahrheit, indem Code-Repositories, Datenpipelines, Design-Assets und Systemmonitoring verbunden werden. Unabhängig vom technischen Kenntnisstand kann jeder Beteiligte mühelos erkunden, zusammenarbeiten und Erkenntnisse in Maßnahmen umsetzen.
                 </motion.p>
               </motion.div>

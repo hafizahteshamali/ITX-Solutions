@@ -53,12 +53,12 @@ const TrustedWorldWide = ({ TrustedWorldWideData }) => {
       variants={fadeContainer}
     >
       <motion.div
-        className="w-[95%] mx-auto bg-[#00000010] rounded-4xl p-5 lg:px-10 py-15 mb-[50px]"
+        className="w-[95%] mx-auto bg-[#03278D1A] rounded-4xl p-5 lg:px-10 py-15 mb-[50px]"
         variants={fadeContainer}
       >
         {/* Heading */}
         <motion.h1
-          className="text-2xl lg:text-5xl font-[500] lg:mt-5"
+          className="text-2xl lg:text-5xl font-[500] lg:mt-5 text-[#03278D]"
           variants={fadeInUp}
         >
           {head}
@@ -73,25 +73,25 @@ const TrustedWorldWide = ({ TrustedWorldWideData }) => {
           {NumberList.map((item, index) => (
             <motion.div
               key={index}
-              className="min-h-[180px] w-full md:w-[45%] lg:w-[31%] bg-[#00000017] rounded-2xl flex flex-col justify-around items-center "
+              className="min-h-[180px] w-full md:w-[45%] lg:w-[31%] bg-[#03278D1F] rounded-2xl flex flex-col justify-around items-center "
               variants={fadeInUp}
               whileHover={{ y: -8, scale: 1.02 }}
               transition={{ type: "spring", stiffness: 300, damping: 15 }}
             >
               <div className="h-full gap-2 flex flex-col justify-between items-start ">
                 <motion.h1
-                  className="text-5xl font-[500] text-[var(--text-hover-color)]"
+                  className="text-5xl font-[500] text-[#03278D]"
                   whileHover={{ scale: 1.08 }}
                   transition={{ type: "spring", stiffness: 400 }}
                 >
                   {item.num}
                 </motion.h1>
-                <motion.p className="text-[var(--text-color)] text-sm">
+                <motion.p className="text-[#03278D99] text-sm">
                   {item.text}
                 </motion.p>
                 <NavLink to={item.textLink}>
                   <motion.div
-                    className="text-[#004DB5] border-b-2 border-[#004DB5] p-0.1 w-max text-sm"
+                    className="text-[#0043FF] border-b-2 border-[#0043FF] p-0.1 w-max text-sm"
                     whileHover={{ x: 5 }}
                     transition={{ type: "spring", stiffness: 500 }}
                   >
@@ -114,12 +114,12 @@ const TrustedWorldWide = ({ TrustedWorldWideData }) => {
             style={{ y: yContent }}
             variants={fadeInUp}
           >
-            <motion.h2 className="text-xl lg:text-3xl w-full lg:w-[90%] leading-9 lg:leading-11 mb-5 font-[500]">
+            <motion.h2 className="text-xl lg:text-3xl w-full lg:w-[90%] leading-9 text-[#03278D99] lg:leading-11 mb-5 font-[500]">
               {lgText}
             </motion.h2>
             <NavLink to={serviceLink}>
               <motion.div
-                className="text-[#004DB5] border-b-2 border-[#004DB5] p-0.1 inline-block text-sm"
+                className="text-[#0043FF] border-b-2 border-[#0043FF] p-0.1 inline-block text-sm"
                 whileHover={{ x: 5 }}
                 transition={{ type: "spring", stiffness: 500 }}
               >

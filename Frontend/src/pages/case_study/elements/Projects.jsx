@@ -43,29 +43,29 @@ const Projects = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col justify-start items-center gap-5 py-10">
             {/* Titel */}
-            <h1 className="text-2xl lg:text-5xl text-[var(--text-hover-color)] font-medium text-center">
+            <h1 className="text-2xl lg:text-5xl text-[#03278D] font-medium text-center">
             Umfassendes Handels- und Technologie-Audit
             </h1>
 
             {/* Services Tag */}
             <div className="flex justify-center items-center gap-2.5">
-              <div className="h-[15px] w-[15px] bg-[#519BFF] rounded-full blink-dot"></div>
-              <p className="uppercase text-[#519BFF] font-medium text-sm">Dienstleistungen</p>
+              <div className="h-[15px] w-[15px] bg-[#0043FF] rounded-full blink-dot"></div>
+              <p className="uppercase text-[#0043FF] font-medium text-sm">Dienstleistungen</p>
             </div>
 
             {/* Inhaltsbereich */}
             <div className="w-full mt-10 flex items-start flex-col justify-start gap-5">
               <div className="w-full flex justify-start items-center gap-5">
-                <button className="h-[40px] text-sm flex justify-center items-center gap-2 text-[var(--text-color)] bg-[#00000015] rounded w-[50%] lg:w-[15%]">
+                <button className="h-[40px] text-sm flex justify-center items-center gap-2 text-[#03278DB2] bg-[#03278D1A] rounded w-[50%] lg:w-[15%]">
                   <MdKeyboardArrowLeft className="text-2xl" />
                   Alle Projekte
                 </button>
 
                 {isSelected && (
-                  <button className="h-[40px] flex justify-center text-sm items-center gap-2 bg-[#00000015] text-[var(--text-hover-color)] font-[500] rounded px-2">
+                  <button className="h-[40px] flex justify-center text-sm items-center gap-2 bg-[#03278D1A] text-[#0043FF] font-[500] rounded px-2">
                   <img
                     src="/assets/images/case-study/vector2.svg"
-                    className="h-5 w-5 text-[var(--text-color)]"
+                    className="h-5 w-5 text-[#0043FF]"
                     alt=""
                   />
                   {isSelected}
@@ -74,29 +74,29 @@ const Projects = () => {
               </div>
 
               <div className="h-[50px] w-[100%] flex justify-between items-center">
-                <div className="h-[50px] w-[60%] lg:w-[80%] bg-[#00000015] rounded-lg flex justify-start gap-2 items-center px-5">
+                <div className="h-[50px] w-[60%] lg:w-[80%] bg-[#03278D1A] rounded-lg flex justify-start gap-2 items-center px-5">
                   <img
                     src="/assets/images/case-study/gridicons_filter.svg"
-                    className="h-5 w-5 text-[var(--text-color)]"
+                    className="h-5 w-5 text-[#03278DB2]"
                     alt=""
                   />
                   <input
                     placeholder="Projekte filtern"
                     type="text"
-                    className="bg-transparent h-full w-[100%] px-5 text-sm border-none outline-none text-[var(--text-color)]"
+                    className="bg-transparent h-full w-[100%] px-5 text-sm border-none outline-none text-[#03278DB2]"
                   />
                 </div>
-                <button className="h-[50px] w-[35%] lg:w-[18%] text-sm flex justify-center items-center gap-2 bg-[#00000015] text-[var(--text-color)] font-[500] rounded ">
+                <button className="h-[50px] w-[35%] lg:w-[18%] text-sm flex justify-center items-center gap-2 bg-[#03278D1A] text-[#03278DB2] font-[500] rounded ">
                 Unternehmen
                 </button>
               </div>
 
-              <div className="w-full bg-[#00000015] flex items-center flex-wrap">
+              <div className="w-full bg-[#03278D1A] flex items-center flex-wrap">
                 {ProjectData.map((pro, index) => {
                   return (
                     <div
                       key={index}
-                      className="group h-[300px] w-[100%] sm:w-[50%] md:w-[50%] lg:w-[25%] flex justify-center items-center relative border border-[#00000015] overflow-hidden"
+                      className="group h-[300px] w-[100%] sm:w-[50%] md:w-[50%] lg:w-[25%] flex justify-center items-center relative border border-[#03278D1A] overflow-hidden"
                     >
                       {/* Projektbild */}
                       <img
@@ -114,7 +114,7 @@ const Projects = () => {
                           }
                         }}
                         to={pro.isCaseStudy ? "#" : pro.websiteUrl}
-                        className="opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out font-[500] flex justify-center items-center gap-1 !text-[#cbe1ff] bg-[var(--text-hover-color)] absolute bottom-[10%] left-1/2 transform -translate-x-1/2 rounded shadow-lg p-2 text-[10px]"
+                        className="opacity-0 translate-y-5 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-in-out font-[500] flex justify-center items-center gap-1 !text-[#cbe1ff] bg-[#03278D] absolute bottom-[10%] left-1/2 transform -translate-x-1/2 rounded shadow-lg p-2 text-[10px]"
                       >
                         <img
                           src={
@@ -178,7 +178,7 @@ const Projects = () => {
                         {ph}
                       </div>
                     ))}
-                    <div className="p-1.5 flex text-sm justify-center items-center bg-[#B1C5DF4D] rounded text-[var(--text-color)] text-[10px]">
+                    <div className="p-1.5 flex text-sm justify-center items-center bg-[#B1C5DF4D] rounded text-[#03278DB2] text-[10px]">
                       {selectedCase.category}
                     </div>
                   </div>
@@ -213,7 +213,7 @@ const Projects = () => {
                             <div
                               key={idx}
                               onClick={()=>selectedCate(item)}
-                              className="bg-[#B1C5DF4D] px-2 py-1.5 text-[10px] text-[var(--text-color)] !cursor-pointer"
+                              className="bg-[#B1C5DF4D] px-2 py-1.5 text-[10px] text-[#03278DB2] !cursor-pointer"
                             >
                               {item}
                             </div>
@@ -234,7 +234,7 @@ const Projects = () => {
                       <div
                         key={index}
                         onClick={()=>selectedCate(int)}
-                        className="bg-[#B1C5DF4D] px-2 py-1.5 text-[10px] text-[var(--text-color)] !cursor-pointer"
+                        className="bg-[#B1C5DF4D] px-2 py-1.5 text-[10px] text-[#03278DB2] !cursor-pointer"
                       >
                         {int}
                       </div>
@@ -251,7 +251,7 @@ const Projects = () => {
                     {selectedCase.keyFeatures.map((kf, index) => (
                       <div
                         key={index}
-                        className="px-2 py-1.5 text-sm text-[var(--text-color)]"
+                        className="px-2 py-1.5 text-sm text-[#03278DB2]"
                       >
                         {kf}
                       </div>

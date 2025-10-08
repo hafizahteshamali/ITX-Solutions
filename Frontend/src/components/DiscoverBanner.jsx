@@ -53,9 +53,9 @@ const DiscoverBanner = ({image, className, spanClass, btnClass, iconClass, text1
                 },
               }}
             >
-              <h1 className="text-3xl lg:text-5xl text-center lg:leading-normal text-[#3D4F60] font-[500]">
+              <h1 className="text-3xl lg:text-5xl text-center lg:leading-normal text-[#03278D99] font-[500]">
                 {text1} <br />{" "}
-                <span className="text-[var(--text-hover-color)]">
+                <span className="text-[#03278D]">
                   {text2}
                 </span>
               </h1>
@@ -64,8 +64,8 @@ const DiscoverBanner = ({image, className, spanClass, btnClass, iconClass, text1
                 whileHover={{ scale: 1.08 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <div className="h-[10px] w-[10px] rounded-full bg-[#00264B]"></div>
-                <span className="text-[#00264B] font-[400]">Nehmen Sie Kontakt auf</span>
+                <div className="h-[10px] w-[10px] rounded-full bg-[#03278D]"></div>
+                <span className="text-[#03278D] font-[400]">Nehmen Sie Kontakt auf</span>
               </motion.button>
             </motion.div>
           </motion.div>

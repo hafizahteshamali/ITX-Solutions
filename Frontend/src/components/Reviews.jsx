@@ -14,12 +14,12 @@ const Reviews = ({ Reviews1, Reviews2, bgColor }) => {
   const duplicatedReviews2 = [...Reviews2, ...Reviews2, ...Reviews2]
 
   return (
-    <div className="container mx-auto px-4" style={{ background: "#ffffff" }}>
+    <div className="container mx-auto px-4">
       <div className="w-full">
         <div className="lg:w-[100%] mx-auto">
           <motion.div
             ref={theirWordsRef}
-            className="my-[100px] duration-1000 bg-[var(--white-color)]"
+            className="my-[100px] duration-1000"
             initial={{ opacity: 0, scale: 0.95, y: 50 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -40,11 +40,11 @@ const Reviews = ({ Reviews1, Reviews2, bgColor }) => {
               <div className="flex animate-slide-left-smooth" style={{ width: `${duplicatedReviews1.length * 320}px` }}>
                 {duplicatedReviews1.map((item, index) => (
                   <div key={index} className="min-h-[250px] px-2 flex justify-center items-center flex-shrink-0 slide-item" style={{ width: "320px" }}>
-                    <div className="h-full w-full border border-[#9dc0ef] rounded-lg p-5 flex flex-col justify-between bg-[#9dc0ef1e] transition-all duration-500 hover:shadow-lg">
-                      <div className="bg-[#bcd1ee77] p-3 rounded-lg">
+                    <div className="h-full w-full border border-[#9dc0ef] bg-[#376BFF1A] rounded-lg p-5 flex flex-col justify-between transition-all duration-500 hover:shadow-lg">
+                      <div className="bg-[#376BFF1A] p-3 rounded-lg">
                         <p className="text-sm text-[var(--text-color)]">{item.description}</p>
                       </div>
-                      <div className="bg-[#bcd1ee77] p-3 flex justify-start items-center gap-3 mt-3 rounded-lg">
+                      <div className="bg-[#376BFF1A] p-3 flex justify-start items-center gap-3 mt-3 rounded-lg">
                         <div className="h-[40px] w-[40px] rounded-full overflow-hidden">
                           <img src={item.profileImg || "/placeholder.svg"} alt="Profilbild" className="object-cover w-full h-full" />
                         </div>
@@ -64,13 +64,13 @@ const Reviews = ({ Reviews1, Reviews2, bgColor }) => {
             {/* Second Slider - Right to Left */}
             <div className="w-full relative overflow-hidden slider-container">
               <div className="flex animate-slide-right-smooth" style={{ width: `${duplicatedReviews2.length * 320}px` }}>
-                {duplicatedReviews2.map((item, index) => (
+              {duplicatedReviews2.map((item, index) => (
                   <div key={index} className="min-h-[250px] px-2 flex justify-center items-center flex-shrink-0 slide-item" style={{ width: "320px" }}>
-                    <div className="h-full w-full border border-[#9dc0ef] rounded-lg p-5 flex flex-col justify-between bg-[#9dc0ef1e] transition-all duration-500 hover:shadow-lg">
-                      <div className="bg-[#bcd1ee77] p-3 rounded-lg">
+                    <div className="h-full w-full border border-[#9dc0ef] bg-[#376BFF1A] rounded-lg p-5 flex flex-col justify-between transition-all duration-500 hover:shadow-lg">
+                      <div className="bg-[#376BFF1A] p-3 rounded-lg">
                         <p className="text-sm text-[var(--text-color)]">{item.description}</p>
                       </div>
-                      <div className="bg-[#bcd1ee77] p-3 flex justify-start items-center gap-3 mt-3 rounded-lg">
+                      <div className="bg-[#376BFF1A] p-3 flex justify-start items-center gap-3 mt-3 rounded-lg">
                         <div className="h-[40px] w-[40px] rounded-full overflow-hidden">
                           <img src={item.profileImg || "/placeholder.svg"} alt="Profilbild" className="object-cover w-full h-full" />
                         </div>

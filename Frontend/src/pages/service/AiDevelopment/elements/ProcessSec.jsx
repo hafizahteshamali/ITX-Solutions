@@ -99,7 +99,7 @@ const ProcessSec = () => {
             {/* ----- Card 1 ----- */}
             <motion.div
               ref={cardRefs[0]}
-              className="min-h-[450px] w-full lg:w-[32%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
+              className="min-h-[450px] w-full bg-[#03278D1A] lg:w-[32%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
               initial="hidden"
               animate={cardControls[0]}
               variants={cardVariants}
@@ -123,12 +123,12 @@ const ProcessSec = () => {
                 <div className="break-words">
                   <AnimatedText
                     text="Analyse"
-                    className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
+                    className="text-xl lg:text-3xl text-[#03278D] font-[600]"
                     delay={0.3}
                   />
                   <AnimatedText
                     text="Wir beginnen mit einer gründlichen Analyse Ihrer aktuellen Workflows, um zu sehen, wie KI Ihre Prozesse verbessern könnte."
-                    className="text-sm text-[var(--text-color)] mt-4 break-words"
+                    className="text-sm text-[#03278D99] mt-4 break-words"
                     delay={0.4}
                   />
                 </div>
@@ -138,7 +138,7 @@ const ProcessSec = () => {
             {/* ----- Card 2 ----- */}
             <motion.div
               ref={cardRefs[1]}
-              className="min-h-[450px] w-full lg:w-[32%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
+              className="min-h-[450px] bg-[#03278D1A] w-full lg:w-[32%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
               initial="hidden"
               animate={cardControls[1]}
               variants={cardVariants}
@@ -163,12 +163,12 @@ const ProcessSec = () => {
                 <div className="break-words">
                   <AnimatedText
                     text="Entwicklung & Implementierung"
-                    className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
+                    className="text-xl lg:text-3xl text-[#03278D] font-[600]"
                     delay={0.5}
                   />
                   <AnimatedText
                     text="Dann beginnen unsere Entwickler mit der Erstellung maßgeschneiderter KI-Lösungen für Ihr Unternehmen, wobei kontinuierlich Qualität und Sicherheit priorisiert werden."
-                    className="text-sm text-[var(--text-color)] mt-4 break-words"
+                    className="text-sm text-[#03278D99] mt-4 break-words"
                     delay={0.6}
                   />
                 </div>
@@ -178,7 +178,7 @@ const ProcessSec = () => {
             {/* ----- Card 3 ----- */}
             <motion.div
               ref={cardRefs[2]}
-              className="min-h-[450px] w-full lg:w-[32%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
+              className="min-h-[450px] w-full bg-[#03278D1A] lg:w-[32%] rounded-2xl flex justify-center items-center border-t border-[var(--text-hover-color)] shadow my-8"
               initial="hidden"
               animate={cardControls[2]}
               variants={cardVariants}
@@ -203,12 +203,12 @@ const ProcessSec = () => {
                 <div className="break-words">
                   <AnimatedText
                     text="Wartung & Verbesserung"
-                    className="text-xl lg:text-3xl text-[var(--text-hover-color)] font-[600]"
+                    className="text-xl lg:text-3xl text-[#03278D] font-[600]"
                     delay={0.7}
                   />
                   <AnimatedText
                     text="Nach dem Deployment arbeitet unser Team weiterhin hart, indem es Support bietet und die implementierten Lösungen kontinuierlich verbessert."
-                    className="text-sm text-[var(--text-color)] mt-4 break-words"
+                    className="text-sm text-[#03278D99] mt-4 break-words"
                     delay={0.8}
                   />
                 </div>

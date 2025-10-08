@@ -24,7 +24,7 @@ const FeatureSection = ({ FeaturesData }) => {
             viewport={{ once: false }}
           >
             <motion.div
-              className="w-[150px] py-2 text-sm bg-[var(--text-hover-color)] text-[var(--white-color)] flex justify-center items-center rounded-full"
+              className="w-[150px] py-2 text-sm bg-[#03278D] text-[var(--white-color)] flex justify-center items-center rounded-full"
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.3, duration: 0.5 }}
@@ -34,7 +34,7 @@ const FeatureSection = ({ FeaturesData }) => {
             </motion.div>
 
             <motion.h1
-              className="my-5 text-3xl text-[var(--text-hover-color)]"
+              className="my-5 text-3xl text-[#03278D]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
@@ -44,7 +44,7 @@ const FeatureSection = ({ FeaturesData }) => {
             </motion.h1>
 
             <motion.p
-              className="text-sm lg:w-[70%] text-[var(--text-hover-color)]"
+              className="text-sm lg:w-[70%] text-[#03278D99]"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.6 }}

@@ -75,14 +75,14 @@ const TailoredSection = ({ TailoredSectionData }) => {
             variants={containerVariants}
           >
             <motion.h1
-              className="text-2xl text-[var(--text-hover-color)] font-[500]"
+              className="text-2xl text-[#03278D] font-[500]"
               variants={itemVariants}
             >
               {heading}
             </motion.h1>
 
             <motion.p
-              className="font-[400] text-[var(--text-color)] lg:leading-7 text-sm"
+              className="font-[400] text-[#03278D99] lg:leading-7 text-sm"
               variants={itemVariants}
             >
               {description}
@@ -91,7 +91,7 @@ const TailoredSection = ({ TailoredSectionData }) => {
             <motion.div variants={itemVariants}>
               <NormalButton
                 text={btnText}
-                className="px-4 py-2 rounded-full bg-[var(--text-hover-color)] text-[var(--white-color)]"
+                className="px-4 py-2 rounded-full bg-[#03278D] text-[var(--white-color)]"
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0px 5px 15px rgba(0,0,0,0.1)",

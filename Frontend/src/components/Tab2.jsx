@@ -32,14 +32,14 @@ const Tabs2 = () => {
             key={index}
             className={`
               p-6 cursor-pointer transition-all duration-300 my-3
-              ${activeIndex === index ? 'opacity-100 border-l-4 border-[var(--text-hover-color)]' : 'opacity-50'}
+              ${activeIndex === index ? 'opacity-100 border-l-4 border-[#03278D]' : 'opacity-50'}
             `}
             onClick={() => setActiveIndex(index)}
           >
-            <h2 className="text-xl font-bold text-[var(--text-hover-color)] mb-2">{tab.title}</h2>
-            <p className="text-[var(--text-color)] my-4 text-sm">{tab.description}</p>
+            <h2 className="text-xl font-bold text-[#03278D] mb-2">{tab.title}</h2>
+            <p className="text-[#03278D99] my-4 text-sm">{tab.description}</p>
             {activeIndex === index && tab.hasReadMore && (
-              <a href="#" className="flex items-center text-[var(--text-hover-color)] text-sm font-semibold hover:underline">
+              <a href="#" className="flex items-center text-[#03278D] text-sm font-semibold hover:underline">
                 Read More
                 <FaChevronRight className="ml-1 h-4 w-4" />
               </a>

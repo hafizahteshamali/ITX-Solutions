@@ -44,7 +44,7 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
           {/* Überschriften-Bereich */}
           <div ref={headingRef} className="text-center">
             <motion.h1
-              className="text-2xl lg:text-6xl lg:w-[55%] leading-snug mx-auto font-[500] text-[var(--text-hover-color)]"
+              className="text-2xl lg:text-6xl lg:w-[55%] leading-snug mx-auto font-[500] text-[#03278D]"
               variants={textContainer}
               initial="hidden"
               animate={isHeadingInView ? "visible" : "hidden"}
@@ -57,7 +57,7 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
             </motion.h1>
 
             <motion.p
-              className="lg:w-[45%] mx-auto my-5 text-[var(--text-color)] text-sm"
+              className="lg:w-[45%] mx-auto my-5 text-[#03278D99] text-sm"
               variants={textContainer}
               initial="hidden"
               animate={isHeadingInView ? "visible" : "hidden"}
@@ -75,8 +75,8 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
               animate={isHeadingInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ delay: 0.5, duration: 0.6 }}
             >
-              <div className="h-[15px] w-[15px] bg-[#519BFF] rounded-full blink-dot"></div>
-              <p className="text-[#519BFF] text-sm">{bulletText}</p>
+              <div className="h-[15px] w-[15px] bg-[#0043FF] rounded-full blink-dot"></div>
+              <p className="text-[#0043FF] text-sm">{bulletText}</p>
             </motion.div>
           </div>
 
@@ -86,7 +86,7 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
             initial={{ y: 100, opacity: 0 }}
             animate={isServicesInView ? { y: 0, opacity: 1 } : {}}
             transition={{ duration: 1.2 }}
-            className="flex flex-wrap justify-center items-start border border-gray-500 my-[50px] rounded-xl"
+            className="flex flex-wrap justify-center items-start border border-gray-500 my-[50px] rounded-xl bg-[#D8D8D8]"
           >
             {services.map((item, index) => (
               <motion.div
@@ -94,24 +94,24 @@ const DesignSection = ({ DesignGlobalData, theriData }) => {
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={isServicesInView ? { opacity: 1, scale: 1 } : {}}
                 transition={{ delay: index * 0.2, duration: 0.8 }}
-                className={`min-h-[700px] w-[95%] md:w-[45%] lg:w-[50%] h-[100%] flex flex-col justify-start items-center ${item.rightBorder ? 'lg:border-r border-[#0d99ff]' : ''}`}
+                className={`min-h-[500px] w-[95%] md:w-[45%] lg:w-[50%] flex flex-col justify-start items-center ${item.rightBorder ? 'lg:border-r border-[#0d99ff]' : ''}`}
               >
                 <img src={item.img} className={item.pl ? 'w-full py-4 lg:pl-4' : 'w-full py-4 lg:pr-4'} alt="Dienstleistungsbild" />
-                <div className="h-[450px] w-full bg-[#B1C5DF8F] flex justify-start p-1 items-center lg:px-6 px-2">
+                <div className="h-[450px] w-full bg-[#D8D8D88F] shadow flex justify-start p-1 items-center lg:px-6 px-2">
                   <motion.div
                     className="w-[95%] flex flex-col justify-center gap-5"
                     variants={textContainer}
                     initial="hidden"
                     animate={isServicesInView ? "visible" : "hidden"}
                   >
-                    <motion.h1 className="text-2xl my-5 font-[500]" variants={textContainer}>
+                    <motion.h1 className="text-2xl my-5 font-[500] text-[#03278D]" variants={textContainer}>
                       {item.smHead.split("").map((char, i) => (
                         <motion.span key={i} variants={letter}>
                           {char}
                         </motion.span>
                       ))}
                     </motion.h1>
-                    <motion.p className="text-sm font-[400]" variants={textContainer}>
+                    <motion.p className="text-sm font-[400] text-[#03278D99]" variants={textContainer}>
                       {item.description.split(" ").map((word, i) => (
                         <motion.span key={i} variants={letter} className="inline-block mr-1">
                           {word}

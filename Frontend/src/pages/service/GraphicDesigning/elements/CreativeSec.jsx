@@ -68,7 +68,7 @@ const CreativeSec = () => {
       <div data-aos="fade-up" data-aos-delay="500" className="lg:h-[600px] flex flex-col lg:flex-row justify-between items-start">
         <div className="w-[100%] lg:w-[33%] h-min lg:h-[550px] relative p-2">
           <AnimatedLetters
-            className="text-5xl lg:text-8xl text-[var(--text-hover-color)] text-left font-[600] absolute bottom-0 lg:translate-y-[0%] lg:bottom-0 top-[50%] transform -translate-y-[50%]"
+            className="text-5xl lg:text-8xl text-[#0043FF] text-left font-[600] absolute bottom-0 lg:translate-y-[0%] lg:bottom-0 top-[50%] transform -translate-y-[50%]"
             text="Der kreative Kompass"
           />
         </div>
@@ -94,22 +94,22 @@ const CreativeSec = () => {
           <div className="absolute bottom-0">
             <AnimatedLetters
               text="Wir leiten das Erscheinungsbild Ihrer Marke"
-              className="text-[var(--text-color)] w-full text-sm"
+              className="text-[#03278D99] w-full text-sm"
             />
             <AnimatedLetters
               text="und gestienen präzise Logos sowie Marketing-Grafiken, die Ihre Botschaft authentisch und Ihre Visuals zielgerichtet halten."
-              className="text-[var(--text-color)] text-sm"
+              className="text-[#03278D99] text-sm"
             />
             <div className="my-7 flex justify-start items-center gap-3">
               <img
                 src="/assets/images/graphic-designing/top-arrow.svg"
-                className="h-[40px] w-[40px]"
+                className="h-[40px] w-[40px] text-[#03278D]"
                 alt=""
               />
-              <div className="pb-0.5 border-b-2 border-[var(--text-hover-color)]">
+              <div className="pb-0.5 border-b-2 border-[#03278D]">
                 <AnimatedLetters
                   text="Über unsere Projekte"
-                  className="text-[var(--text-hover-color)] font-[600] text-sm"
+                  className="text-[#03278D] font-[600] text-sm"
                 />
               </div>
             </div>

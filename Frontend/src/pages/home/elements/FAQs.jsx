@@ -22,10 +22,10 @@ const FAQs = ({ FAQsHeadingData }) => {
         <div className="w-full flex justify-center items-center">
           <div className="w-full p-5 flex flex-col gap-5 justify-center items-start lg:items-center">
             {/* Heading */}
-            <h1 className="text-2xl font-[500] overflow-hidden">{lgHeading}</h1>
+            <h1 className="text-4xl font-[500] overflow-hidden text-[#03278D]">{lgHeading}</h1>
             <p
               data-aos="fade-up"
-              className="lg:w-[40%] lg:text-center text-sm text-[var(--text-color)]"
+              className="lg:w-[40%] lg:text-center text-sm text-[#03278D99]"
             >
               {description}
             </p>
@@ -40,8 +40,8 @@ const FAQs = ({ FAQsHeadingData }) => {
                     data-aos-delay={item.delay}
                     className={
                       item.isLarge
-                        ? "lg:h-[200px] w-[100%] rounded-4xl my-3 box relative shadow-2xl"
-                        : "lg:h-[200px] h-[250px] w-[100%] md:w-[47%] lg:w-[45%] rounded-4xl my-3 box relative shadow-2xl"
+                        ? "lg:h-[200px] w-[100%] rounded-4xl my-3 relative shadow-xl bg-gradient-to-r from-white via-[#ffffff] to-[#005AB1]/100 backdrop:blur-[2px]"
+                        : "lg:h-[200px] h-[250px] w-[100%] md:w-[47%] lg:w-[45%] rounded-4xl my-3 relative shadow-xl bg-gradient-to-r from-white via-[#ffffff] to-[#005AB1]/100 backdrop:blur-[2px]"
                     }
                   >
                     {/* Floating Cube Left */}
