@@ -70,7 +70,7 @@ const ContentSection = ({ content, borderr, onViewportEnter, isFirst }) => {
     >
       <motion.div className={!borderr ? "mb-6 pb-6" : "mb-6 py-6 border-b-2 border-[#00254b2c]"}>
         <motion.div
-          className="text-[var(--text-color)] leading-relaxed"
+          className="text-[#03278D] leading-relaxed"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: isFirst ? 0.4 : 0.2 }}
@@ -218,11 +218,11 @@ const ImprintPage = () => {
         <div className="container mx-auto w-full mt-[200px] xl:w-[80%] px-4 sm:px-6 lg:px-8 absolute left-[50%] transform -translate-x-[50%]">
           <AnimatedLetters
             text="Impressum – Rechtliche Informationen"
-            className="text-4xl lg:text-5xl xl:text-6xl font-[500] text-[var(--text-hover-color)] lg:leading-[1.2]"
+            className="text-4xl lg:text-5xl xl:text-6xl font-[500] text-[#03278D] lg:leading-[1.2]"
           />
           <AnimatedLetters
             text="Dieses Impressum enthält wesentliche rechtliche Angaben zu ITX Solutions, einschließlich Eigentumsverhältnissen, Kontaktdaten und Geschäftsinformationen gemäß den anwendbaren Gesetzen."
-            className="text-[var(--text-color)] mt-5 w-full lg:w-[100%] mx-auto text-lg"
+            className="text-[#03278D] mt-5 w-full lg:w-[100%] mx-auto text-lg"
           />
         </div>
       </div>
@@ -231,7 +231,7 @@ const ImprintPage = () => {
         {/* Static Left Side Title */}
         <div className="block lg:w-1/4 lg:pr-8 mb-8 lg:mb-0 sticky top-20 self-start lg:h-[calc(100vh-80px)]">
           <div className="pl-6">
-            <h2 className="text-[18px] px-2 border-l-3 border-[var(--text-hover-color)] font-[500] text-[var(--text-hover-color)] sticky top-20">
+            <h2 className="text-[18px] px-2 border-l-3 border-[#03278D] font-[500] text-[#03278D] sticky top-20">
               Impressum / Rechtlicher Hinweis
             </h2>
           </div>

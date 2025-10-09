@@ -74,7 +74,7 @@ const PrivacySection = ({ title, content, borderr, onViewportEnter }) => {
     >
       <motion.div className={!borderr ? "mb-6 py-6" : "mb-6 py-6 border-b-2 border-[#00254b2c]"}>
         <motion.h2
-          className="text-2xl md:text-3xl text-[var(--text-hover-color)] mb-5 font-[500]"
+          className="text-2xl md:text-3xl text-[#03278D] mb-5 font-[500]"
           initial={{ x: -20, opacity: 0 }}
           animate={isInView ? { x: 0, opacity: 1 } : {}}
           transition={{ delay: 0.2 }}
@@ -82,7 +82,7 @@ const PrivacySection = ({ title, content, borderr, onViewportEnter }) => {
           {title}
         </motion.h2>
         <motion.p
-          className="text-[var(--text-color)] leading-relaxed"
+          className="text-[#03278D] leading-relaxed"
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : {}}
           transition={{ delay: 0.4 }}
@@ -141,11 +141,11 @@ const Banner = () => {
         <div className="container mx-auto w-full mt-[200px] xl:w-[70%] px-4 sm:px-6 lg:px-8 absolute left-[50%] transform -translate-x-[50%]">
           <AnimatedLetters
             text="Datenschutzerklärung"
-            className="text-4xl lg:text-5xl xl:text-6xl font-[500] text-[var(--text-hover-color)]"
+            className="text-4xl lg:text-5xl xl:text-6xl font-[500] text-[#03278D]"
           />
           <AnimatedLetters
             text="Vielen Dank, dass Sie sich für ITX Solutions entschieden haben. Diese Datenschutzerklärung erläutert, wie wir Informationen erfassen, verwenden und schützen, wenn Sie unsere Website besuchen oder unsere Dienstleistungen nutzen (Webentwicklung, KI-Entwicklung, Grafikdesign und IT-Dienstleistungen). Durch die Nutzung unserer Website oder Dienstleistungen stimmen Sie den nachfolgend beschriebenen Praktiken zu."
-            className="text-[var(--text-color)] mt-5 lg:w-[80%] mx-auto"
+            className="text-[#03278D] mt-5 lg:w-[80%] mx-auto"
           />
         </div>
       </div>
@@ -158,7 +158,7 @@ const Banner = () => {
             onClick={() => setMobileNavOpen(!mobileNavOpen)}
             className="flex items-center justify-between w-full p-4 bg-[#00254b1a] rounded-lg"
           >
-            <span className="font-medium text-[var(--text-hover-color)]">
+            <span className="font-medium text-[#03278D]">
               {privacySections[activeSection].title}
             </span>
             <motion.div animate={{ rotate: mobileNavOpen ? 180 : 0 }} transition={{ duration: 0.3 }}>
@@ -194,8 +194,8 @@ const Banner = () => {
                     }}
                     className={`block px-4 py-3 transition-colors ${
                       activeSection === index
-                        ? "bg-[#00254b1a] text-[var(--text-hover-color)] font-medium"
-                        : "text-[var(--text-color)] hover:bg-[#00254b0d]"
+                        ? "bg-[#00254b1a] text-[#03278D] font-medium"
+                        : "text-[#03278D] hover:bg-[#00254b0d]"
                     }`}
                   >
                     {section.title}
@@ -226,8 +226,8 @@ const Banner = () => {
                     href={`#${section.title.toLowerCase().replace(/[^a-z0-9]+/g, "-")}`}
                     className={`block transition-colors duration-300 ${
                       activeSection === index
-                        ? "text-[var(--text-hover-color)] font-medium"
-                        : "text-[var(--text-color)] hover:text-[var(--text-hover-color)]"
+                        ? "text-[#03278D] font-medium"
+                        : "text-[#03278D] hover:text-[#03278D]"
                     }`}
                     onClick={() => setActiveSection(index)}
                   >
@@ -238,7 +238,7 @@ const Banner = () => {
                     >
                       {activeSection === index && (
                         <motion.span
-                          className="w-0.5 h-[40px] bg-[var(--text-hover-color)] mr-2"
+                          className="w-0.5 h-[40px] bg-[#03278D] mr-2"
                           initial={{ scale: 0 }}
                           animate={{ scale: 1 }}
                           transition={{ type: "spring", stiffness: 500 }}
