@@ -82,7 +82,7 @@ div {
 }
 
 .helpBox {
-  background: linear-gradient(to bottom left, #e0e7ef 5%, #011d3b 70%);
+  background: #0043FF;
 }
 
 .service_tool_box {
@@ -159,7 +159,7 @@ div {
 }
 
 .card {
-  background: linear-gradient(to bottom, #00264B 0%, #CBE1FF 50%);
+  background: linear-gradient(to bottom, #0043FF 0%, #FFFFFF 50%);
 
 }
 

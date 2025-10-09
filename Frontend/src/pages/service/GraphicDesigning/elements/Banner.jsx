@@ -117,7 +117,7 @@ const Banner = ({ GraphicBannerData }) => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.1 }} // Changed to trigger again when scrolling
               variants={cardVariants}
-              className="relative h-[450px] w-full sm:w-[45%] lg:w-[30%] lg:mt-[80px] transform lg:-rotate-[5deg] rounded-4xl p-[12px] bg-gradient-to-b from-[#00264B] to-[#a0b0c5]"
+              className="relative h-[450px] w-full sm:w-[45%] lg:w-[30%] lg:mt-[80px] transform lg:-rotate-[5deg] rounded-4xl p-[12px] bg-gradient-to-b from-[#0043FF] to-[#1C3C9833]"
             >
               <div className="h-full w-full rounded-4xl card relative overflow-hidden">
                 <img
@@ -148,7 +148,7 @@ const Banner = ({ GraphicBannerData }) => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.1 }} // Changed to trigger again when scrolling
               variants={cardVariants}
-              className="relative h-[450px] w-full sm:w-[50%] lg:w-[30%] rounded-4xl p-[12px] bg-gradient-to-b from-[#00264B] to-[#a0b0c5]"
+              className="relative h-[450px] w-full sm:w-[50%] lg:w-[30%] rounded-4xl p-[12px] bg-gradient-to-b from-[#0043FF] to-[#1C3C9833]"
             >
               <div className="h-full w-full rounded-4xl card relative overflow-hidden flex justify-center items-center">
                 <div className="h-[400px] w-[90%]">
@@ -176,7 +176,7 @@ const Banner = ({ GraphicBannerData }) => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.1 }} // Changed to trigger again when scrolling
               variants={cardVariants}
-              className="relative h-[450px] w-full sm:w-[70%] lg:w-[30%] lg:mt-[80px] transform lg:rotate-[5deg] rounded-4xl p-[12px] bg-gradient-to-b from-[#00264B] to-[#a0b0c5]"
+              className="relative h-[450px] w-full sm:w-[70%] lg:w-[30%] lg:mt-[80px] transform lg:rotate-[5deg] rounded-4xl p-[12px] bg-gradient-to-b from-[#0043FF] to-[#1C3C9833]"
             >
               <div className="h-full w-full rounded-4xl card relative overflow-hidden">
                 <img

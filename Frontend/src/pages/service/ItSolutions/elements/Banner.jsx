@@ -140,7 +140,7 @@ const Banner = ({ clientsName = [] }) => {
       </div>
 
       {/* Logo slider section with container */}
-      <div className="w-full py-8">
+      <div className="w-full">
         {" "}
         {/* Container with padding */}
         <div className="h-[150px] bg-[#03278D] w-full mx-auto relative overflow-hidden">

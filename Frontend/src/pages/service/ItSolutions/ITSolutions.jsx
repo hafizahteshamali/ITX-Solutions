@@ -17,7 +17,7 @@ const ITSolutions = () => {
         image="/assets/images/it-solutions/bottom-banner.jpg"
         className="bg-bottom"
         spanClass="text-[var(--text-hover-color)]"
-        btnClass="border-2 border-[#CBE1FF]"
+        btnClass="border-2 border-[#CBE1FF] text-[#1C3C98]"
         iconClass="text-[var(--text-hover-color)]"
         text1="IT sollte nicht überwältigend sein."
         text2="Wir machen es nahtlos."

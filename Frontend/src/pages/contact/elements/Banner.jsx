@@ -12,18 +12,18 @@ const Banner = ({ GetInTouchData }) => {
         <div className="container mx-auto flex flex-col justify-center lg:justify-end items-start px-5">
           <Header />
 
-          <h1 className="text-2xl mt-[150px] mb-[50px] lg:text-7xl font-[600] text-[var(--text-hover-color)]">
+          <h1 className="text-2xl mt-[150px] mb-[50px] lg:text-7xl font-[600] text-[#03278D]">
             {lgHeading}
           </h1>
 
           <div className=" w-full flex flex-col lg:flex-row items-center gap-7 mb-[100px]">
             <div className="w-full lg:w-[50%] h-full flex flex-col justify-center gap-10 items-start">
-              <div className="w-full flex flex-col gap-10 lg:border-r-2 lg:border-[var(--text-hover-color)]">
+              <div className="w-full flex flex-col gap-10 lg:border-r-2 lg:border-[#03278D]">
                 <div className="flex flex-col gap-2.5 w-full lg:w-[90%]">
-                  <h3 className="text-[var(--text-hover-color)] text-sm font-[500]">
+                  <h3 className="text-[#03278D] text-sm font-[500]">
                     {smHeading}
                   </h3>
-                  <p className="text-[var(--text-color)] text-sm max-w-4xl">
+                  <p className="text-[#03278D] text-sm max-w-4xl">
                     {para}
                   </p>
                 </div>
@@ -34,13 +34,13 @@ const Banner = ({ GetInTouchData }) => {
                       <input
                         type="text"
                         placeholder="Name"
-                        className="h-[50px] bg-transparent placeholder:text-[var(--text-hover-color)] border-b-2 border-[var(--text-hover-color)] w-[49%] outline-none text-sm py-5 text-[var(--text-hover-color)]"
+                        className="h-[50px] bg-transparent placeholder:text-[#03278D] border-b-2 border-[#03278D] w-[49%] outline-none text-sm py-5 text-[#03278D]"
                       />
 
                       <input
                         type="email"
                         placeholder="Email Address"
-                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[var(--text-hover-color)] border-[var(--text-hover-color)] w-[49%] outline-none text-sm py-5 text-[var(--text-hover-color)]"
+                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[#03278D] border-[#03278D] w-[49%] outline-none text-sm py-5 text-[#03278D]"
                       />
                     </div>
 
@@ -48,13 +48,13 @@ const Banner = ({ GetInTouchData }) => {
                       <input
                         type="text"
                         placeholder="Interested In"
-                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[var(--text-hover-color)] border-[var(--text-hover-color)] w-[49%] outline-none text-sm py-5 text-[var(--text-hover-color)]"
+                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[#03278D] border-[#03278D] w-[49%] outline-none text-sm py-5 text-[#03278D]"
                       />
 
                       <input
                         type="number"
                         placeholder="Phone Number"
-                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[var(--text-hover-color)] border-[var(--text-hover-color)] w-[49%] outline-none text-sm py-5 text-[var(--text-hover-color)]"
+                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[#03278D] border-[#03278D] w-[49%] outline-none text-sm py-5 text-[#03278D]"
                       />
                     </div>
 
@@ -63,14 +63,14 @@ const Banner = ({ GetInTouchData }) => {
                         name=""
                         id=""
                         placeholder="Message"
-                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[var(--text-hover-color)] border-[var(--text-hover-color)] w-[100%] min-h-[150px] max-h-[200px] outline-none text-sm py-5 text-[var(--text-hover-color)]"
+                        className="h-[50px] bg-transparent border-b-2 placeholder:text-[#03278D] border-[#03278D] w-[100%] min-h-[150px] max-h-[200px] outline-none text-sm py-5 text-[#03278D]"
                       ></textarea>
                     </div>
 
                     <div className="w-full p-2 flex justify-end items-center">
                       <button
                         type="button"
-                        className="h-[50px] w-[25%] bg-[var(--text-hover-color)] text-[var(--white-color)] rounded"
+                        className="h-[50px] w-[25%] bg-[#03278D] text-[var(--white-color)] rounded"
                       >
                         Submit
                       </button>
@@ -84,10 +84,10 @@ const Banner = ({ GetInTouchData }) => {
               {contactWay.map((item, index) => {
                 return (
                   <div key={index} className="flex flex-col justify-center items-start gap-3.5">
-                    <h2 className="text-xl text-[var(--text-hover-color)] font-[500]">
+                    <h2 className="text-xl text-[#03278D] font-[500]">
                       {item.heading}
                     </h2>
-                    <p className="text-[var(--text-color)] text-sm">{item.descrip}</p>
+                    <p className="text-[#03278D] text-sm">{item.descrip}</p>
                     <div className="flex justify-start items-center gap-5 w-full">
                       <div className="h-[40px] w-[40px] bg-[#005AB1] rounded-full flex justify-center items-center">
                         <img src={item.icon} alt="" className="h-5 w-5" />

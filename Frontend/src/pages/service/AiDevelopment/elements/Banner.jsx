@@ -69,12 +69,12 @@ const Banner = ({ AiDevelopBannerData }) => {
   return (
     <>
       <div
-        className="w-full bg-cover bg-no-repeat bg-[var(--bg-color)]"
+        className="w-full bg-cover bg-no-repeat"
       >
         <div className="h-screen container mx-auto flex flex-col justify-center lg:justify-end items-center">
           <Header />
 
-          <div className="h-[400px] lg:h-[500px] w-full flex flex-col justify-center lg:justify-start items-center gap-7 px-4 text-center">
+          <div className="h-[400px] lg:h-[400px] w-full flex flex-col justify-center lg:justify-start items-center gap-7 px-4 text-center">
             <AnimatedLetters
               text={heading}
               className="text-4xl lg:text-7xl font-[600] gradient-text"

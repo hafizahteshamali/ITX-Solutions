@@ -48,7 +48,7 @@ const Header = () => {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <ul className="hidden lg:flex justify-center items-center w-[60%] xl:w-[50%] xl:gap-10 gap-7 bg-[#ffffff54] backdrop-blur-lg rounded-full px-6">
+        <ul className="hidden lg:flex justify-center items-center w-[60%] xl:w-[50%] xl:gap-10 gap-7 shadow-2xl bg-[#ffffff54] backdrop-blur-lg rounded-full px-6">
           {NavigationData.map((nav, index) => (
             <li
               key={index}
@@ -61,8 +61,8 @@ const Header = () => {
                   ${
                     (nav.path === "/" && isActive) || 
                     (nav.path !== "/" && isActive && location.pathname === nav.path)
-                      ? "text-[var(--text-hover-color)] font-[700]"
-                      : "text-[var(--text-color)] hover:text-[var(--text-hover-color)] hover:font-[600] hover:text-[18px]"
+                      ? "text-[#03278D] font-[700]"
+                      : "text-[#4363C0] hover:text-[#03278D] hover:font-[600] hover:text-[18px]"
                   }`
                 }
               >

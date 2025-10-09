@@ -23,7 +23,7 @@ const Footer = () => {
 
                 <NormalButton
                   text={btnText}
-                  className="btn py-2 w-[70%] text-sm border-2 border-[var(--white-color)] font-[600] text-[var(--white-color)]"
+                  className="py-2 w-[70%] bg-[#F3F3FA] text-sm border-2 border-[var(--white-color)] font-[600] text-[#1C3C98]"
                 />
 
                 <div className="flex flex-col gap-5">
