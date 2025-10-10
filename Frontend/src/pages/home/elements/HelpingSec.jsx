@@ -159,7 +159,7 @@ const HelpingSec = ({ HelpSecData }) => {
                 duration={0.5}
                 yFrom={30}
                 flip
-                className="text-3xl lg:text-5xl font-[600] break-words whitespace-normal"
+                className="text-3xl lg:text-5xl font-[600] break-words whitespace-normal text-[#1C3C98]"
               />
 
               {/* Animated Sub Title */}
@@ -171,7 +171,7 @@ const HelpingSec = ({ HelpSecData }) => {
                 duration={0.4}
                 yFrom={25}
                 flip
-                className="text-xl lg:text-3xl font-[500] text-[var(--text-color)] break-words whitespace-normal"
+                className="text-xl lg:text-3xl font-[500] text-[#1C3C9899] break-words whitespace-normal"
               />
 
               {/* Animated Description Block */}
@@ -184,7 +184,7 @@ const HelpingSec = ({ HelpSecData }) => {
                   duration={0.35}
                   yFrom={20}
                   flip={false}
-                  className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-sm break-words whitespace-normal"
+                  className="w-[100%] lg:w-[70%] text-[#1C3C9899] text-sm break-words whitespace-normal"
                 />
                 <AnimatedText
                   as="p"
@@ -194,7 +194,7 @@ const HelpingSec = ({ HelpSecData }) => {
                   duration={0.35}
                   yFrom={20}
                   flip={false}
-                  className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-sm mt-4 break-words whitespace-normal"
+                  className="w-[100%] lg:w-[70%] text-[#1C3C9899] text-sm mt-4 break-words whitespace-normal"
                 />
               </div>
 
@@ -203,7 +203,7 @@ const HelpingSec = ({ HelpSecData }) => {
                 {bullets.map((item, index) => (
                   <li
                     key={index}
-                    className="flex text-[var(--text-color)] items-center gap-3 break-words whitespace-normal"
+                    className="flex text-[#1C3C9899] items-center gap-3 break-words whitespace-normal"
                   >
                     <img src="/assets/images/home/tick.png" alt="" />
                     <AnimatedText
@@ -230,7 +230,7 @@ const HelpingSec = ({ HelpSecData }) => {
               >
                 <NormalButton
                   text={btnText}
-                  className="h-[50px] w-[70%] lg:w-[40%] bg-[var(--white-color)] font-[600] text-[var(--text-hover-color)] border border-[#CBE1FF]"
+                  className="h-[50px] w-[70%] lg:w-[40%] bg-[var(--white-color)] font-[600] text-[#1C3C98] border border-[#CBE1FF]"
                 />
               </motion.div>
             </div>

@@ -3,9 +3,9 @@ import { useInView } from "framer-motion";
 
 const ProcessTabs = ({ tabs }) => {
   const [openTabs, setOpenTabs] = useState([]);
-  const [activeTab, setActiveTab] = useState(-1); // Start from -1 (none active)
+  const [activeTabs, setActiveTabs] = useState([]); // multiple active tabs
   const sectionRef = useRef(null);
-  const isInView = useInView(sectionRef, { once: true, amount: 0.4 }); // Only trigger once, 40% visible
+  const isInView = useInView(sectionRef, { once: true, amount: 0.4 });
 
   // Auto-open logic when section is in view
   useEffect(() => {
@@ -13,14 +13,16 @@ const ProcessTabs = ({ tabs }) => {
 
     tabs.forEach((_, index) => {
       setTimeout(() => {
-        setOpenTabs((prev) => [...prev, index]);
-        setActiveTab(index); // Highlight active tab on progress bar
-      }, index * 1500); // 1.5s delay between each tab
+        setOpenTabs((prev) => [...new Set([...prev, index])]);
+        setActiveTabs((prev) => [...new Set([...prev, index])]); // keep active
+      }, index * 1500);
     });
   }, [isInView, tabs]);
 
   const handleTabClick = (index) => {
-    setActiveTab(index); // Allow user to click and highlight
+    // if already active, don't remove — keep it active
+    setOpenTabs((prev) => [...new Set([...prev, index])]);
+    setActiveTabs((prev) => [...new Set([...prev, index])]);
   };
 
   return (
@@ -33,9 +35,7 @@ const ProcessTabs = ({ tabs }) => {
             <div key={index} className="flex-1">
               <div
                 className={`h-1 transition-all duration-500 ${
-                  openTabs.includes(index)
-                    ? "bg-slate-800"
-                    : "bg-slate-300"
+                  openTabs.includes(index) ? "bg-[#1C3C98]" : "bg-[#9EB3C8]"
                 } ${index < tabs.length - 1 ? "mr-4" : ""}`}
               />
             </div>
@@ -47,13 +47,15 @@ const ProcessTabs = ({ tabs }) => {
           {tabs.map((tab, index) => (
             <div
               key={index}
-              className={`cursor-pointer w-full sm:w-[80%] lg:flex-1 p-4 rounded-md transition-all duration-500 ease-in-out`}
+              className="cursor-pointer w-full sm:w-[80%] lg:flex-1 p-4 rounded-md transition-all duration-500 ease-in-out"
               onClick={() => handleTabClick(index)}
             >
               {/* Tab number */}
               <div
                 className={`text-xl font-bold mb-2 text-left lg:text-left ${
-                  activeTab === index ? "text-slate-800" : "text-slate-600"
+                  activeTabs.includes(index)
+                    ? "text-[#1C3C98]"
+                    : "text-[#9EB3C8]"
                 }`}
               >
                 {tab.number}
@@ -62,8 +64,10 @@ const ProcessTabs = ({ tabs }) => {
               {/* Tab heading */}
               <h3
                 className={`text-[16px] font-semibold mb-4 text-left lg:text-left ${
-                  activeTab === index ? "text-slate-800" : "text-slate-600"
-                } hover:text-slate-800 transition-colors`}
+                  activeTabs.includes(index)
+                    ? "text-[#1C3C98]"
+                    : "text-[#9EB3C8]"
+                } transition-colors`}
               >
                 {tab.title}
               </h3>
@@ -71,7 +75,7 @@ const ProcessTabs = ({ tabs }) => {
               {/* Description */}
               {openTabs.includes(index) && (
                 <div className="mt-4 p-4 rounded-lg shadow-sm text-left lg:text-left opacity-100 transition-opacity duration-700 ease-in-out">
-                  <p className="text-slate-600 text-sm leading-relaxed">
+                  <p className="text-[#1C3C9899] text-sm leading-relaxed">
                     {tab.description}
                   </p>
                 </div>

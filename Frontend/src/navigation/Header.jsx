@@ -48,7 +48,7 @@ const Header = () => {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <ul className="hidden lg:flex justify-center items-center w-[60%] xl:w-[50%] xl:gap-10 gap-7 shadow-2xl bg-[#ffffff54] backdrop-blur-lg rounded-full px-6">
+        <ul className="hidden lg:flex justify-center items-center w-[60%] xl:w-[45%] xl:gap-10 gap-7 shadow-2xl bg-white rounded-full px-6">
           {NavigationData.map((nav, index) => (
             <li
               key={index}

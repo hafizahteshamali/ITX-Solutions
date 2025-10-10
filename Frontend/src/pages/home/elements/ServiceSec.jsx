@@ -170,7 +170,7 @@ const ServiceSec = ({ SeviceContent }) => {
           className="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
         >
           <marquee direction="right" scrollamount="20" className="w-full">
-            <h1 className="text-5xl sm:text-[40px] md:text-[70px] lg:text-[100px] text-[var(--text-hover-color)] font-[600] w-full whitespace-nowrap">
+            <h1 className="text-5xl sm:text-[40px] md:text-[70px] lg:text-[100px] text-[#1C3C98] font-[600] w-full whitespace-nowrap">
             BRINGEN SIE IHRE PROJEKTE AUF DIE NIVEAUSTEINE
             </h1>
           </marquee>
@@ -184,10 +184,10 @@ const ServiceSec = ({ SeviceContent }) => {
           }}
           className="absolute inset-0 flex flex-col lg:block items-center justify-center gap-4 lg:gap-0 z-30 px-4"
         >
-          <NormalButton text="IT SOLUTIONS" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[var(--text-hover-color)] font-[600] lg:absolute lg:top-[15%] lg:left-[10%]" />
-          <NormalButton text="AI Developers" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[var(--text-hover-color)] font-[600] lg:absolute lg:top-[20%] lg:right-[10%]" />
-          <NormalButton text="GRAPHICS DESINGING" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[var(--text-hover-color)] font-[600] lg:absolute lg:bottom-[25%] lg:left-[10%]" />
-          <NormalButton text="Web Developers" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[var(--text-hover-color)] font-[600] lg:absolute lg:bottom-[15%] lg:right-[10%]" />
+          <NormalButton text="IT SOLUTIONS" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[#1C3C98] font-[600] lg:absolute lg:top-[15%] lg:left-[10%]" />
+          <NormalButton text="AI Developers" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[#1C3C98] font-[600] lg:absolute lg:top-[20%] lg:right-[10%]" />
+          <NormalButton text="GRAPHICS DESINGING" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[#1C3C98] font-[600] lg:absolute lg:bottom-[25%] lg:left-[10%]" />
+          <NormalButton text="Web Developers" className="h-[45px] sm:h-[50px] hidden lg:block w-[200px] sm:w-[250px] bg-[#ffffff] text-[#1C3C98] font-[600] lg:absolute lg:bottom-[15%] lg:right-[10%]" />
         </motion.div>
       </motion.div>
 
@@ -221,7 +221,7 @@ const ServiceSec = ({ SeviceContent }) => {
                 duration={0.45}
                 yFrom={24}
                 flip
-                className="text-3xl sm:text-4xl lg:text-5xl w-[100%] lg:w-[75%] font-[600] leading-tight text-left"
+                className="text-3xl sm:text-4xl lg:text-5xl w-[100%] lg:w-[75%] text-[#1C3C98] font-[600] leading-tight text-left"
               />
 
               <AnimatedText
@@ -232,7 +232,7 @@ const ServiceSec = ({ SeviceContent }) => {
                 duration={0.4}
                 yFrom={20}
                 flip
-                className="text-lg sm:text-xl text-[var(--text-color)] font-[500] text-left"
+                className="text-lg sm:text-xl text-[#1C3C9899] font-[500] text-left"
               />
 
               <AnimatedText
@@ -243,7 +243,7 @@ const ServiceSec = ({ SeviceContent }) => {
                 duration={0.35}
                 yFrom={16}
                 flip={false}
-                className="w-[100%] lg:w-[70%] text-[var(--text-color)] text-sm text-left"
+                className="w-[100%] lg:w-[70%] text-[#1C3C9899] text-sm text-left"
               />
 
               <motion.div
@@ -255,7 +255,7 @@ const ServiceSec = ({ SeviceContent }) => {
               >
                 <NormalButton
                   text={btnText}
-                  className="h-[45px] w-[100%] lg:w-[30%] border border-[#CBE1FF] text-[var(--text-hover-color)] font-[600] bg-[var(--white-color)] shadow-2xl rounded-full"
+                  className="h-[45px] w-[100%] lg:w-[30%] border border-[#CBE1FF] text-[#1C3C98] font-[600] bg-[var(--white-color)] shadow-2xl rounded-full"
                 />
               </motion.div>
             </motion.div>

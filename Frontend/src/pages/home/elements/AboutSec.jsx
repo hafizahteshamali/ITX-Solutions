@@ -102,7 +102,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
               duration={0.5}
               yFrom={30}
               flip
-              className="text-3xl sm:text-4xl md:text-5xl font-[700] text-[var(--text-hover-color)]"
+              className="text-3xl sm:text-4xl md:text-5xl font-[700] text-[#1C3C98]"
             />
             {/* Description Animation */}
             <AnimatedText
@@ -113,7 +113,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
               duration={0.4}
               yFrom={20}
               flip={false}
-              className="w-[88%] sm:w-[70%] md:w-[60%] lg:w-[50%] text-[var(--text-color)] text-sm break-words whitespace-normal"
+              className="w-[88%] sm:w-[70%] md:w-[60%] lg:w-[50%] text-[#1C3C9899] text-sm break-words whitespace-normal"
             />
           </div>
         </div>
@@ -134,7 +134,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
                 duration={0.4}
                 yFrom={18}
                 flip
-                className="text-[var(--text-color)] text-base sm:text-lg md:text-xl font-[500]"
+                className="text-[#1C3C9899] text-base sm:text-lg md:text-xl font-[500]"
               />
               {/* Large Heading */}
               <AnimatedText
@@ -145,7 +145,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
                 duration={0.45}
                 yFrom={24}
                 flip
-                className="text-[var(--text-hover-color)] text-2xl sm:text-3xl md:text-4xl lg:text-[45px] leading-tight"
+                className="text-[#1C3C98] text-2xl sm:text-3xl md:text-4xl lg:text-[45px] leading-tight"
               />
               {/* Paragraph */}
               <AnimatedText
@@ -156,7 +156,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
                 duration={0.35}
                 yFrom={15}
                 flip={false}
-                className="text-[var(--text-color)] text-sm w-[97%] sm:text-base md:text-lg break-words whitespace-normal"
+                className="text-[#1C3C9899] text-sm w-[97%] sm:text-base md:text-lg break-words whitespace-normal"
               />
               {/* Button */}
               <motion.div
@@ -168,7 +168,7 @@ const AboutSec = ({ AboutHeadingData, AboutContentData }) => {
               >
                 <NormalButton
                   text={btnText}
-                  className="h-[40px] sm:h-[45px] w-[70%] sm:w-[50%] border border-[#CBE1FF] text-[var(--text-hover-color)] text-sm sm:text-base md:text-lg font-[600] bg-[var(--white-color)] shadow-2xl rounded-full"
+                  className="h-[40px] sm:h-[45px] w-[70%] sm:w-[50%] lg:w-[35%] border border-[#CBE1FF] text-[#1C3C98] text-sm sm:text-base md:text-lg font-[600] bg-[var(--white-color)] shadow-2xl rounded-full"
                 />
               </motion.div>
             </div>

@@ -136,15 +136,15 @@ const Section1 = ({ scrollYProgress, BannerData }) => {
       <div className="w-full flex flex-col lg:flex-row justify-between items-center lg:mt-[150px] px-5 lg:min-h-[500px] relative">
         {/* Text */}
         <div className="lg:w-[45%] md:w-[70%] p-3 w-full wrap-break-word h-max flex flex-col gap-7 justify-center items-start lg:ml-14 text-center lg:text-left">
-          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl lg:w-[80%] font-semibold leading-[1.2] text-[var(--text-hover-color)]">
+          <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl lg:w-[80%] font-semibold leading-[1.2] text-[#1C3C98]">
             {heading}
           </h1>
-          <p className="text-sm text-[var(--sm-heading)] lg:w-[85%] font-medium p-2">
+          <p className="text-sm text-[#1C3C9899] lg:w-[85%] font-medium p-2">
             {para}
           </p>
           <NormalButton
             text={btnText}
-            className="h-[45px] sm:h-[50px] md:h-[45px] font-semibold mx-auto lg:mx-0 bg-[#d5d5f1] shadow-2xl px-5 rounded-full text-[var(--text-hover-color)] text-sm"
+            className="h-[45px] sm:h-[50px] md:h-[45px] font-semibold mx-auto lg:mx-0 bg-white shadow-2xl px-5 rounded-full text-[#1C3C98] text-sm"
           />
         </div>
 
@@ -219,10 +219,10 @@ const SwivelCard = ({ exp, index }) => {
 
         {/* Text */}
         <div className="flex flex-col justify-between wrap-break-word">
-          <h1 className="text-[var(--text-hover-color)] text-xl sm:text-2xl font-bold rounded">
+          <h1 className="text-[#1C3C98] text-xl sm:text-2xl font-bold rounded">
             {exp.head}
           </h1>
-          <p className="text-[var(--text-color)] text-sm font-[600] mt-5">
+          <p className="text-[#1C3C9899] text-sm font-[600] mt-5">
             {exp.pg}...
           </p>
         </div>

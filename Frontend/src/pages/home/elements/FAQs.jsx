@@ -40,8 +40,8 @@ const FAQs = ({ FAQsHeadingData }) => {
                     data-aos-delay={item.delay}
                     className={
                       item.isLarge
-                        ? "lg:h-[200px] w-[100%] rounded-4xl my-3 relative shadow-xl bg-gradient-to-r from-white via-[#ffffff] to-[#005AB1]/100 backdrop:blur-[2px]"
-                        : "lg:h-[200px] h-[250px] w-[100%] md:w-[47%] lg:w-[45%] rounded-4xl my-3 relative shadow-xl bg-gradient-to-r from-white via-[#ffffff] to-[#005AB1]/100 backdrop:blur-[2px]"
+                        ? "lg:h-[200px] w-[100%] rounded-4xl my-3 relative shadow-xl border border-[#1C3C98] bg-white"
+                        : "lg:h-[200px] h-[250px] w-[100%] md:w-[47%] lg:w-[45%] rounded-4xl my-3 relative shadow-xl border border-[#1C3C98] bg-white"
                     }
                   >
                     {/* Floating Cube Left */}
@@ -73,10 +73,10 @@ const FAQs = ({ FAQsHeadingData }) => {
                             : "min-h-[150px] w-[80%] flex flex-col gap-3 justify-center items-start"
                         }
                       >
-                        <h1 className="text-xl lg:text-2xl font-[600] text-[var(--text-hover-color)]">
+                        <h1 className="text-xl lg:text-2xl font-[600] text-[#1C3C98]">
                           {item.question}
                         </h1>
-                        <p className="text-sm font-[400] text-[var(--text-color)]">
+                        <p className="text-sm font-[400] text-[#1C3C9899]">
                           {item.answer}
                         </p>
                       </div>
