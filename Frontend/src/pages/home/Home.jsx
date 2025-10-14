@@ -11,7 +11,6 @@ import {
 import Banner from "./elements/Banner";
 import ServiceSec from "./elements/ServiceSec";
 import FAQs from "./elements/FAQs";
-import BringIdeas from "./elements/BringIdeas";
 import HelpingSec from "./elements/HelpingSec";
 import AboutSec from "./elements/AboutSec"
 

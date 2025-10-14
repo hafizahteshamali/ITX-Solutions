@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FiArrowRight } from "react-icons/fi";
 import { motion, useInView } from "framer-motion";
 import Header from "../../../../navigation/Header";
@@ -66,6 +66,8 @@ const Banner = ({ AiDevelopBannerData }) => {
     btn,
   } = AiDevelopBannerData;
 
+  const navigate = useNavigate();
+
   return (
     <>
       <div
@@ -91,6 +93,7 @@ const Banner = ({ AiDevelopBannerData }) => {
                 <FiArrowRight className="text-2xl text-[var(--text-color)] group-hover:text-[#006CFF]" />
               </HashLink>
               <NavLink
+              onClick={()=>navigate('/contact')}
                 className="relative h-[50px] w-[70%] lg:w-[45%] min-w-[140px] rounded-sm flex justify-center items-center text-[var(--text-color)] transition-all duration-300 border hover:text-transparent hover:bg-clip-text text-sm hover:bg-gradient-to-r hover:from-[#006CFF] hover:to-[#00264B] hover:border border-[#006CFF] gap-2 group"
                 to={link2}
               >
@@ -109,7 +112,7 @@ const Banner = ({ AiDevelopBannerData }) => {
             className="text-2xl lg:text-5xl font-[600] gradient-text lg:leading-tight leading-relaxed"
           />
           <div className="w-[70%] lg:w-[20%] rounded-lg bg-gradient-to-r from-[#006CFF] to-[#00224F66] p-[2px] mt-5">
-            <button className="w-full h-[40px] rounded-lg bg-[var(--bg-color)] text-[#006CFF] font-semibold">
+            <button onClick={()=>navigate('/contact')} className="w-full h-[40px] rounded-lg bg-[var(--bg-color)] text-[#006CFF] font-semibold">
               {btn}
             </button>
           </div>

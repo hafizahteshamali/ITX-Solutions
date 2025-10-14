@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { FiChevronDown, FiMenu } from "react-icons/fi";
 import { FaRegWindowClose } from "react-icons/fa";
 import { NavigationData } from "../assets/ConstantData";
@@ -12,6 +12,7 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
   const location = useLocation();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,7 +49,7 @@ const Header = () => {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <ul className="hidden lg:flex justify-center items-center w-[60%] xl:w-[45%] xl:gap-10 gap-7 shadow-2xl bg-white rounded-full px-6">
+        <ul className="hidden lg:flex justify-center items-center w-[60%] xl:w-[55%] xl:gap-10 gap-7 shadow-2xl bg-white rounded-full px-6">
           {NavigationData.map((nav, index) => (
             <li
               key={index}
@@ -103,7 +104,7 @@ const Header = () => {
 
         {/* CTA Button */}
         <div className="hidden lg:block rounded-full">
-          <FancyButton text="kostenlose Beratung" />
+          <FancyButton onClick={()=>navigate('/contact')} text="kostenlose Beratung" />
         </div>
 
         {/* Mobile Menu Icon */}
@@ -181,7 +182,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <FancyButton text="kostenlose Beratung" />
+          <FancyButton onClick={()=>navigate('/contact')} text="kostenlose Beratung" />
         </div>
       </div>
     </>

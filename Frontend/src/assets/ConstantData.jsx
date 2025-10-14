@@ -1,4 +1,3 @@
-
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export const NavigationData = [
@@ -979,7 +978,7 @@ export const ProjectData = [
     phases: ["DESIGN", "BERATUNG", "ENTWICKLUNG"],
     category: "SCHMUCK & MODE",
     aboutPara:
-      "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um das handgefertigte Schmuck-E-Commerce-Erlebnis zu verbessern. Wir begannen mit der Erstellung eines robusten Designsystems in Figma – inklusive pixelgenauer Layouts, „As Seen In“-Galerien und dynamischer Produktdetail-Komponenten – und setzten es anschließend in WordPress mit einem benutzerdefinierten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-Tage-Rückgaberecht, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Leistung, SEO und mobile-first Shopping optimiert werden.",
+      "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um das handgefertigte Schmuck-E-Commerce-Erlebnis zu verbessern. Wir begannen mit der Erstellung eines robusten Designsystems in Figma – inklusive pixelgenauer Layouts, „As Seen In“-Galerien und dynamischer Produktdetail-Komponenten – und setzten es anschließend in WordPress mit einem benutzerdefinierten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-Tage-Rückgaberecht, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Leistung, SEO und mobile-first Shopping optimiert werden.",
     services: [
       {
         heading: "DESIGN",
@@ -1192,7 +1191,7 @@ export const ProjectData = [
     phases: ["DESIGN", "BERATUNG", "ENTWICKLUNG"],
     category: "SCHMUCK & MODE",
     aboutPara:
-      "Bei ZMA-Solutions haben wir mit Velraa zusammengearbeitet, um das handgefertigte Schmuck-E-Commerce-Erlebnis zu verbessern. Wir begannen mit der Erstellung eines robusten Designsystems in Figma – inklusive pixelgenauer Layouts, „As Seen In“-Galerien und dynamischer Produktdetail-Komponenten – und setzten es anschließend in WordPress mit einem benutzerdefinierten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-Tage-Rückgaberecht, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Leistung, SEO und mobile-first Shopping optimiert werden.",
+      "Bei ITX-Solutions haben wir mit Velraa zusammengearbeitet, um das handgefertigte Schmuck-E-Commerce-Erlebnis zu verbessern. Wir begannen mit der Erstellung eines robusten Designsystems in Figma – inklusive pixelgenauer Layouts, „As Seen In“-Galerien und dynamischer Produktdetail-Komponenten – und setzten es anschließend in WordPress mit einem benutzerdefinierten Gutenberg-Theme um. Unsere Implementierung integriert nahtlos kostenlose Versandgrenzen, 14-Tage-Rückgaberecht, Newsletter-Anmeldungen und Echtzeit-Bestandsaktualisierungen, während gleichzeitig Leistung, SEO und mobile-first Shopping optimiert werden.",
     services: [
       {
         heading: "DESIGN",

@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import NormalButton from "../../../components/NormalButton";
 import Aos from "aos";
+import { useNavigate } from "react-router-dom";
 
 /* ------------------------------------------------------------------
    AnimatedText (Word containers + char animation = reliable wrapping)
@@ -106,6 +107,7 @@ const HelpingSec = ({ HelpSecData }) => {
   } = HelpSecData || {};
 
   const sectionRef = useRef(null);
+  const navigate = useNavigate();
 
   // Scroll animation for whole section
   const { scrollYProgress } = useScroll({
@@ -230,6 +232,7 @@ const HelpingSec = ({ HelpSecData }) => {
               >
                 <NormalButton
                   text={btnText}
+                  onClick={()=>navigate('/contact')}
                   className="h-[50px] w-[70%] lg:w-[40%] bg-[var(--white-color)] font-[600] text-[#1C3C98] border border-[#CBE1FF]"
                 />
               </motion.div>

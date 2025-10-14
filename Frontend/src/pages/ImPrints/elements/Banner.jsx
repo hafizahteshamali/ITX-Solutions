@@ -89,104 +89,132 @@ const ImprintPage = () => {
   const imprintSections = [
     {
       content: `
-        <p>ITX Solutions</p>
-        <p>Rechtsform: ITX Solutions GmbH</p>
-        <p>Registered office / Adresse:</p>
-        <p>Musterstraße 123, 10115 Berlin, Deutschland</p>
-        <p>10115 Berlin</p>
-        <p>Deutschland</p>
+        <p><strong>Firmenname:</strong> IT XSolutions eU</p>
+        <p><strong>Inhaber:</strong> Ing. Haider Khan, MBA, MMSc.</p>
+        <p><strong>Adresse:</strong> Rokitanskygasse 11 / Top 2, 1170 Wien, Österreich</p>
+        <br/>
+        <p><strong>Firmendaten:</strong></p>
+        <p><strong>Firmenbuchnummer:</strong> FN 305053 h</p>
+        <p><strong>Firmenbuchgericht:</strong> Handelsgericht Wien</p>
+        <p><strong>UID-Nummer:</strong> ATU69022318</p>
+        <p><strong>Kammerzugehörigkeit:</strong> Wirtschaftskammer Wien</p>
+        <p><strong>Gewerbeordnung:</strong> www.ris.bka.gv.at</p>
+        <p><strong>Aufsichtsbehörde:</strong> Magistratisches Bezirksamt für den 17. Bezirk</p>
+        <p><strong>Website:</strong> www.itx-solution.com</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Kontakt:</p>
-        <p>Telefon: +49 30 12345678</p>
-        <p>E-Mail: itx.solution22@gmail.com</p>
-        <p>Website: https://www.itx-solution.com/</p>
+        <p><strong>Kontakt:</strong></p>
+        <p><strong>E-Mail:</strong> office@itx-solutions.com</p>
+        <p><strong>Telefon:</strong> +43 677 62376793</p>
+        <p><strong>Website:</strong> www.itx-solutions.com</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Vertreten durch / Geschäftsführer:</p>
-        <p>Max Mustermann</p>
+        <p><strong>Vertreten durch / Geschäftsführer:</strong> Ing. Haider Khan, MBA, MMSc.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Firmenregistrierung:</p>
-        <p>Registriert bei: Amtsgericht Berlin-Charlottenburg</p>
-        <p>Handelsregisternummer: HRB 123456</p>
+        <p><strong>Firmenregistrierung:</strong></p>
+        <p><strong>Registriert bei:</strong> Handelsgericht Wien</p>
+        <p><strong>Firmenbuchnummer:</strong> FN 305053 h</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Steuern</p>
-        <p>Umsatzsteuer-Identifikationsnummer: DE123456789</p>
+        <p><strong>Steuerinformationen:</strong></p>
+        <p><strong>Umsatzsteuer-Identifikationsnummer:</strong> ATU69022318</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Verantwortlich für den Inhalt:</p>
-        <p>Max Mustermann, Musterstraße 123, 10115 Berlin, Deutschland</p>
+        <p><strong>Verantwortlich für den Inhalt:</strong></p>
+        <p>Ing. Haider Khan, MBA, MMSc., Rokitanskygasse 11 / Top 2, 1170 Wien, Österreich</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Berufshaftung / Aufsichtsbehörde (falls zutreffend):</p>
-        <p>Berufsbezeichnung und Ausstellungsland: IT-Dienstleistungen, Deutschland</p>
+        <p><strong>Berufshaftung / Aufsichtsbehörde:</strong></p>
+        <p>Berufsbezeichnung: IT-Dienstleistungen, Österreich</p>
+        <p>Zuständige Aufsichtsbehörde: Magistratisches Bezirksamt für den 17. Bezirk, Wien</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Streitbeilegung / Online-Streitbeilegungsplattform (EU-Verkäufer):</p>
-        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: http://ec.europa.eu/consumers/odr/. Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+        <p><strong>Streitbeilegung / Online-Streitbeilegungsplattform:</strong></p>
+        <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS-Plattform) bereit: 
+        <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a>. 
+        Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Urheberrecht & Markenhinweis:</p>
-        <p>Alle Inhalte auf dieser Website (Texte, Bilder, Design, Logos) sind urheberrechtlich geschützt. Inhalte dürfen nicht ohne vorherige schriftliche Zustimmung von ITX Solutions reproduziert, verbreitet oder modifiziert werden.</p>
+        <p><strong>Urheberrecht & Markenhinweis:</strong></p>
+        <p>Alle Inhalte auf dieser Website (Texte, Bilder, Design, Logos, Grafiken) sind urheberrechtlich geschützt. 
+        Die Vervielfältigung, Verarbeitung, Verbreitung und jede andere Art der Verwendung außerhalb der Grenzen des Urheberrechts 
+        bedürfen der vorherigen schriftlichen Zustimmung von ITX Solutions. Downloads und Kopien dieser Seite sind nur für den privaten, 
+        nicht kommerziellen Gebrauch gestattet.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Haftungsbeschränkung:</p>
-        <p>Die Informationen auf dieser Website werden "wie besehen" bereitgestellt. ITX Solutions unternimmt angemessene Anstrengungen, um Inhalte aktuell und korrekt zu halten, übernimmt jedoch keine Gewähr für Vollständigkeit, Richtigkeit oder Eignung für einen bestimmten Zweck. ITX Solutions haftet nicht für indirekte oder Folgeschäden, soweit gesetzlich zulässig.</p>
+        <p><strong>Haftungsausschluss:</strong></p>
+        <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und 
+        Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG 
+        für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als 
+        Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach 
+        Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Externe Links:</p>
-        <p>Diese Website kann Links zu Websites Dritter enthalten. ITX Solutions ist nicht verantwortlich für den Inhalt oder die Datenschutzpraktiken dieser Websites.</p>
+        <p><strong>Externe Links:</strong></p>
+        <p>Diese Website enthält Links zu externen Websites Dritter, auf deren Inhalte wir keinen Einfluss haben. 
+        Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. 
+        Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige 
+        Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten 
+        Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von 
+        Rechtsverletzungen werden wir derartige Links umgehend entfernen.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Datenschutz & Datensicherheit:</p>
-        <p>Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung: [Link zur Datenschutzerklärung].</p>
+        <p><strong>Datenschutz & Datensicherheit:</strong></p>
+        <p>Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten 
+        personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, 
+        stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.</p>
+        <p>Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Kommunikation per E-Mail) Sicherheitslücken 
+        aufweisen kann. Ein lückenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht möglich.</p>
+        <p>Ausführliche Informationen zur Verarbeitung personenbezogener Daten finden Sie in unserer Datenschutzerklärung.</p>
       `,
       borderr: false
     },
     {
       content: `
-        <p>Kontakt für rechtliche Hinweise:</p>
-        <p>Für rechtliche Hinweise oder Löschersuchen wenden Sie sich bitte an: itx.solution22@gmail.com</p>
-        <p><strong>Inkrafttretensdatum:</strong> 12.08.2025</p>
+        <p><strong>Kontakt für rechtliche Angelegenheiten:</strong></p>
+        <p>Für rechtliche Hinweise, Löschersuchen oder datenschutzrechtliche Anliegen wenden Sie sich bitte an: 
+        <strong>office@itx-solutions.com</strong></p>
+        <p><strong>Inkrafttretensdatum:</strong> 12. August 2025</p>
+        <p><strong>Letzte Aktualisierung:</strong> 12. August 2025</p>
       `,
       borderr: false
-    },
-  ]
+    }
+  ];
+  
 
   useEffect(() => {
     setActiveSection(0)

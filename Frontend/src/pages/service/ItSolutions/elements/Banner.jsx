@@ -2,9 +2,11 @@ import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Header from "../../../../navigation/Header";
 import NormalButton from "../../../../components/NormalButton";
+import { useNavigate } from "react-router-dom";
 
 const Banner = ({ clientsName = [] }) => {
   const duplicatedClients = [...clientsName, ...clientsName, ...clientsName];
+  const navigate = useNavigate();
 
   // Animation Variants
   const fadeUp = {
@@ -121,6 +123,7 @@ const Banner = ({ clientsName = [] }) => {
                 className="h-[40px] w-[45%] lg:w-[12%] text-sm bg-[#03278D] rounded-full text-[var(--white-color)]"
               />
               <NormalButton
+              onClick={()=>navigate('/contact')}
                 text="Kontaktieren Sie uns"
                 className="h-[40px] w-[45%] lg:w-[15%] text-sm bg-[#CBE1FF] rounded-full text-[var(--text-hover-color)]"
               />

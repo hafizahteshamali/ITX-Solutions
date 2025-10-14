@@ -1,10 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FooterData } from "../assets/ConstantData";
 import NormalButton from "../components/NormalButton";
 
 const Footer = () => {
   const { logo, para, btnText, socialHead, socialIcons, bullets } = FooterData;
+  const navigate = useNavigate();
   return (
     <div className="bg-[#F3F3FA]">
       <div className="helpBox">
@@ -22,6 +23,7 @@ const Footer = () => {
                 <p className="text-[var(--white-color)] text-sm">{para}</p>
 
                 <NormalButton
+                onClick={()=>navigate('/contact')}
                   text={btnText}
                   className="py-2 w-[70%] bg-[#F3F3FA] text-sm border-2 border-[var(--white-color)] font-[600] text-[#1C3C98]"
                 />

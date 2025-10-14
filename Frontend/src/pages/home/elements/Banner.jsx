@@ -8,6 +8,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // NOTE: prop se bhi aata hai; fallback ke liye import
 import { experienceData as EXPERIENCE_FALLBACK } from "../../../assets/ConstantData";
+import { useNavigate } from "react-router-dom";
 
 // --- GSAP plugin once ---
 gsap.registerPlugin(ScrollTrigger);
@@ -62,6 +63,7 @@ const Banner = ({ BannerData, experienceData }) => {
 /* ------------------------------------------------------------------ */
 const Section1 = ({ scrollYProgress, BannerData }) => {
   const { heading, para, btnText, imgUrl } = BannerData;
+  const navigate = useNavigate();
 
   // Framer Motion macro transforms (zoom out + tilt as user scrolls whole banner)
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
@@ -143,6 +145,7 @@ const Section1 = ({ scrollYProgress, BannerData }) => {
             {para}
           </p>
           <NormalButton
+          onClick={()=>navigate('/contact')}
             text={btnText}
             className="h-[45px] sm:h-[50px] md:h-[45px] font-semibold mx-auto lg:mx-0 bg-white shadow-2xl px-5 rounded-full text-[#1C3C98] text-sm"
           />
