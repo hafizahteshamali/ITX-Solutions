@@ -655,6 +655,7 @@ export const TrustedWorldWideData = {
 
 export const BlogListData = [
   {
+    id: 1,
     imgUrl: "/assets/images/blog/blog-1-img.jpg",
     feature: "Hervorgehoben",
     title: "Aufbau ultra-skalierbarer Webplattformen: Von der MVP bis zur globalen Verteilung",
@@ -666,6 +667,7 @@ export const BlogListData = [
     width: true,
   },
   {
+    id: 2,
     imgUrl: "/assets/images/blog/blog-2-img.jpg",
     feature: "Neueste Beiträge",
     title: "Die Psychologie der Farbe im Branding",
@@ -677,6 +679,7 @@ export const BlogListData = [
     width: false,
   },
   {
+    id: 3,
     imgUrl: "/assets/images/blog/blog-3-img.jpg",
     feature: "Neueste Beiträge",
     title: "CI/CD für Designer: Automatisierung Ihres Workflows",
@@ -688,6 +691,7 @@ export const BlogListData = [
     width: false,
   },
   {
+    id: 4,
     imgUrl: "/assets/images/blog/blog-4-img.jpg",
     feature: "Neueste Beiträge",
     title: "Aufbau resilienter Microservice-Architekturen",
@@ -699,6 +703,7 @@ export const BlogListData = [
     width: false,
   },
   {
+    id: 5,
     imgUrl: "/assets/images/blog/blog-5-img.jpg",
     feature: "Neueste Beiträge",
     title: "Ethische KI: Balance zwischen Innovation und Verantwortung",
@@ -710,6 +715,7 @@ export const BlogListData = [
     width: false,
   },
   {
+    id: 6,
     imgUrl: "/assets/images/blog/blog-6-img.jpg",
     feature: "Neueste Beiträge",
     title: "Zero-Trust-Sicherheit im Cloud-Zeitalter",
@@ -721,6 +727,7 @@ export const BlogListData = [
     width: false,
   },
   {
+    id: 7,
     imgUrl: "/assets/images/blog/blog-7-img.jpg",
     feature: "Neueste Beiträge",
     title: "Mobile-First UX: Design für kleine Bildschirme",
@@ -735,6 +742,7 @@ export const BlogListData = [
 
 export const SidebarBlogsData = [
   {
+    id: 8,
     topText: "Heute hervorgehoben",
     topLine: true,
     img: "/assets/images/blog/blog-8-img.jpg",
@@ -744,6 +752,7 @@ export const SidebarBlogsData = [
     btnText: "Mehr lesen",
   },
   {
+    id: 9,
     topText: "Kategorie",
     topLine: true,
     img: "/assets/images/blog/blog-8-img.jpg",
@@ -753,6 +762,7 @@ export const SidebarBlogsData = [
     btnText: "Mehr lesen",
   },
   {
+    id: 10,
     topText: "Kategorie",
     topLine: false,
     img: "/assets/images/blog/blog-8-img.jpg",
@@ -762,6 +772,7 @@ export const SidebarBlogsData = [
     btnText: "Mehr lesen",
   },
   {
+    id: 11,
     topText: "Kategorie",
     topLine: false,
     img: "/assets/images/blog/blog-8-img.jpg",

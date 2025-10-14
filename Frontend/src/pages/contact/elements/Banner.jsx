@@ -39,12 +39,12 @@ const Banner = () => {
                   <div className="flex flex-col justify-center items-center w-full text-sm">
                     <div className="flex justify-center items-center gap-3 w-full py-2">
                     <FaPhone className="text-[#03278D] text-2xl" />
-                      <span className="text-[#03278D] lg:text-2xl text-sm">Telefon: 0677 6237 6793</span>
+                      <span className="text-[#03278D] lg:text-2xl text-sm">Telefon: +43 677 62376793</span>
                     </div>
                     
                     <div className="flex justify-center items-center gap-3 w-full py-2">
                     <MdOutlineMailOutline className="text-[#03278D] text-2xl" />
-                      <span className="text-[#03278D] lg:text-2xl text-sm">E-Mail: office@it-xsolution.com</span>
+                      <span className="text-[#03278D] lg:text-2xl text-sm">E-Mail: office@itx-solutions.com</span>
                     </div>
                   </div>
                 </div>

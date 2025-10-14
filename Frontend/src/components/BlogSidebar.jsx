@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const BlogSidebar = ({ SidebarBlogsData }) => {
   const navigate = useNavigate();
+  
+  console.log("Sidebar Blogs Data:", SidebarBlogsData); // Debugging ke liye
+
   return (
     <div className="">
       <div className="h-[400px] w-full bg-[#00000027] flex justify-center items-center">
@@ -16,9 +19,12 @@ const BlogSidebar = ({ SidebarBlogsData }) => {
 
       <div className="flex flex-col gap-5 mt-[50px]">
         {SidebarBlogsData.map((item) => {
+          // ✅ CORRECTED: Proper slug check karein
+          const blogSlug = item.slug || item.id; // agar slug nahi hai toh id check karein
+
           return (
             <div
-              key={item.slug}
+              key={blogSlug}
               className="w-full flex flex-col justify-start items-center gap-6 my-[30px]"
             >
               {item.topLine && (
@@ -30,7 +36,7 @@ const BlogSidebar = ({ SidebarBlogsData }) => {
               )}
 
               <div className=" w-full">
-                <img src={item.img} alt="" />
+                <img src={item.img} alt={item.title} />
               </div>
 
               <span
@@ -45,8 +51,9 @@ const BlogSidebar = ({ SidebarBlogsData }) => {
                 {item.title}
               </h1>
 
+              {/* ✅ CORRECTED: Proper slug pass karein */}
               <NormalButton
-                onClick={() => navigate(`/blog/:${item.slug}`)}
+                onClick={() => navigate(`/blog/${blogSlug}`)}
                 text={item.btnText}
                 className="h-[50px] min-w-[150px] bg-[#004DB5] text-[var(--white-color)] rounded-none"
               />
